@@ -9,9 +9,9 @@ public class CollectionTest {
      *      boolean add(E e) 确保此集合包含指定的元素（可选操作）。
      *      void clear() 从此集合中删除所有元素（可选操作）。
      *      boolean contains(Object o) 如果此集合包含指定的元素，则返回 true.
-     *      boolean remove(Object o)
-     *      int size()
-     *      Object toArray()
+     *      boolean remove(Object o)    删除指定元素,成功返回true
+     *      int size()  返回集合中的元素个数
+     *      Object[] toArray()  将列表转为object数组
      * */
     public static void main(String[] args) {
         //创键集合对象
@@ -34,7 +34,7 @@ public class CollectionTest {
         //int size();  返回集合中的元素个数
         //System.out.println(c.size());
 
-        //Object toArray()  将列表转为object数组,通过转为的数组,遍历列表
+        //Object[] toArray()  将列表转为object数组,通过转为的数组,遍历列表
         System.out.println("------------");
         Object[] objArray = c.toArray();
         for(int i=0; i<c.size(); i++){

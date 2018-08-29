@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="81cd1853-dfb4-4a4f-914c-05d9cf514c28" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzw/List/ListDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zzw/List/LinkedDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzw/List/ListDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzw/List/ListDemo01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,54 +26,63 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3494" />
-          <entry key="md" value="1359" />
-          <entry key="txt" value="111" />
+          <entry key="java" value="4132" />
+          <entry key="md" value="1659" />
+          <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3494" />
-          <entry key="Markdown" value="1359" />
-          <entry key="PLAIN_TEXT" value="111" />
+          <entry key="JAVA" value="4132" />
+          <entry key="Markdown" value="1659" />
+          <entry key="PLAIN_TEXT" value="120" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="434">
-                <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <first_editor relative-caret-position="602">
+                <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zzw/List/ListDemo01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="353">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/List/LinkedDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -98,8 +108,9 @@
         <option value="$PROJECT_DIR$/src/com/zzw/Collection/IteratorDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/fanxing/Fanxing.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/Collection/foreachTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/zzw/List/LinkedDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/List/ListDemo01.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -141,6 +152,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zzw" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="18集合" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18集合" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="List" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -151,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535549886456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535551698051" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -168,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ListDemo01">
+  <component name="RunManager" selected="Application.LinkedDemo">
     <configuration name="Fanxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zzw.fanxing.Fanxing" />
       <module name="18集合" />
@@ -195,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zzw.Collection.IteratorTest" />
+    <configuration name="LinkedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.List.LinkedDemo" />
       <module name="18集合" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zzw.Collection.*" />
+          <option name="PATTERN" value="com.zzw.List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,19 +253,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IteratorTest" />
       <item itemvalue="Application.IteratorDemo" />
       <item itemvalue="Application.Fanxing" />
       <item itemvalue="Application.foreachTest" />
       <item itemvalue="Application.ListDemo01" />
+      <item itemvalue="Application.LinkedDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedDemo" />
         <item itemvalue="Application.ListDemo01" />
         <item itemvalue="Application.foreachTest" />
         <item itemvalue="Application.Fanxing" />
         <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.IteratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +280,7 @@
       <option name="presentableId" value="Default" />
       <updated>1535529177729</updated>
       <workItem from="1535529181075" duration="7444000" />
-      <workItem from="1535543603602" duration="5053000" />
+      <workItem from="1535543603602" duration="6862000" />
     </task>
     <task id="LOCAL-00001" summary="ArrayList集合">
       <created>1535529635899</created>
@@ -348,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535545501861</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="List列表的使用">
+      <created>1535549918405</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535549918405</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12497000" />
+    <option name="totallyTimeSpent" value="14306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -388,7 +413,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1816354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +422,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,7 +458,8 @@
     <MESSAGE value="Iterator迭代器的注意事项" />
     <MESSAGE value="泛型使用" />
     <MESSAGE value="foreach循环使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="foreach循环使用" />
+    <MESSAGE value="List列表的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="List列表的使用" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://E:/develop/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Collection.java">
@@ -497,23 +523,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="434">
-            <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/List/LinkedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/List/ListDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="353">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="602">
+            <caret line="93" column="43" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

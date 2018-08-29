@@ -8,7 +8,7 @@ import java.util.List;
  * 1.有序列表(读取和存储的顺序是一致的)
  * 2.有整数索引
  * 3.允许重复数据
- * <p>
+ *
  * 常用方法:
  * boolean add(E e);   将指定的项目添加到列表的末尾。
  * void add(int index, E element)  将指定的项目添加到由索引指示的位置的列表中。

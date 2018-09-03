@@ -3,6 +3,8 @@ package com.zzw.Exction;
 /**
  * 注意:只要编译时期的异常需要抛出异常
  *      编译时期异常:Exception
+ * 如何定义一个异常类:
+ *      写一个类去继承Exception或者RuntimeException,然后实现多个构造即可
  * */
 
 public class ExctionDemo {

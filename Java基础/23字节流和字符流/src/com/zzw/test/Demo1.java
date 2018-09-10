@@ -17,12 +17,58 @@ import java.io.*;
 public class Demo1 {
     public static void main(String[] args) throws IOException {
         //method1();
+        //method2();
+        //method3();
+
+        method4();
+    }
+
+    public static void method4() throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader("Files\\Test.java"));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        String line;
+        while ((line = br.readLine()) != null){
+            bw.write(line);
+            bw.newLine();
+        }
+
+        //释放资源
+        bw.close();
+        br.close();
+    }
+
+    public static void method3() throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader("Files\\Test.java"));
+        Writer w =  new OutputStreamWriter(System.out);
+        BufferedWriter bw = new BufferedWriter(w);
+
+        String line;
+        while ((line = br.readLine()) != null){
+            bw.write(line);
+            bw.newLine();
+        }
+
+        //释放资源
+        bw.close();
+        br.close();
+    }
+
+    public static void method2() throws IOException {
         //创键高效输入流对象
         BufferedReader br = new BufferedReader(new FileReader("Files\\Test.java"));
         //创键输出流对象
-        PrintStream osw = System.out;
+        Writer w = new OutputStreamWriter(System.out);
 
+        String line;
+        while ((line = br.readLine()) != null){
+            w.write(line);
+            w.write("\r\n");
+        }
 
+        //释放资源
+        w.close();
+        br.close();
     }
 
     public static void method1() throws IOException {

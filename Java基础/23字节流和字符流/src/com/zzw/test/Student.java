@@ -3,8 +3,10 @@ package com.zzw.test;
 import java.io.Serializable;
 
 public class Student implements Serializable {
+    private static final long serialVersionUID = 8349957227123262095L;
     String name;
     int age;
+//    String greder;
 
     public Student(String name, int age) {
         this.name = name;

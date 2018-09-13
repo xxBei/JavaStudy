@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 /**
  * 解决对象输入流读取对象出现异常的问题
+ *      使用集合解决了通过异常读取对象的问题,这个方法有效的避免了不知道读取数据何时会挂掉的问题
  *
  * */
 public class ObjectArrayListFile {

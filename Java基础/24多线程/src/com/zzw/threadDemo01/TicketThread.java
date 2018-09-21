@@ -15,14 +15,23 @@ package com.zzw.threadDemo01;
  *
  * 同步: 安全性高,但是效率低(涉及到开锁和关锁)
  * 非同步: 安全性低,效率高
+ *
+ *      注意:
+ *          非静态同步方法锁定的对象是this
+ *          静态同步方法锁定的对象是字节码对象
+ *
+ *     同步方法:
+ *          使用关键字synchronized修饰的方法,一旦被一个线程,则整个方法对锁定,其他线程无法访问
  * */
 public class TicketThread implements Runnable{
-    int ticket = 100;
+    private static int ticket = 100;
+
     Object obj = new Object();
     @Override
     public void run() {
         while (true){
-            synchronized (obj) {
+            //同步方法一
+            /*synchronized (obj) {
                 if (ticket > 0) {
                     try {
                         //调用线程里面的sleep方法,该方法是休眠,里面的参数毫秒
@@ -32,7 +41,34 @@ public class TicketThread implements Runnable{
                     }
                     System.out.println(Thread.currentThread().getName() + ":" + ticket--);
                 }
-            }
+            }*/
+            //同步方法二
+            /*synchronized (obj){
+                method();
+            }*/
+            //同步方法三
+            method1();
         }
     }
+    public  static synchronized void method1(){
+        if(ticket > 0){
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName() + ":" + ticket--);
+        }
+    }
+    /*public static void method(){
+        if (ticket > 0){
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(Thread.currentThread().getName() + ":" + ticket--);
+        }
+
+    }*/
 }

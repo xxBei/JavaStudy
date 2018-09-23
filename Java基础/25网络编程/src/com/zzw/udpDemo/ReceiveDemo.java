@@ -28,12 +28,13 @@ public class ReceiveDemo {
         System.out.println("接收数据开始");
 
         //解析数据
-        InetAddress address = dp.getAddress();//获取ip地址
+        InetAddress address = dp.getAddress();//获取ip地址和主机名
         byte[] data = dp.getData();//获取数据
         int length = dp.getLength();//获取数据长度
 
         //输出数据
-        System.out.println("sendUser ----> " + address);
+        //address.getHostAddress()获取IP   address.getName()获取主机名
+        System.out.println("sendUser ----> " + address.getHostAddress());
         System.out.println("data ---->" + new String(data,0,length));
         //释放资源
         ds.close();

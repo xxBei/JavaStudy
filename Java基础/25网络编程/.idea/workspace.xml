@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="146eef38-7164-4c2d-91e2-ac2d8236271b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzw/finalDemo/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzw/finalDemo/ServerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzw/finalDemo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zzw/finalDemo/UserDB.java" afterDir="false" />
+    <list default="true" id="146eef38-7164-4c2d-91e2-ac2d8236271b" name="Default" comment="用户登录升级版(通过集合模拟数据库进行用户名和密码判断)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,12 +38,13 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="java" value="1503" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1503" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zzw/finalDemo/ClientDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            <state relative-caret-position="456">
+              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,7 +196,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538815479381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538815524346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -345,15 +340,24 @@
       <workItem from="1537794972016" duration="1447000" />
       <workItem from="1537879408635" duration="1648000" />
       <workItem from="1537969924360" duration="2425000" />
-      <workItem from="1538811592932" duration="3868000" />
+      <workItem from="1538811592932" duration="4250000" />
     </task>
+    <task id="LOCAL-00001" summary="用户登录升级版(通过集合模拟数据库进行用户名和密码判断)">
+      <created>1538815851219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538815851219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13592000" />
+    <option name="totallyTimeSpent" value="13974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17560321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -421,6 +425,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用户登录升级版(通过集合模拟数据库进行用户名和密码判断)" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户登录升级版(通过集合模拟数据库进行用户名和密码判断)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/zzw/InetAddress/InetAddressDemo.java">
@@ -550,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/finalDemo/ClientDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        <state relative-caret-position="456">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

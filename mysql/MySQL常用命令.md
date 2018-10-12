@@ -241,7 +241,37 @@ select pname,price from product where id=1;
 	-- 列表名
 	select pname as 别名1,price as 别名2 from 表名;
 	select pname as 商品名称,price as 商品价格 from product;
+
+-- 查询去除重复数据
+select distinct 列名 from 表名;
+select distinct pname from product;
+
+-- select运算查询 仅仅只是在结果上做操作,实际值没有改变
+select *,price*0.5 from 表名;
+select *,price*0.5 from product;
+select *,price*0.5 as "折后价" from product;
     
+-- 条件查询 [where关键字]
+select * from 表名 where 条件;
+select * from product where price > 60;
+	-- 关键运算符
+		> >= < <= = != <>
+		!= : 非标准SQL的不等于
+		<> : 标准的SQL不等于
+		
+-- 逻辑查询
+between...and... (要从小到大)
+--- 10到100之间
+select * form 表名 where 列名 between 10 and 100;
+
+and or not
+--- 10到100之间
+select * from 表名 where 列名 > 10 and 列名 <= 100;
+--- 小于10 或 大于100
+select * from 表名 where 列名 < 10 or 列名 > 100;
+
+-- 模糊查询
+
 -- 案例:
 -- 商品分类: 数码产品, 鞋靴箱包,馋嘴零食
 1.分类id
@@ -274,11 +304,11 @@ create table product(
 );
 
 insert into product values (null,"小米8",2899,null,1);
-insert into product values (null,"NIKE",400,null,2);
+insert into product values (null,"nike01",400,null,2);
 insert into product values (null,"玉溪",20,null,3);
-insert into product values (null,"卫龙辣条",2,null,4);
+insert into product values (null,"卫龙辣条",1,null,4);
 insert into product values (null,"黑管500",399,null,5);
-insert into product values (null,"旺仔小馒头",5,null,4);
+insert into product values (null,"旺仔小馒头",1,null,4);
 
 -- 简单查询
 	-- 查询所有商品
@@ -286,11 +316,15 @@ insert into product values (null,"旺仔小馒头",5,null,4);
 	-- 查询商品名称和价钱
 	select pname,price from product;
 	
-	-- 别名查询 as关键字
+	-- 别名查询 as关键字 (as关键字可以省略)
 	-- 表别名
     	select p.pname,p.price from product as p;
     -- 列别名
     	select pname as 商品名称,price as 商品价格 from product;
+    	select pname 商品名称,price 商品价格 from product;
+    -- select运算查询
+    	select *,price*0.8 from product;
+    	select *,price*0.5 as "折后价" from product;	
 ```
 
 

@@ -270,9 +270,57 @@ select * from 表名 where 列名 > 10 and 列名 <= 100;
 --- 小于10 或 大于100
 select * from 表名 where 列名 < 10 or 列名 > 100;
 
--- 模糊查询
+-- like 模糊查询
+	- :代表的是一个字符
+	% :代表的是多个字符
+select * from 表名 where 列名="_字%";
+select * from 表名 where 列名="%字%";
+select * from product where pname="_米%";
+select * from product where pname="%米%";
 
--- 案例:
+-- in 范围查询,查询某个范围的的值
+select * from 表名 where 列名 in (1,4,5);
+select * from product where cno in (1,4,5);
+
+-- 排序查询 : order by 关键字
+asc : 升序(默认的排序)
+desc: 降序
+
+select * from 表名 order by 列名;
+select * from 表名 order by 列名 排序;
+select * from 表名 where pname like "%字%" order by 列名 排序;
+
+-- 聚合函数:
+	sum() : 求和
+	avg() : 求平均值
+	count() : 统计数量
+	max() : 最大值
+	min() : 最小值
+	
+	-- 注:where条件后面不能添加聚合函数
+select sum(price) from product;
+select count(*) from product;
+
+-- 查询平均值
+select avg(price) from product;
+select * from product where price > 620;
+-- 子查询
+select * from product where price > (select avg(price) from product);
+
+-- 分组 : group by
+    -- 1.根据cno分组,查询商品个数
+    select cno,count(*) from product group by cno;
+
+    -- 2.根据cno分组,分组统计每组商品的平均价格 并且商品平均价格>60
+    select cno,avg(price) from product group by cno having avg(price) > 60;
+
+    -- having 关键字 可以接聚合函数	 出现在分组之后
+    -- where  关键字 不可以接聚合函数	出现在分组之前
+    
+-- 编写顺序
+select ... from ... where ... group by ...having ... order by  
+
+-- 案例:	
 -- 商品分类: 数码产品, 鞋靴箱包,馋嘴零食
 1.分类id
 2.分类名称
@@ -330,7 +378,8 @@ insert into product values (null,"旺仔小馒头",1,null,4);
 
 
 ```php
-循环,continue break,数组,二维数组,solt,concat,indexof,join,pop,push,shift,unshift,slice,splice,length,clear
+数组,continue break,二维数组
+solt,concat,indexof,join,pop,push,shift,unshift,slice,splice,length,clear
 轮播
 for
 Math

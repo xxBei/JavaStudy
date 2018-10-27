@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE stus SYSTEM "stus.dtd">
+<stus>
+    <stu>
+        <name>张三</name>
+        <age>18</age>
+        <address>北京</address>
+    </stu>
+    <stu>
+        <name>张三</name>
+        <age>18</age>
+        <address>北京</address>
+    </stu>
+</stus>

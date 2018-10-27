@@ -1,0 +1,15 @@
+<!--PCDATA 的意思是被解析的字符数据（parsed character data）。-->
+
+<!--<!ELEMENT 元素名称 类别>-->
+<!--<!ELEMENT 元素名称 (元素内容)>-->
+<!--<!ELEMENT 元素名称 (#PCDATA)>-->
+<!--(stu)+ "+"表示里面有多个stu-->
+<!ELEMENT stus (stu)+>
+<!ELEMENT stu (name,age,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!--给元素添加属性-->
+<!--元素名称 属性名称 属性类型 默认值-->
+<!ATTLIST stu id ID #IMPLIED>

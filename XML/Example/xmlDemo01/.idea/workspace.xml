@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49cf8140-fe91-42d2-aa20-976573af7fbe" name="Default Changelist" comment="XML的使用">
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/Demo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/Demo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/Demo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/ObjectArrayListFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/ObjectFileDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/PropertiesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/PropertiesTest02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/23字节流和字符流/out/production/23字节流和字符流/com/zzw/test/Xuliehua.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/25网络编程/out/production/25网络编程/com/zzw/finalDemo/ClientDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/25网络编程/out/production/25网络编程/com/zzw/finalDemo/ServerDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/25网络编程/out/production/25网络编程/com/zzw/finalDemo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java基础/25网络编程/out/production/25网络编程/com/zzw/finalDemo/UserDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xmlDemo01/XML/stus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xmlDemo01/com/zzw/xmlDemo/XpathTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xmlDemo01/com/zzw/xmlDemo/readXml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xml/stus.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../XML.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jszip/dist/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/jquery/jszip/dist/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/member-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Attribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Branch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/CDATA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/CharacterData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Document.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/DocumentException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/DocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/DocumentHelper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/DocumentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/ElementHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/ElementPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Entity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/IllegalAddException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/InvalidXPathException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Namespace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Node.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/NodeFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/ProcessingInstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/QName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/Visitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/VisitorSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/XPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/XPathException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/BeanAttribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/BeanAttributeList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/BeanDocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/BeanElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/BeanMetaData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/bean/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/DatatypeAttribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/DatatypeDocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/DatatypeElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/DatatypeElementFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/InvalidSchemaException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/SchemaParser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/datatype/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMAttribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMAttributeNodeMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMCDATA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMComment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMDocument.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMDocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMDocumentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMEntityReference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMNamespace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMNodeHelper.EmptyNodeList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMNodeHelper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMProcessingInstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/DOMText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dom/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/AttributeDecl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/Decl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/ElementDecl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/ExternalEntityDecl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/InternalEntityDecl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/dtd/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/DOMDocumentResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/DOMReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/DOMSAXContentHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/DOMWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/DocumentResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/DocumentSource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/ElementModifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/HTMLWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/OutputFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/SAXContentHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/SAXEventRecorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/SAXModifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/SAXReader.SAXEntityResolver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/SAXReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/SAXValidator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/SAXWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/STAXEventReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/STAXEventWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/XMLResult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/XMLWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/XPP3Reader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/XPPReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/io/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/JAXBModifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/JAXBObjectHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/JAXBObjectModifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/JAXBReader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/JAXBWriter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/jaxb/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/Action.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/Mode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/NullAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/Pattern.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/Rule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/RuleManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/RuleSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/Stylesheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/pattern/DefaultPattern.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/pattern/NodeTypePattern.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/pattern/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/pattern/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/rule/pattern/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/BranchTreeNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/DocumentTreeModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/LeafTreeNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/XMLTableColumnDefinition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/XMLTableDefinition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/XMLTableModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/swing/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractAttribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractBranch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractCDATA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractCharacterData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractComment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractDocument.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractDocumentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractEntity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractProcessingInstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/AbstractText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/BackedList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/BaseElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/ContentListFacade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultAttribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultCDATA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultComment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultDocument.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultDocumentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultEntity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultNamespace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultProcessingInstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/DefaultText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/ElementIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/ElementNameIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/ElementQNameIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/FilterIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/FlyweightAttribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/FlyweightCDATA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/FlyweightComment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/FlyweightEntity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/FlyweightProcessingInstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/FlyweightText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/NamespaceCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/NamespaceStack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/QNameCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/SingleIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/tree/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/AttributeHelper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/IndexedDocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/IndexedElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/NodeComparator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/NonLazyDocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/NonLazyElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/PerThreadSingleton.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/ProxyDocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/SimpleSingleton.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/SingletonStrategy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/StringUtils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/UserDataAttribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/UserDataDocumentFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/UserDataElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/XMLErrorHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/util/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpath/DefaultNamespaceContext.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpath/DefaultXPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpath/XPathPattern.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpath/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpath/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpath/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpp/ProxyXmlStartTag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpp/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpp/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/org/dom4j/xpp/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/package-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1-javadoc/type-search-index.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lib/jaxen-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../mysql/数据库.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xml/stus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/stus.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="830329916">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="dtd" value="2" />
+          <entry key="java" value="3" />
+          <entry key="stus" value="1" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="DTD" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dtd" value="268" />
+          <entry key="java" value="1475" />
+          <entry key="stus" value="72" />
+          <entry key="txt" value="16" />
+          <entry key="xml" value="347" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="DTD" value="268" />
+          <entry key="JAVA" value="1475" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="XML" value="419" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/xml/stus.dtd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xml/stus.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/XML/stus" />
+        <option value="$PROJECT_DIR$/src/com/zzw/xmlDemo/readXml.java" />
+        <option value="$PROJECT_DIR$/src/com/zzw/xmlDemo/XpathTest.java" />
+        <option value="$PROJECT_DIR$/src/xml/stus.xml" />
+        <option value="$PROJECT_DIR$/src/xml/stus.dtd" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1350" />
+    <option name="height" value="700" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xmlDemo01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmlDemo01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmlDemo01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmlDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmlDemo01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmlDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmlDemo01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmlDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmlDemo01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmlDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="E:/develop/Android/SDK" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540656711804" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jaxen-1.1.2.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zzw.xmlDemo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WeStudy\Java\XML\Example\xmlDemo01\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.XpathTest">
+    <configuration name="XpathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.xmlDemo.XpathTest" />
+      <module name="xmlDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.xmlDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="readXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zzw.xmlDemo.readXml" />
+      <module name="xmlDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zzw.xmlDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.readXml" />
+      <item itemvalue="Application.XpathTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.XpathTest" />
+        <item itemvalue="Application.readXml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49cf8140-fe91-42d2-aa20-976573af7fbe" name="Default Changelist" comment="" />
+      <created>1540523951682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540523951682</updated>
+      <workItem from="1540523954915" duration="10841000" />
+      <workItem from="1540565699120" duration="1233000" />
+      <workItem from="1540652826024" duration="3776000" />
+    </task>
+    <task id="LOCAL-00001" summary="XML的使用">
+      <created>1540565860605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540565860605</updated>
+    </task>
+    <task id="LOCAL-00002" summary="XML的使用">
+      <created>1540565946435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540565946435</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15850000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14812332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="XML的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="XML的使用" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../lib/dom4j-2.1.1.jar!/org/dom4j/io/SAXReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/xmlDemo/readXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/xmlDemo/XpathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/stus.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/stus.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>xmlDemo01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

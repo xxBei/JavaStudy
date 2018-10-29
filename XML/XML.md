@@ -267,19 +267,19 @@
 
 - 属性类型选项
 
-| 类型               | 描述                                          |
-| ------------------ | --------------------------------------------- |
-| CDATA              | 值为字符数据 (character data)  (就是普通文本) |
-| (*en1*\|*en2*\|..) | 此值是枚举列表中的一个值                      |
-| ID                 | 值为唯一的 id                                 |
-| IDREF              | 值为另外一个元素的 id                         |
-| IDREFS             | 值为其他 id 的列表                            |
-| NMTOKEN            | 值为合法的 XML 名称                           |
-| NMTOKENS           | 值为合法的 XML 名称的列表                     |
-| ENTITY             | 值是一个实体                                  |
-| ENTITIES           | 值是一个实体列表                              |
-| NOTATION           | 此值是符号的名称                              |
-| xml:               | 值是一个预定义的 XML 值                       |
+| 类型               | 描述                                        |
+| ------------------ | ------------------------------------------- |
+| CDATA              | 值为字符数据 (character data)(就是普通文本) |
+| (*en1*\|*en2*\|..) | 此值是枚举列表中的一个值                    |
+| ID                 | 值为唯一的 id                               |
+| IDREF              | 值为另外一个元素的 id                       |
+| IDREFS             | 值为其他 id 的列表                          |
+| NMTOKEN            | 值为合法的 XML 名称                         |
+| NMTOKENS           | 值为合法的 XML 名称的列表                   |
+| ENTITY             | 值是一个实体                                |
+| ENTITIES           | 值是一个实体列表                            |
+| NOTATION           | 此值是符号的名称                            |
+| xml:               | 值是一个预定义的 XML 值                     |
 
 - 属性默认值
 
@@ -289,25 +289,149 @@
 | #IMPLIED     | 属性不是必需的 |
 | #FIXED value | 属性值是固定的 |
 
+#### Schema约束
+
+> Schema 比 DTD 更强大，支持数据类型
+
+```xml
+schema的根元素 : <schema></schema> 
+```
+
+##### schema的使用方法
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    xmlns ：固定值
+    elementFormDefault ：元素格式化情况
+    targetNamespace ： 名称空间，随意写
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="www.xmlDemo01.com"
+elementFormDefault="qualified">
+<element name="teachers">
+    <complexType>
+        <sequence maxOccurs="unbounded">
+            <!--复杂元素-->
+            <element name="teacher">
+                <complexType>
+                    <sequence maxOccurs="unbounded">
+                        <!--简单元素-->
+                        <element name="name" type="string"></element>
+                        <element name="age" type="int"></element>
+                    </sequence>
+                </complexType>
+            </element>
+        </sequence>
+    </complexType>
+</element>
+</schema>
+```
+
+> 固定值
+
+```xml
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+```
+
+> 名称空间
+
+```xml
+targetNamespace="www.xmlDemo01.com"
+```
+
+> 元素格式化情况
+
+```xml
+elementFormDefault="qualified"
+```
+
+> 简易元素  
+
+- name表示xml中标签名称 
+- type表示数据类型
 
 
+```xml
+<element name="name" type="string"></element>
+```
 
+> 复杂元素
 
+```xml
+complexType : 可以让若干元素均使用相同的符合类型
+sequence : 它意味着被定义的元素必须按上面的次序出现在指定元素中
+```
 
+> maxOccurs 用于规定某个元素出现的最大次数
 
+```
+<sequence maxOccurs="unbounded">  unbounded : 表示无限制
+```
 
+> minOccurs 用于规定某个元素出现的最小次数
 
+##### xml引用schema
 
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+        xmlns:xsi : 固定写法，值也是固定的
+        xmlns ： 这里是名称空间，和xsd里面的名称空间的值保持一致
+        xsi:schemaLocation ：有两部分，一部分是名称空间  一部分是schema的文档路径
+-->
+<teachers
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="www.xmlDemo01.com"
+        xsi:schemaLocation="www.xmlDemo01.com teacher.xsd">
+    <teacher>
+        <name>张三</name>
+        <age>20</age>
+    </teacher>
+    <teacher>
+        <name>李四</name>
+        <age>24</age>
+    </teacher>
+</teachers>
+```
 
+> 固定值
 
+```xml
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+```
 
+> 该值和名称空间值保持一致
 
+```xml
+xmlns="www.xmlDemo01.com"
+```
 
+> schemaLocation有两个值，一个值用于填写名称空间的值，另一个用于填写schema文件路径
 
+```xml
+xsi:schemaLocation="www.xmlDemo01.com teacher.xsd"
+```
 
+##### 名称空间的作用
 
+一个xml想要添加多个约束，只能使用schema约束，xml只能有一个DTD约束，不能指定多个DTD约束。
 
+简单说：一个xml可以引用多个schema约束，但DTD只能引用一个。
 
+> 作用
 
+命名空间就是在写元素的时候，可以指定该元素使用的是哪一套约束规则，默认只有一套，那么就可以这么写：
 
+```xml
+<name>张三</name>
+```
+
+如果是多个规则，则需要借助名称空间，写法如下：
+
+```xml
+<aa:name>张三</aa:name>
+<bb:name>李四</bb:name>
+```
 

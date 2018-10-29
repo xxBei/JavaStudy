@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    xmlns ：固定值
+    elementFormDefault ：元素格式化情况
+    targetNamespace ： 命名空间，随意写
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="www.xmlDemo01.com"
+elementFormDefault="qualified">
+<element name="teachers">
+    <complexType>
+        <sequence maxOccurs="unbounded">
+            <!--复杂元素-->
+            <element name="teacher">
+                <complexType>
+                    <sequence maxOccurs="unbounded">
+                        <!--简单元素-->
+                        <element name="name" type="string"></element>
+                        <element name="age" type="int"></element>
+                    </sequence>
+                </complexType>
+            </element>
+        </sequence>
+    </complexType>
+</element>
+</schema>

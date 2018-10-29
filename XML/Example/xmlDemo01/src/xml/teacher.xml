@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+        xmlns:xsi : 固定写法，值也是固定的
+        xmlns ： 这里是命名空间，和xsd里面的命名空间的值保持一致
+        xsi:schemaLocation ：有两部分，一部分是命名空间  一部分是schema的文档路径
+-->
+<teachers
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="www.xmlDemo01.com"
+        xsi:schemaLocation="www.xmlDemo01.com teacher.xsd">
+    <teacher>
+        <name>张三</name>
+        <age>20</age>
+    </teacher>
+    <teacher>
+        <name>李四</name>
+        <age>24</age>
+    </teacher>
+</teachers>

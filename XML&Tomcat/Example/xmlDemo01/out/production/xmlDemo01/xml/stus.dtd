@@ -1,0 +1,6 @@
+<!ELEMENT stus (stu,stu)>
+<!ELEMENT stu (name,age,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+

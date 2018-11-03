@@ -23,4 +23,24 @@
         <servlet-name>sayServlet</servlet-name>
         <url-pattern>/a</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>helloServlet</servlet-name>
+        <servlet-class>com.zzw.serverlet.helloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloServlet</servlet-name>
+        <url-pattern>/helloServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>lifecycleServlet</servlet-name>
+        <servlet-class>com.zzw.serverlet.lifecycleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lifecycleServlet</servlet-name>
+        <url-pattern>/lifecycleServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

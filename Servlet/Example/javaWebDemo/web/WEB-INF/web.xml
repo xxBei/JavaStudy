@@ -6,11 +6,11 @@
 
     <!--
         向Tomcat报告,我应用里面有servlet,名字叫sayServlet
-        具体路径是包名.类名com.zzw.serverlet.sayServlet
+        具体路径是包名.类名com.zzw.servlet.sayServlet
     -->
     <servlet>
         <servlet-name>sayServlet</servlet-name>
-        <servlet-class>com.zzw.serverlet.sayServlet</servlet-class>
+        <servlet-class>com.zzw.servlet.sayServlet</servlet-class>
     </servlet>
     <!--
         注册servlet映射
@@ -27,7 +27,7 @@
 
     <servlet>
         <servlet-name>helloServlet</servlet-name>
-        <servlet-class>com.zzw.serverlet.helloServlet</servlet-class>
+        <servlet-class>com.zzw.servlet.helloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>helloServlet</servlet-name>
@@ -37,10 +37,33 @@
 
     <servlet>
         <servlet-name>lifecycleServlet</servlet-name>
-        <servlet-class>com.zzw.serverlet.lifecycleServlet</servlet-class>
+        <servlet-class>com.zzw.servlet.lifecycleServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>lifecycleServlet</servlet-name>
         <url-pattern>/lifecycleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>servletConfig</servlet-name>
+        <servlet-class>com.zzw.servlet.servletConfig</servlet-class>
+
+        <!--添加初始化参数-->
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>张三</param-value>
+        </init-param>
+        <init-param>
+            <param-name>address</param-name>
+            <param-value>beijing</param-value>
+        </init-param>
+        <init-param>
+            <param-name>age</param-name>
+            <param-value>20</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletConfig</servlet-name>
+        <url-pattern>/servletConfig</url-pattern>
     </servlet-mapping>
 </web-app>

@@ -1,5 +1,6 @@
 package com.zzw.servlet;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -33,6 +34,26 @@ public class LoginServlet extends HttpServlet {
             /*以下两种方法是用于在页面中输出文字*/
             //pw.println("login success");
             //pw.write("login success");
+
+
+            //获取servletContext对象
+            ServletContext context = getServletContext();
+
+            //用于获取以前登陆的次数
+            Object obj = context.getAttribute("count");
+
+            //定义第一次登陆的默认值
+            int totalCount = 0;
+            //如果以前登陆次数不是第一次,就让totalCount的值为之前存的值
+            if(obj != null){
+                totalCount = (int) obj;
+            }
+
+
+
+            //给这个count赋新值
+            context.setAttribute("count",totalCount+1);
+            System.out.println("登陆次数为:"+totalCount);
 
             //设置状态码 重新定位 状态码
             response.setStatus(302);

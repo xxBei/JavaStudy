@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>getHeader</servlet-name>
-        <servlet-class>com.zzw.headerHame.getHeader</servlet-class>
+        <servlet-class>com.zzw.headerName.getHeader</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>getHeader</servlet-name>
@@ -14,10 +14,19 @@
 
     <servlet>
         <servlet-name>getParameter</servlet-name>
-        <servlet-class>com.zzw.headerHame.getParameter</servlet-class>
+        <servlet-class>com.zzw.headerName.getParameter</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>getParameter</servlet-name>
         <url-pattern>/getParameter</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>charsetUTF8</servlet-name>
+        <servlet-class>com.zzw.headerName.charsetUTF8</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>charsetUTF8</servlet-name>
+        <url-pattern>/charsetUTF8</url-pattern>
     </servlet-mapping>
 </web-app>

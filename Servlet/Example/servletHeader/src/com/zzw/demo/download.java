@@ -21,6 +21,8 @@ public class download extends HttpServlet {
 
         String filename = request.getParameter("filename");
 
+        System.out.println(filename);
+
         String path = getServletContext().getRealPath("download/"+filename);
 
         response.setHeader("Content-Disposition","attachment;filename="+filename);

@@ -7,17 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81901e6a-8bd9-428f-a798-0e6fdeccb578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../servletHeader/src/com/zzw/demo/download.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/src/com/zzw/demo/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/src/com/zzw/demo/register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/src/com/zzw/download/downloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/web/download.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/web/download/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/web/login_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/web/logins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletHeader/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletHeader/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../servletHeader/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../servletHeader/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servletHeader/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javaWebDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWebDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletHeader/src/com/zzw/demo/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../servletHeader/src/com/zzw/demo/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletHeader/src/com/zzw/demo/register.java" beforeDir="false" afterPath="$PROJECT_DIR$/../servletHeader/src/com/zzw/demo/register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletHeader/web/logins.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servletHeader/web/logins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletHeader/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../servletHeader/web/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,14 +31,15 @@
     <session id="836854710">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -84,16 +79,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zzw/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+            <state relative-caret-position="864">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -114,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zzw/servlet/CountServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="312">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,7 +163,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1350" />
@@ -180,7 +175,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,8 +220,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +228,7 @@
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541687487694" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaWebDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -345,6 +340,7 @@
       <workItem from="1541766747841" duration="591000" />
       <workItem from="1541857293583" duration="657000" />
       <workItem from="1542119177122" duration="668000" />
+      <workItem from="1542156899572" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="简单登陆练习">
       <created>1541684843344</created>
@@ -364,13 +360,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12867000" />
+    <option name="totallyTimeSpent" value="13572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993007" visible="true" weight="0.17426273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993007" visible="true" weight="0.17627347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -464,10 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="864">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -480,18 +476,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/servlet/CountServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="312">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/servlet/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state relative-caret-position="168">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -11,10 +11,17 @@ import java.io.PrintWriter;
 
 public class login extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+        denglu(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doPost(request, response);
+}
+
+    public void denglu(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        //解决中文乱码
+        response.setHeader("Context-type","text/html;charset=UTF-8");
+
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
@@ -29,7 +36,6 @@ public class login extends HttpServlet {
             response.setHeader("Location","login_success.html");
             System.out.println("登录成功");
         }else{
-//            name = new String(name.getBytes("ISO-8859-1"),"UTF-8");
 
             pw.println("登录失败");
         }

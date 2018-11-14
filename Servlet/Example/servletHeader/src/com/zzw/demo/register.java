@@ -11,10 +11,19 @@ import java.io.IOException;
 @WebServlet(name = "register")
 public class register extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+        request.setCharacterEncoding("utf-8");
+        verify(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doPost(request, response);
+    }
+
+    /**
+     * 用于将输入的用户名和密码进行注册
+     * 通过ServletContext 中的setAttribute进行添加
+     * */
+    private void verify(HttpServletRequest request, HttpServletResponse response) {
         String userName = request.getParameter("username");
         String passWord = request.getParameter("password");
 

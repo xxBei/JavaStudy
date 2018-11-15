@@ -32,8 +32,14 @@ public class login extends HttpServlet {
 
         PrintWriter pw = response.getWriter();
         if(username.equals(oldUser) && password.equals(oldPass)){
-            response.setStatus(302);
-            response.setHeader("Location","login_success.html");
+            /*
+            *  早期写法重定向写法:
+            *  response.setStatus(302);
+            *  response.setHeader("Location","login_success.html");
+            * */
+            //重定向新写法
+            response.sendRedirect("login_success.html");
+
             System.out.println("登录成功");
         }else{
 

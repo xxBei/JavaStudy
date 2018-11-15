@@ -1,6 +1,5 @@
 package com.zzw.demo;
 
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
@@ -10,6 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URLEncoder;
+
 
 @WebServlet(name = "download")
 public class download extends HttpServlet {
@@ -20,8 +21,6 @@ public class download extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String filename = request.getParameter("filename");
-
-        System.out.println(filename);
 
         String path = getServletContext().getRealPath("download/"+filename);
 

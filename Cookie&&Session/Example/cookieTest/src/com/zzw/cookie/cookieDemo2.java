@@ -39,7 +39,7 @@ public class cookieDemo2 extends HttpServlet {
         * 负值: 默认-1,关闭浏览器cookie就会失效
         * 不设置时间,当浏览器关闭cookie就会失效
         * */
-        cookie1.setMaxAge(60*60*24*1);//保存一天
+        //cookie1.setMaxAge(60*60*24*1);//保存一天
 
         /*
         //赋新的值

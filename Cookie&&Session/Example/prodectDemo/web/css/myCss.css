@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.titleBox{
+    width: 570px;
+    height: 50px;
+    /*background: red;*/
+    margin: 20px auto 0;
+}
+.p1{
+    float: left;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.green{
+    color: #0f0;
+}
+#musicBox1,#musicBox2{
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    display: none;
+}
+#musicBox1{
+    display: block;
+}
+.textBox{
+    float: left;
+    width: 220px;
+    height: 50px;
+    /*background: yellow;*/
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.timeBox{
+    float: left;
+    width: 60px;
+    height: 90px;
+    text-align: right;
+    line-height: 90px;
+    font-size: 14px;
+    color: #999;
+}
+.musicDiv1{
+    width: 380px;
+    height: 350px;
+    /*background: #98FB98;*/
+    float: left;
+    margin-right: 20px;
+}
+.smileBox{
+    width: 380px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+.imgs{
+    float: left;
+}
+.browseH2{
+    margin: 10px 0 0 30px;
+}
+.browseHistory{
+    margin:5px 0 0 15px;
+    font-size: 16px;
+}
+.browseBox{
+    width: 1120px;
+    height: 280px;
+    margin: 0 auto 30px;
+    border: solid #ccc 2px;
+}
+.browseImg{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+.browseBox .browseImg img{
+    width: 200px;
+    height: 200px;
+}

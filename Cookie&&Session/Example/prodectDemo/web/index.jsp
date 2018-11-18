@@ -271,6 +271,8 @@
             }
         }
     %>
+
+    <h3 class="clearHistory"><a href="clearHistory">清除浏览记录</a></h3>
 </ul>
 
 <script type="text/javascript" src="js/myJs.js"></script>

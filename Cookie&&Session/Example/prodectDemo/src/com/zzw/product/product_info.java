@@ -26,7 +26,7 @@ public class product_info extends HttpServlet {
             System.out.println("第一次访问");
             Cookie c = new Cookie("History",pro_id);
             //cookie 保存时间1天
-            c.setMaxAge(60*60*24);
+            c.setMaxAge(60*60*24*2);
             response.addCookie(c);
             response.sendRedirect("product_info.jsp");
 
@@ -36,6 +36,7 @@ public class product_info extends HttpServlet {
             System.out.println("第二次访问");
             String pro_idNew = cookie.getValue();
             cookie.setValue(pro_id+"#"+pro_idNew);
+            cookie.setMaxAge(60*60*24*2);
             response.addCookie(cookie);
             response.sendRedirect("product_info.jsp");
         }

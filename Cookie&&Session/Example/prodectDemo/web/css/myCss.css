@@ -77,7 +77,7 @@ h1{
 }
 .browseBox{
     width: 1120px;
-    height: 280px;
+    min-height: 280px;
     margin: 0 auto 30px;
     border: solid #ccc 2px;
 }
@@ -90,4 +90,11 @@ h1{
 .browseBox .browseImg img{
     width: 200px;
     height: 200px;
+}
+.clearHistory{
+    margin: 25px 0 10px 15px;
+    clear: both;
+}
+.clearHistory a:hover{
+    text-decoration: underline;
 }

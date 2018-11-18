@@ -11,4 +11,12 @@
         <servlet-name>product_info</servlet-name>
         <url-pattern>/product_info</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>clearHistory</servlet-name>
+        <servlet-class>com.zzw.product.clearHistory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>clearHistory</servlet-name>
+        <url-pattern>/clearHistory</url-pattern>
+    </servlet-mapping>
 </web-app>

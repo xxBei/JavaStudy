@@ -1,4 +1,5 @@
-<%--
+<%@ page import="java.util.LinkedList" %>
+<%@ page import="java.util.Iterator" %><%--
   Created by IntelliJ IDEA.
   User: zBei
   Date: 2018/11/17
@@ -262,14 +263,17 @@
     <%
         }else{
             String[] pro_idValues = cookie.getValue().split("#");
-            for (String pro_id : pro_idValues) {
+            for(String pid : pro_idValues){
+
     %>
                 <li class="browseImg">
-                    <img src="img/<%=pro_id%>.jpg">
+                    <img src="img/<%=pid%>.jpg">
                 </li>
     <%
+
             }
         }
+
     %>
 
     <h3 class="clearHistory"><a href="clearHistory">清除浏览记录</a></h3>

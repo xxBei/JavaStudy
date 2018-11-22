@@ -14,6 +14,11 @@ public class clearCars extends HttpServlet {
         doGet(request, response);
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         HttpSession session = request.getSession();

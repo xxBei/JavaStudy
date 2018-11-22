@@ -33,7 +33,7 @@
   <c:set var="salary" value="${2000*2}"></c:set>
   工资为:${salary}<br><br>
   <c:if test="${salary > 2000}">
-      工资高于2000...
+      工资高于2000....
   </c:if>
   </body>
 </html>

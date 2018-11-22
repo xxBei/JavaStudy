@@ -39,6 +39,7 @@
 
 
     <%
+        //将数据存储到user类中
         List list = new ArrayList();
         list.add(new User("张三",18));
         list.add(new User("李四",20));

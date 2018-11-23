@@ -12,9 +12,7 @@ public class connector {
         String driver = "com.mysql.cj.jdbc.Driver";
         //URL指向要访问的数据库名test01
 //        String url = "jdbc:mysql://localhost:3306/test01";
-        String url = "jdbc:mysql://localhost/stumanager?userSSL=true&useUnicode=true" +
-                "&characterEncoding" +
-                "=UTF8&serverTimezone=GMT";
+        String url = "jdbc:mysql://localhost/stumanager?userSSL=true&useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT";
         String user = "root";
         String password = "root";
         //遍历查询结果集

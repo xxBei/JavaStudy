@@ -6,11 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8990914-3149-42b2-90ce-ee8ab87a3906" name="Default Changelist" comment="JSTL 和 EL 表达式的使用">
+    <list default="true" id="a8990914-3149-42b2-90ce-ee8ab87a3906" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/.idea/artifacts/SessionDemo_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/SessionDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/src/com/zzw/shop/shopping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Cookie&amp;&amp;Session/Example/SessionDemo/web/cars.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zzw/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzw/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/demo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/demo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +29,7 @@
     <session id="1962992027">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -88,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/demo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="257">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -185,7 +192,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542879423308" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542880157482" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -296,7 +303,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542876644889</updated>
-      <workItem from="1542876648489" duration="2771000" />
+      <workItem from="1542876648489" duration="3532000" />
     </task>
     <task id="LOCAL-00001" summary="清除购物车">
       <created>1542879260365</created>
@@ -319,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542879360565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JSTL 和 EL 表达式的使用">
+      <created>1542879435616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542879435616</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2771000" />
+    <option name="totallyTimeSpent" value="3532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -434,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/demo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="257">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
         </state>
       </provider>
     </entry>

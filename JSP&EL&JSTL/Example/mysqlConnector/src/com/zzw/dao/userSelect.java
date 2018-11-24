@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 
-public class userConn {
+public class userSelect {
     public static void main(String[] args) {
         Connection conn = null;
         PreparedStatement ps = null;
@@ -20,16 +20,20 @@ public class userConn {
             if(!conn.isClosed()){
                 System.out.println("访问成功");
             }
-            String sql = "select * from u_manager where id=?";
+//            String sql = "select * from u_manager where id=?";
+            String sql = "select * from u_manager";
             ps = conn.prepareStatement(sql);
-            ps.setInt(1,1);
+            //ps.setInt(1,1);
             rs = ps.executeQuery();
             //遍历
             while (rs.next()){
+                int id = rs.getInt("id");
                 String user = rs.getString("username");
                 String password = rs.getString("password");
+                String  gender = rs.getInt("gender")==1?"男":"女";
+                String address = rs.getString("address");
 
-                System.out.println(user + "\t" + password);
+                System.out.println(id+"\t"+user + "\t" + password+"\t"+gender+"\t"+address);
             }
         } catch (Exception e) {
             e.printStackTrace();

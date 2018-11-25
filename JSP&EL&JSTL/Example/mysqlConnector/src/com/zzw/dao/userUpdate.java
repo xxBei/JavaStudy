@@ -22,7 +22,7 @@ public class userUpdate {
             ps.setString(2,"abc123");
             ps.setInt(3,0);
             ps.setString(4,"三国");
-            ps.setInt(5,4);
+            ps.setInt(5,5);
             ps.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();

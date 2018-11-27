@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class user_login {
+public class User_login {
     public static boolean login(String username,String password){
         Connection conn = null;
         PreparedStatement ps = null;

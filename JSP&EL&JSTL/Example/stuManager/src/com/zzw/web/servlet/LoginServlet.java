@@ -1,7 +1,8 @@
 package com.zzw.web.servlet;
 
-import com.zzw.dao.user_login;
-import com.zzw.util.JDBCUtil;
+import com.zzw.Demo.Student;
+import com.zzw.dao.StuList_jdbc;
+import com.zzw.dao.User_login;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,10 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.util.List;
 
 @WebServlet(name = "LoginServlet", urlPatterns = "/LoginServlet")
 public class LoginServlet extends HttpServlet {
@@ -28,9 +26,17 @@ public class LoginServlet extends HttpServlet {
 
 
         //判断用户名和密码是否正确
-        boolean isSuccess = user_login.login(username,password);
+        boolean isSuccess = User_login.login(username,password);
         if(isSuccess){
             //response.getWriter().write("登录成功");
+
+            //查询所有学生信息
+            StuList_jdbc stu = new StuList_jdbc();
+            List<Student> list = stu.findAll();
+            request.getSession().setAttribute("list",list);
+
+
+            //重定向
             response.sendRedirect("stu_list.jsp");
         }else{
             response.getWriter().write("用户名或密码错误");

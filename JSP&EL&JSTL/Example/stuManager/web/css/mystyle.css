@@ -9,7 +9,7 @@ h2{
 .formBox{
     width: 300px;
     height: 355px;
-    background: #ccc;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
     margin: auto;
 }
 form{
@@ -18,7 +18,8 @@ form{
 }
 .formBox p{
     padding: 20px 20px 20px;
-    font-size: 18px;
+    font-size: 15px;
+    font-family: '宋体';
 }
 .formBox p input{
     height: 30px;
@@ -30,4 +31,10 @@ form{
     height: 30px;
     margin-right: 32px;
     float: right;
+    /*background: #6dd5ed;
+    border: 0;
+    border-radius: 5px;
+    color: #000;
+    color: #f46b45;
+    font-size: 16px;*/
 }

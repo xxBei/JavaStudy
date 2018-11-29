@@ -66,7 +66,8 @@
                 <td align="center"><%=gender%></td>
                 <td align="center"><%=number%></td>
                 <td align="center"><%=address%></td>
-                <td align="center"><a href="#">更新</a>&emsp;<a href="#">删除</a></td>
+                <td align="center"><a href="stu_upList.jsp?id=<%=id%>">更新</a>&emsp;
+                    <a href="#">删除</a></td>
             </tr>
     <%
         }

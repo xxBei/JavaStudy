@@ -5,13 +5,47 @@ import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.SQLFeatureNotSupportedException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Logger;
 
-public class ConnectionPoolTest implements DataSource {
+
+/**
+ * 数据库连接池
+ *
+ * 1. 创建10个连接
+ *
+ * 2. 来的程序通过getConnection来获取连接
+ *
+ * 3. 用完连接后,通过addBack进行归还连接
+ *
+ * 4. 扩容
+ * */
+public class MyDataSource implements DataSource {
+
+    List<Connection> list = new ArrayList<>();
+
+    public MyDataSource(){
+        for(int i=0;i<10;i++){
+            Connection conn = JDBCUtil.getConn();
+            list.add(conn);
+        }
+    }
 
     @Override
     public Connection getConnection() throws SQLException {
-        return null;
+        if(list.size() == 0){
+            for(int i=0;i<5;i++){
+                Connection conn = JDBCUtil.getConn();
+                list.add(conn);
+            }
+        }
+        Connection conn = list.remove(0);
+        return conn;
+    }
+
+    public void addBack(Connection conn){
+        list.add(conn);
     }
 
     @Override

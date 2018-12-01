@@ -16,7 +16,7 @@ public class TestPool {
         MyDataSource myDataSource = new MyDataSource();
 
         try {
-            myDataSource.getConnection();
+            conn = myDataSource.getConnection();
             //String sql = "select * from pool_test";
             String sql = "INSERT INTO pool_test VALUES (?,?,?)";
             ps = conn.prepareStatement(sql);

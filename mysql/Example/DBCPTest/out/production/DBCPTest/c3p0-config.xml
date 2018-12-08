@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property
+                name="jdbcUrl">jdbc:mysql://localhost/stumanager?userSSL=true&amp;userSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF8&amp;serverTimezone=GMT</property>
+        <property name="user">root</property>
+        <property name="password">root</property>
+
+
+        <property name="maxIdleTime">30</property>
+
+        <!-- 这个必须写在minPoolSize和maxPoolSize之间，表示初始化时获取的连接数 -->
+        <property name="initialPoolSize">10</property>
+        <!-- 数据库连接池中最大连接数 -->
+        <property name="maxPoolSize">100</property>
+        <!-- 数据库连接池中最小连接数 -->
+        <property name="minPoolSize">10</property>
+
+        <!-- c3p0数据库连接池同时可以维护的statement数量 -->
+        <property name="maxStatements">200</property>
+
+        <user-overrides user="test-user">
+            <property name="maxPoolSize">10</property>
+            <property name="minPoolSize">1</property>
+            <property name="maxStatements">0</property>
+        </user-overrides>
+    </default-config>
+
+    <!-- This app is massive! -->
+    <named-config name="oracle">
+        <property name="acquireIncrement">50</property>
+        <property name="initialPoolSize">100</property>
+        <property name="minPoolSize">50</property>
+        <property name="maxPoolSize">1000</property>
+        <!-- intergalactoApp adopts a different approach to configuring statement caching -->
+        <property name="maxStatements">0</property>
+        <property name="maxStatementsPerConnection">5</property>
+        <!-- he's important, but there's only one of him -->
+        <user-overrides user="master-of-the-universe">
+            <property name="acquireIncrement">1</property>
+            <property name="initialPoolSize">1</property>
+            <property name="minPoolSize">1</property>
+            <property name="maxPoolSize">5</property>
+            <property name="maxStatementsPerConnection">50</property>
+        </user-overrides>
+    </named-config>
+</c3p0-config>

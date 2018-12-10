@@ -20,9 +20,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.10" level="application_server_libraries" />
-    <orderEntry type="library" name="c3p0" level="project" />
-    <orderEntry type="library" name="dbutils" level="project" />
-    <orderEntry type="library" name="junit" level="project" />
-    <orderEntry type="library" name="mysql-connector-8.0.13" level="project" />
+    <orderEntry type="library" name="c3p0-0.9.5.2" level="project" />
+    <orderEntry type="library" name="commons-dbutils-1.7" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.13" level="project" />
+    <orderEntry type="library" name="junit-jupiter-api-5.3.2" level="project" />
   </component>
 </module>

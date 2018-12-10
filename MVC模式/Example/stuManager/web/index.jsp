@@ -9,8 +9,16 @@
 <html>
   <head>
     <title>学生管理列表</title>
+      <link rel="stylesheet" href="css/myStyle.css">
   </head>
   <body>
-        <h3>学生管理系统</h3>
+  <form action="UserLonginServlet" method="post">
+        <div class="managerBox">
+            <h2>学生管理系统</h2>
+            <input type="text" name="username">
+            <input type="password" name="password">
+            <input type="submit" id="subBtn" value="登　录">
+        </div>
+  </form>
   </body>
 </html>

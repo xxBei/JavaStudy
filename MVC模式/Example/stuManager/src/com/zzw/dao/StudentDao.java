@@ -11,4 +11,6 @@ public interface StudentDao {
      * @return list
      * */
     List<Student> findAll() throws SQLException;
+
+    void insertStuInfo(String sname,int gender,String phone,String birthday,String info) throws SQLException;
 }

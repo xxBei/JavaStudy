@@ -15,4 +15,11 @@ public class StudentServiceImpl implements StudentService {
         StudentDao dao = new StudentDaoImpl();
         return dao.findAll();
     }
+
+    @Override
+    public void insertStuInfo(String sname, int gender, String phone, String birthday,
+                              String info) throws SQLException {
+        StudentDao dao = new StudentDaoImpl();
+        dao.insertStuInfo(sname,gender,phone,birthday,info);
+    }
 }

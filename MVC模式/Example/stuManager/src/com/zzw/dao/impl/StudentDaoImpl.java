@@ -20,4 +20,10 @@ public class StudentDaoImpl implements StudentDao {
         return list;
 
     }
+
+    @Override
+    public void insertStuInfo(String sname,int gender,String phone,String birthday,String info) throws SQLException {
+        String sql = "insert into stu values(null,?,?,?,?,?)";
+        queryRunner.update(sql,sname,gender,phone,birthday,info);
+    }
 }

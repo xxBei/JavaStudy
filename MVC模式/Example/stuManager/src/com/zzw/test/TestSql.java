@@ -41,4 +41,15 @@ public class TestSql {
             e.printStackTrace();
         }
     }
+
+    @Test
+    public void strLen(){
+        String str = "123456abcd";
+//        System.out.println(str.substring(str.length()-3,str.length()));
+        if(str.length()>3){
+            System.out.println(str.substring(0,3)+"..."+str.substring(str.length()-3,
+                    str.length()));
+            //System.out.println(str.split(0,3));
+        }
+    }
 }

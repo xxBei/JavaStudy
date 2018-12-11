@@ -13,7 +13,7 @@
 <head>
     <title>学生列表</title>
     <style>
-        body,h2,div{
+        body,h2,div,input,a{
             margin: 0;
             padding: 0;
         }
@@ -25,12 +25,26 @@
             width: 962px;
             margin: 20px auto 0;
         }
-        .insertBox{
-            width: 960px;
-            height: 40px;
-            margin: auto;
+        #insertBox{
             border: solid 1px #ccc;
+            clear: both;
+            width: 959px;
+            height: 40px;
             line-height: 40px;
+            text-align: center;
+        }
+        #insertBox input{
+            height: 26px;
+            width: 200px;
+            margin-right: 20px
+        }
+        #insertBox select{
+            height: 26px;
+            margin-right: 20px
+        }
+        #insertBox button{
+            height: 26px;
+            margin-right: 20px
         }
         .fkBox{
             width: 962px;
@@ -54,8 +68,17 @@
 <body>
     <h2>学生列表</h2>
     <div class="box">
-        <div class="insertBox">
-            插入学生信息:<input type="text" name="stuName">
+        <div class="fkBox" id="insertBox">
+            <span style="padding-left: 10px;">按姓名查询:</span>
+            <input type="text" name="sname">
+            <span>按性别查询:</span>
+            <select name="gender">
+                <option value="--请选择">--请选择</option>
+                <option value="0">男</option>
+                <option value="1">女</option>
+            </select>
+            <button>查询</button>
+            <a href="#">添加</a>
         </div>
         <div class="fkBox">
             <div class="fk1">编号</div>
@@ -71,7 +94,11 @@
             StudentService stuServive = new StudentServiceImpl();
             List<Student> list = stuServive.findAll();
             for(Student student : list){
-
+                String stu_info = student.getInfo();
+                if(stu_info.length()>10){
+                    stu_info = stu_info.substring(0,2) + " .... " +
+                            stu_info.substring(stu_info.length()-5,stu_info.length());
+                }
 
          %>
         <div class="fkBox">
@@ -80,7 +107,7 @@
             <div class="fk1"><%= student.getGender()==1?"男":"女"%></div>
             <div class="fk1"><%= student.getPhone()%></div>
             <div class="fk1"><%= student.getBirthday()%></div>
-            <div class="fk1 fkInfo">....</div>
+            <div class="fk1 fkInfo"><%= stu_info%></div>
             <div class="fk1"><a href="#">更新</a> <a href="#">删除</a></div>
         </div>
         <%

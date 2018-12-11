@@ -78,7 +78,7 @@
                 <option value="1">女</option>
             </select>
             <button>查询</button>
-            <a href="#">添加</a>
+            <a href="stuInsert.jsp">添加</a>
         </div>
         <div class="fkBox">
             <div class="fk1">编号</div>

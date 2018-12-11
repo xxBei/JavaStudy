@@ -22,11 +22,18 @@
             margin-top: 20px;
         }
         .box{
-            width: 1000px;
+            width: 962px;
             margin: 20px auto 0;
         }
+        .insertBox{
+            width: 960px;
+            height: 40px;
+            margin: auto;
+            border: solid 1px #ccc;
+            line-height: 40px;
+        }
         .fkBox{
-            width: 1000px;
+            width: 962px;
             height: 40px;
             margin: auto;
         }
@@ -47,6 +54,9 @@
 <body>
     <h2>学生列表</h2>
     <div class="box">
+        <div class="insertBox">
+            插入学生信息:<input type="text" name="stuName">
+        </div>
         <div class="fkBox">
             <div class="fk1">编号</div>
             <div class="fk1">姓名</div>

@@ -52,4 +52,26 @@ public class TestSql {
             //System.out.println(str.split(0,3));
         }
     }
+
+    @Test
+    public void stuUp(){
+        StudentService service = new StudentServiceImpl();
+        try {
+            service.updateStu("曹操",1,"12333036666","155",
+                        "曹操（155年－220年3月15日 [1]  " +
+                                "），字孟德，一名吉利，小字阿瞒，沛国谯县（今安徽亳州）人。东汉末年杰出的政治家、军事家、文学家、书法家 [2]  " +
+                                "，三国中曹魏政权的奠基人。",6);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void stuSel() throws SQLException {
+        StudentService service = new StudentServiceImpl();
+        List<Student> list = service.findOther(1);
+        for(Student student : list){
+            System.out.println(student.getSname()+":"+student.getBirthday());
+        }
+    }
 }

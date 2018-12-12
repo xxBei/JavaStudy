@@ -10,4 +10,8 @@ public interface StudentService {
     List<Student> findAll() throws SQLException;
 
     void insertStuInfo(String sname,int gender,String phone,String birthday,String info) throws SQLException;
+
+    void updateStu(String sname,int gender,String phone,String birthday,String info,int sid) throws SQLException;
+
+    List<Student> findOther(int sid) throws SQLException;
 }

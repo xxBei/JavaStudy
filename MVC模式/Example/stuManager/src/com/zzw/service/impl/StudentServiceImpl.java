@@ -22,4 +22,18 @@ public class StudentServiceImpl implements StudentService {
         StudentDao dao = new StudentDaoImpl();
         dao.insertStuInfo(sname,gender,phone,birthday,info);
     }
+
+    @Override
+    public void updateStu(String sname, int gender, String phone, String birthday,
+                          String info,int sid) throws SQLException {
+        StudentDao dao = new StudentDaoImpl();
+        dao.updateStu(sname,gender,phone,birthday,info,sid);
+
+    }
+
+    @Override
+    public List<Student> findOther(int sid) throws SQLException {
+        StudentDao dao = new StudentDaoImpl();
+        return dao.findOther(sid);
+    }
 }

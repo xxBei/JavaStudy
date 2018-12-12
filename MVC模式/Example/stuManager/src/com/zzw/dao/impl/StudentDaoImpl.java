@@ -26,4 +26,17 @@ public class StudentDaoImpl implements StudentDao {
         String sql = "insert into stu values(null,?,?,?,?,?)";
         queryRunner.update(sql,sname,gender,phone,birthday,info);
     }
+
+    @Override
+    public void updateStu(String sname, int gender, String phone, String birthday,
+                          String info,int sid) throws SQLException {
+        String sql = "update stu set sname=?,gender=?,phone=?,birthday=?,info=? where sid=?";
+        queryRunner.update(sql,sname,gender,phone,birthday,info,sid);
+    }
+
+    @Override
+    public List<Student> findOther(int sid) throws SQLException {
+        String sql = "select * from stu where sid=?";
+        return queryRunner.query(sql,new BeanListHandler<>(Student.class),sid);
+    }
 }

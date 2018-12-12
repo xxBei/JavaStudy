@@ -108,7 +108,8 @@
             <div class="fk1"><%= student.getPhone()%></div>
             <div class="fk1"><%= student.getBirthday()%></div>
             <div class="fk1 fkInfo"><%= stu_info%></div>
-            <div class="fk1"><a href="#">更新</a> <a href="#">删除</a></div>
+            <div class="fk1"><a href="stuUpdate.jsp?sid=<%= student.getSid()%>">更新</a>
+                <a href="#">删除</a></div>
         </div>
         <%
             }

@@ -14,4 +14,6 @@ public interface StudentService {
     void updateStu(String sname,int gender,String phone,String birthday,String info,int sid) throws SQLException;
 
     List<Student> findOther(int sid) throws SQLException;
+
+    void deleteStudent(int sid) throws SQLException;
 }

@@ -49,7 +49,7 @@ public class StudentDaoImpl implements StudentDao {
      * 更新学生信息
      * */
     @Override
-    public void updateStu(String sname, int gender, String phone, String birthday,
+    public void updateStu(String sname, String gender, String phone, String birthday,
                           String info,int sid) throws SQLException {
         String sql = "update stu set sname=?,gender=?,phone=?,birthday=?,info=? where sid=?";
         queryRunner.update(sql,sname,gender,phone,birthday,info,sid);

@@ -110,12 +110,13 @@
             <div class="fk1 fkInfo"><%= stu_info%></div>
             <div class="fk1">
                 <a href="stuUpdate.jsp?sid=<%= student.getSid()%>">更新</a>
-                <a href="StudentDeleteServlet?sid=<%= student.getSid()%>">删除</a>
+                <a href="#" onclick="delStu(<%= student.getSid()%>)" id="delBtn">删除</a>
             </div>
         </div>
         <%
             }
         %>
     </div>
+    <script src="js/myScript.js"></script>
 </body>
 </html>

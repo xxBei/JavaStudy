@@ -24,7 +24,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public void updateStu(String sname, int gender, String phone, String birthday,
+    public void updateStu(String sname, String gender, String phone, String birthday,
                           String info,int sid) throws SQLException {
         StudentDao dao = new StudentDaoImpl();
         dao.updateStu(sname,gender,phone,birthday,info,sid);

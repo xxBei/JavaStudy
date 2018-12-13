@@ -22,7 +22,7 @@ public class StudentUpdateServlet extends HttpServlet {
         HttpSession session = request.getSession();
         int sid = Integer.parseInt(session.getAttribute("sid").toString());
         String sname = request.getParameter("sname");
-        int gender = Integer.parseInt(request.getParameter("gender"));
+        String gender = request.getParameter("gender");
         String phone = request.getParameter("phone");
         String birthday = request.getParameter("birthday");
         String info = request.getParameter("info");
@@ -34,6 +34,6 @@ public class StudentUpdateServlet extends HttpServlet {
             e.printStackTrace();
         }
         System.out.println(sid+"--"+sname+"--"+gender+"--"+phone+"--"+birthday+"--"+info);
-        response.sendRedirect("stuList.jsp");
+        request.getRequestDispatcher("StudentListServlet").forward(request,response);
     }
 }

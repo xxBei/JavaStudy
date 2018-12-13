@@ -20,7 +20,7 @@ public interface StudentDao {
     /**
      * 更新学生信息
      * */
-    void updateStu(String sname,int gender,String phone,String birthday,String info,int sid) throws SQLException;
+    void updateStu(String sname,String gender,String phone,String birthday,String info,int sid) throws SQLException;
 
     /**
      * 根据sid查询学生信息

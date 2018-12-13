@@ -30,6 +30,6 @@ public class StudentInsertServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        response.sendRedirect("stuList.jsp");
+        request.getRequestDispatcher("StudentListServlet").forward(request,response);
     }
 }

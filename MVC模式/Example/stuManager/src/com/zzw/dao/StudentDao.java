@@ -33,4 +33,11 @@ public interface StudentDao {
      * @param sid 学生id
      * */
     void deleteStudent(int sid) throws SQLException;
+
+    /**
+     * 根据姓名模糊查询
+     *
+     * */
+    List<Student> findName(String sname,String gender) throws SQLException;
+
 }

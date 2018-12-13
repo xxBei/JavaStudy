@@ -33,7 +33,7 @@ public class UserLonginServlet extends HttpServlet {
             List<User> list = userService.user_login();
             for(User user:list){
                 if(username.equals(user.getUname()) && password.equals(user.getUpassword())){
-                    response.sendRedirect("stuList.jsp");
+                    response.sendRedirect("StudentListServlet");
                 }else{
                     response.getWriter().write("用户名或密码错误!");
                 }

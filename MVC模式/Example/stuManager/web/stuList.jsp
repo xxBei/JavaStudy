@@ -42,7 +42,7 @@
             height: 26px;
             margin-right: 20px
         }
-        #insertBox button{
+        #insertBox .btn{
             height: 26px;
             margin-right: 20px
         }
@@ -68,18 +68,20 @@
 <body>
     <h2>学生列表</h2>
     <div class="box">
+        <form action="StudentSearchServlet" method="post">
         <div class="fkBox" id="insertBox">
             <span style="padding-left: 10px;">按姓名查询:</span>
             <input type="text" name="sname">
             <span>按性别查询:</span>
             <select name="gender">
-                <option value="--请选择">--请选择</option>
-                <option value="0">男</option>
-                <option value="1">女</option>
+                <option value="">--请选择</option>
+                <option value="1">男</option>
+                <option value="0">女</option>
             </select>
-            <button>查询</button>
+            <input type="submit" value="查询" class="btn">
             <a href="stuInsert.jsp">添加</a>
         </div>
+        </form>
         <div class="fkBox">
             <div class="fk1">编号</div>
             <div class="fk1">姓名</div>
@@ -91,18 +93,16 @@
         </div>
 
         <%
-            StudentService stuServive = new StudentServiceImpl();
-            List<Student> list = stuServive.findAll();
+            List<Student> list = (List<Student>) request.getAttribute("list");
             for(Student student : list){
                 String stu_info = student.getInfo();
                 if(stu_info.length()>10){
                     stu_info = stu_info.substring(0,2) + " .... " +
                             stu_info.substring(stu_info.length()-5,stu_info.length());
                 }
-
          %>
         <div class="fkBox">
-            <div class="fk1"><%= student.getSid()%></div>
+            <div class="fk1"><%= student.   getSid()%></div>
             <div class="fk1"><%= student.getSname()%></div>
             <div class="fk1"><%= student.getGender()==1?"男":"女"%></div>
             <div class="fk1"><%= student.getPhone()%></div>

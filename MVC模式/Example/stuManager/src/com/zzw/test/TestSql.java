@@ -74,4 +74,14 @@ public class TestSql {
             System.out.println(student.getSname()+":"+student.getBirthday());
         }
     }
+
+   /* @Test
+    public void stuFindName() throws SQLException {
+        StudentService service = new StudentServiceImpl();
+        List<Student> list = service.findName("诸",1);
+        for(Student student : list){
+            System.out.println(student.getSid()+student.getSname());
+        }
+    }*/
+
 }

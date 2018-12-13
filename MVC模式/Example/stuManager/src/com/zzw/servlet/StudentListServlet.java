@@ -21,6 +21,10 @@ public class StudentListServlet extends HttpServlet {
         try {
             StudentService service = new StudentServiceImpl();
             List<Student> list = service.findAll();
+            //将数据存储到作用域中
+            request.setAttribute("list",list);
+            //跳转页面
+            request.getRequestDispatcher("stuList.jsp").forward(request,response);
         } catch (SQLException e) {
             e.printStackTrace();
         }

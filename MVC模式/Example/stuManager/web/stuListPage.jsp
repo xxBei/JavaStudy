@@ -1,7 +1,8 @@
 <%@ page import="com.zzw.domain.Student" %>
 <%@ page import="com.zzw.service.StudentService" %>
 <%@ page import="com.zzw.service.impl.StudentServiceImpl" %>
-<%@ page import="java.util.List" %><%--
+<%@ page import="java.util.List" %>
+<%@ page import="com.zzw.domain.PageBean" %><%--
   Created by IntelliJ IDEA.
   User: zBei
   Date: 2018/12/10
@@ -53,16 +54,18 @@
             clear: both;
         }
         .pageBox{
-            width: 962px;
+            width: 960px;
             height: 40px;
             margin: auto;
             clear: both;
+            border: solid #ccc 1px;
             text-align: center;
             line-height: 40px;
         }
-        .pageBox a{
-            margin: 0 10px;
+        .pageBox span{
+            margin-left: 10px;
         }
+
         .fk1{
             float: left;
             width: 125px;
@@ -105,8 +108,8 @@
         </div>
 
         <%
-            List<Student> list = (List<Student>) request.getAttribute("list");
-            for(Student student : list){
+            PageBean<Student> list = (PageBean<Student>) request.getAttribute("pageBean");
+            for(Student student : list.getList()){
                 String stu_info = student.getInfo();
                 if(stu_info.length()>10){
                     stu_info = stu_info.substring(0,2) + " .... " +
@@ -130,10 +133,47 @@
         %>
     </div>
     <div class="pageBox">
-        <a href="#">上一页</a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">下一页</a>
+        <span>第<%= list.getCurrentPage()%> / <%= list.getTotalPage()%></span>
+        <span>每页显示<%= list.getPageSize()%>条 &emsp; 总记录数: <%= list.getTotalSize()%></span>
+        <span>
+            <%
+                if(list.getCurrentPage()!=1){
+            %>
+                    <a href="StudentPageList?currentPage=1">首页</a> | <a
+                href="StudentPageList?currentPage=<%= list.getCurrentPage()-1%>">上一页</a>
+            <%
+                }
+            %>
+        </span>
+        <span>
+            <%
+                for(int i=1;i<=list.getTotalPage();i++){
+            %>
+                    <%
+                        if(i==list.getCurrentPage()){
+                    %>
+                            <%= i%>
+                    <%
+                        }else{
+                    %>
+                            <a href="StudentPageList?currentPage=<%= i%>"><%= i%></a>
+                    <%
+                        }
+                    %>
+            <%
+                }
+            %>
+        </span>
+        <span>
+            <%
+                if(list.getCurrentPage()!=list.getTotalPage()){
+            %>
+                    <a href="StudentPageList?currentPage=<%= list.getTotalPage()%>">尾页</a> | <a
+                href="StudentPageList?currentPage=<%= list.getCurrentPage()+1%>">下一页</a>
+            <%
+                }
+            %>
+        </span>
     </div>
     <script src="js/myScript.js"></script>
 </body>

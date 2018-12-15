@@ -6,6 +6,7 @@ import com.zzw.dao.StudentDao;
 import com.zzw.domain.Student;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.apache.commons.dbutils.handlers.ScalarHandler;
 import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;
@@ -93,5 +94,30 @@ public class StudentDaoImpl implements StudentDao {
             list.add(gender);
         }
         return queryRunner.query(sql,new BeanListHandler<>(Student.class),list.toArray());
+    }
+
+    @Override
+    public List<Student> findStudentByPage(int currentPage) throws SQLException {
+        String sql = "select * from stu limit ?,?";
+        //第一个问号表示从跳过几行数据
+        //第二个问号表示显示当页显示多少条数据
+        /**
+         * (当前页-1)*5
+         * 0  , 5  --- 第一页 (1-1)*5
+         * 5  , 5  --- 第二页 (2-1)*5
+         * 10 , 5  --- 第三页
+         * 15 , 5  --- 第四页
+         * */
+        return queryRunner.query(sql,new BeanListHandler<>(Student.class),
+                (currentPage-1)*PAGE_SIZE,PAGE_SIZE);
+    }
+
+    @Override
+    public int findCount() throws SQLException {
+        String sql = "select count(*) from stu";
+        //用于处理平均值或者是总的个数
+        Long result = queryRunner.query(sql,new ScalarHandler<>());
+        //将long转为int
+        return result.intValue();
     }
 }

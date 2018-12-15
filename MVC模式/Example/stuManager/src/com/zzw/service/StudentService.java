@@ -1,5 +1,6 @@
 package com.zzw.service;
 
+import com.zzw.domain.PageBean;
 import com.zzw.domain.Student;
 
 import java.sql.SQLException;
@@ -18,4 +19,10 @@ public interface StudentService {
     void deleteStudent(int sid) throws SQLException;
 
     List<Student> findName(String sname,String gender) throws SQLException;
+
+    /**
+     * 分页查询,查询当页的数据
+     * @param currentPage 页数
+     * */
+    PageBean findStudentByPage(int currentPage) throws SQLException;
 }

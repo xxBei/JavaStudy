@@ -96,8 +96,8 @@
         <div class="lineBox">
             <div class="colsBox">性别</div>
             <div class="colsBox">
-                <input type="radio" name="gender" value="0" class="input2">男
-                <input type="radio" name="gender" value="1" class="input2">女
+                <input type="radio" name="gender" value="1" class="input2">男
+                <input type="radio" name="gender" value="0" class="input2">女
             </div>
         </div>
         <div class="lineBox">

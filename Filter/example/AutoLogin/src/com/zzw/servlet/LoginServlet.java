@@ -32,6 +32,15 @@ public class LoginServlet extends HttpServlet {
             UserDao dao = new UserImpl();
             UserBean userBean = dao.login(user);
             if(userBean!=null){
+
+                if("on".equals(autoBtn)){
+                    Cookie cookie = new Cookie("auto_login",username+"#user#"+password);
+                    cookie.setMaxAge(60*60*24*3);
+                    cookie.setPath(request.getContextPath());
+                    response.addCookie(cookie);
+                }
+
+
                 request.getSession().setAttribute("userBean", userBean);
                 response.sendRedirect("index.jsp");
             }else{

@@ -17,4 +17,5 @@ public final class GoogleCar implements ICar{
     public void stop() {
         System.out.println("汽车停车模式开启");
     }
+
 }

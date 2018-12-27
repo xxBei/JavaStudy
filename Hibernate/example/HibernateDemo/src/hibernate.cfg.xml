@@ -19,7 +19,7 @@
         <!-- 格式化SQL -->
         <property name="hibernate.format_sql">true</property>
         
-        <!-- 找到映射配置 -->
+        <!-- 找到映射配置位置 -->
         <mapping resource="com/zzw/hibernate/demo1/Customer.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

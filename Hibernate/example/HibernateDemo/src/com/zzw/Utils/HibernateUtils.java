@@ -24,7 +24,7 @@ public class HibernateUtils {
         return sf.openSession();
     }
 
-    //
+    //线程绑定session
     public static Session getCurrentSession(){
         return sf.getCurrentSession();
     }

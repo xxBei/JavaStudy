@@ -19,7 +19,7 @@
                 set标签
                     name    : 多的一方的对象集合的属性名称
          -->
-        <set name="linkmans">
+        <set name="linkmans" cascade="save-update">
             <!--
                 key标签
                     column  : 多的一方的外键名称

@@ -42,5 +42,7 @@
         <!-- 找到映射配置位置 -->
         <mapping resource="com/zzw/domin/Customer.hbm.xml"/>
         <mapping resource="com/zzw/domin/Linkman.hbm.xml"/>
+        <mapping resource="com/zzw/domin2/Stundent.hbm.xml"/>
+        <mapping resource="com/zzw/domin2/Teacher.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

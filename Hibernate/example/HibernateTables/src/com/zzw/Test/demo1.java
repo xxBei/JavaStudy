@@ -177,4 +177,29 @@ public class demo1 {
 
         transaction.commit();
     }
+
+    @Test
+    /**
+     * 2号客户的联系人变成1号联系人
+     * */
+    public void demo7(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        Customer customer = session.get(Customer.class,2l);
+        Linkman linkman = session.get(Linkman.class,1l);
+
+        /** 双向的关联
+         * 2号客户的联系人变成1号联系人
+         *  <set name="linkmans" cascade="save-update,delete" inverse="true">
+        */
+        customer.getLinkmans().add(linkman);
+        linkman.setCustomer(customer);
+
+
+
+
+
+        transaction.commit();
+    }
 }

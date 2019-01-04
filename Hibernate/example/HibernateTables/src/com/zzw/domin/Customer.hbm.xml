@@ -18,8 +18,11 @@
         <!--
                 set标签
                     name    : 多的一方的对象集合的属性名称
+                    cascade : 级联,save-update:保存或更新 delete:级联删除
+                    inverse : true,表示放弃外键维护权
+                        在这里面inverse写在一的一方,由多的一方去管理
          -->
-        <set name="linkmans" cascade="save-update,delete">
+        <set name="linkmans" cascade="save-update,delete" inverse="true">
             <!--
                 key标签
                     column  : 多的一方的外键名称

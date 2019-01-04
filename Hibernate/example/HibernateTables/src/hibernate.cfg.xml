@@ -44,5 +44,7 @@
         <mapping resource="com/zzw/domin/Linkman.hbm.xml"/>
         <mapping resource="com/zzw/domin2/Stundent.hbm.xml"/>
         <mapping resource="com/zzw/domin2/Teacher.hbm.xml"/>
+        <mapping resource="com/zzw/domin/User.hbm.xml"/>
+        <mapping resource="com/zzw/domin/Role.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

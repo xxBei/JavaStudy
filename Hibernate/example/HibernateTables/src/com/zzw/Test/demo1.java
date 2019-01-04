@@ -138,4 +138,43 @@ public class demo1 {
 
         transaction.commit();
     }
+
+    @Test
+    /**
+     * 删除客户级联删除联系人
+     *  删除的主体是客户,所以需要在Customer.hbm.xml中配置
+     * <set name="linkmans" cascade="save-update,delete">
+     *     或者
+     * <set name="linkmans" cascade="delete">
+     * 删除的时候需要先去查询然后去删除
+     * */
+    public void demo5(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        Customer customer = session.get(Customer.class,2l);
+        session.delete(customer);
+
+
+        transaction.commit();
+    }
+
+    @Test
+    /**
+     * 删除联系人级联删除客户(不常用)
+     *  删除的主体是联系人,所以需要在Linkman.hbm.xml中配置
+     * <many-to-one name="customer" cascade="save-update,delete" ...></many-to-one>
+     *     或者
+     * <many-to-one name="customer" cascade="delete" ...></many-to-one>
+     * 删除的时候需要先去查询然后去删除
+     * */
+    public void demo6(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        Linkman linkman = session.get(Linkman.class,1l);
+        session.delete(linkman);
+
+        transaction.commit();
+    }
 }

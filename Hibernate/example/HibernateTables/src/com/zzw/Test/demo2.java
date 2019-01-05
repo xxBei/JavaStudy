@@ -51,4 +51,79 @@ public class demo2 {
         transaction.commit();
     }
 
+    @Test
+    /**
+     * 删除用户级联删除角色（不常用）
+     * <set name="roles" table="sys_user_role" cascade="save-update,delete">
+     * */
+    public void test02(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+       User user = session.get(User.class,10l);
+       session.delete(user);
+
+        transaction.commit();
+    }
+
+    /**
+     * 删除角色级联删除用户
+     * <set name="users" table="sys_user_role" cascade="save-update,delete">
+     * */
+    @Test
+    public void Test05(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        Role role = session.get(Role.class,17l);
+        session.delete(role);
+
+        transaction.commit();
+
+    }
+
+    @Test
+    /**
+     * 保存用户级联保存角色
+     * <set name="roles" table="sys_user_role" cascade="save-update">
+     * */
+    public void test03(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        User user = new User();
+        user.setUser_name("刘武");
+
+        Role role = new Role();
+        role.setRole_name("诸葛亮");
+
+        //设置双向关系
+        user.getRoles().add(role);
+        role.getUsers().add(user);
+
+        session.save(user);
+
+        transaction.commit();
+    }
+
+    @Test
+    public void test04(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        User user = new User();
+        user.setUser_name("李玖");
+
+        Role role = new Role();
+        role.setRole_name("夏侯惇");
+
+        user.getRoles().add(role);
+        role.getUsers().add(user);
+
+        session.save(role);
+
+        transaction.commit();
+    }
+
+
 }

@@ -11,9 +11,9 @@
         <property name="role_memo"/>
 
         <!-- 被动选择的一方放弃外键维护权 -->
-        <set name="users" table="sys_user_role" inverse="true">
+        <set name="users" table="sys_user_role" cascade="save-update,delete" inverse="true">
             <key column="role_id"/>
-            <many-to-many column="user_id" class="com.zzw.domin.User"/>
+            <many-to-many class="com.zzw.domin.User" column="user_id"/>
         </set>
     </class>
 </hibernate-mapping>

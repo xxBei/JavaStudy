@@ -187,4 +187,36 @@ public class domo1 {
 
         transaction.commit();
     }
+
+    @Test
+    /**
+     * 分组统计查询:
+     * */
+    public void test08(){
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        //聚合函数的使用: count() max() min() avg() sum()
+        //uniqueResult()表示要唯一的结果
+        /*Object obj = session.createQuery("select count(*) from Customer ").uniqueResult();
+        System.out.println(obj);*/
+
+        //分组统计
+        /*List<Object[]> list =
+                session.createQuery("select cust_source,count(*) from Customer GROUP BY cust_source").list();*/
+
+        //分组统计,统计大于2的东西
+        Query query = session.createQuery("select cust_source,count(*) from Customer GROUP " +
+                "BY cust_source having count(*) >= ?0");
+
+        query.setParameter(0,2l);
+
+        List<Object[]> list = query.list();
+
+        for (Object[] objects : list){
+            System.out.println(Arrays.toString(objects));
+        }
+
+        transaction.commit();
+    }
 }

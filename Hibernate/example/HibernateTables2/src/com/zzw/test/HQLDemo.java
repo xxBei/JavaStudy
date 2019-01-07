@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * HQL:查询的测试类
  * */
-public class domo1 {
+public class HQLDemo {
 
     @Test
     /**

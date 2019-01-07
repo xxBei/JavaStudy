@@ -5,7 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <!-- 连接数据库的基本参数 -->
-        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql:///hibernatedemo?userSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF8&amp;serverTimezone=GMT</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>

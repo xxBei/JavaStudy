@@ -511,3 +511,25 @@ public void test05(){
     transaction.commit();
 }
 ```
+
+#### QBC的离线查询
+
+```java
+/**
+ * 离线条件查询
+ * */
+public void test08(){
+    DetachedCriteria detachedCriteria = DetachedCriteria.forClass(Customer.class);
+    detachedCriteria.add(Restrictions.like("cust_name","李%"));
+    Session session = HibernateUtils.getCurrentSession();
+    Transaction transaction = session.beginTransaction();
+
+    Criteria criteria = detachedCriteria.getExecutableCriteria(session);
+    List<Customer> list = criteria.list();
+    for(Customer customer : list){
+        System.out.println(customer);
+    }
+
+}
+```
+

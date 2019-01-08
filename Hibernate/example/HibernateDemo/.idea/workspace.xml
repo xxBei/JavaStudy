@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3159896-e8d0-4381-8523-82357de3c00a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HibernateTables2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateTables2/HIbernate查询方式.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateTables2/lib/log4j-core-2.11.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateTables2/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateTables2/lib/slf4j-nop-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateTables2/src/com/zzw/test/QBCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HibernateTables2/src/com/zzw/test/QBC_CriteriaDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernateTables2/.idea/libraries/antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateTables2/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HibernateTables2/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateTables2/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +29,7 @@
     <session id="852414654">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -265,7 +256,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546870492047" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546870581343" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.11.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />

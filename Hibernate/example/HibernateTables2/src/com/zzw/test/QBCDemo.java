@@ -3,8 +3,10 @@ package com.zzw.test;
 import com.zzw.Utils.HibernateUtils;
 import com.zzw.domain.Customer;
 import com.zzw.domain.LinkMan;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.DetachedCriteria;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 import org.hibernate.query.Query;
@@ -173,6 +175,9 @@ public class QBCDemo {
     }
 
     @Test
+    /**
+     * 查询多个字段
+     * */
     public void test07(){
         Session session = HibernateUtils.getCurrentSession();
         Transaction transaction = session.beginTransaction();
@@ -194,6 +199,44 @@ public class QBCDemo {
 
         transaction.commit();
     }
+
+    @Test
+    /**
+     * 离线条件查询
+     * */
+    public void test08(){
+        DetachedCriteria detachedCriteria = DetachedCriteria.forClass(Customer.class);
+        detachedCriteria.add(Restrictions.like("cust_name","李%"));
+        Session session = HibernateUtils.getCurrentSession();
+        Transaction transaction = session.beginTransaction();
+
+        Criteria criteria = detachedCriteria.getExecutableCriteria(session);
+        List<Customer> list = criteria.list();
+        for(Customer customer : list){
+            System.out.println(customer);
+        }
+
+    }
+
+    /**
+     * 交叉连接: 查询两个表所有信息
+     * SELECT * FROM cst_customer1,cst_linkman1;
+     *
+     * 内连接: 查询两个表有关联的共同数据
+     * 	显示内连接:
+     * 	SELECT * FROM cst_customer1 c INNER JOIN cst_linkman1 l ON c.cust_id = l.lkm_cust_id;
+     *
+     * 	隐式内连接:
+     * 	SELECT * FROM cst_customer1 c ,cst_linkman1 l WHERE c.cust_id = l.lkm_cust_id;
+     *
+     * 外连接:
+     * 	左外连接:不仅查出两个表中有关联的数据,还会将左边表中的数据也查出来
+     * 	SELECT * FROM cst_customer1 c LEFT OUTER JOIN cst_linkman1 l ON c.cust_id = l.lkm_cust_id;
+     *
+     * 	右外连接:不仅查出两个表中有关联的数据,还会将右边表中的数据也查出来
+     * 	SELECT * FROM cst_customer1 c RIGHT OUTER JOIN cst_linkman1 l ON c.cust_id = l.lkm_cust_id;
+     *
+     * */
 
 
 }

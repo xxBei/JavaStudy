@@ -229,7 +229,52 @@ public void test08(){
 }
 ```
 
+#### HQL多表连接
 
+```mysql
+
+交叉连接: 查询两个表所有信息
+SELECT * FROM cst_customer1,cst_linkman1;
+
+  内连接: 查询两个表有关联的共同数据
+      显示内连接:
+      SELECT * FROM cst_customer1 c INNER JOIN cst_linkman1 l ON c.cust_id = l.lkm_cust_id;
+ 
+      隐式内连接:
+      SELECT * FROM cst_customer1 c ,cst_linkman1 l WHERE c.cust_id = l.lkm_cust_id;
+ 
+  外连接:
+      左外连接:不仅查出两个表中有关联的数据,还会将左边表中的数据也查出来
+      SELECT * FROM cst_customer1 c LEFT OUTER JOIN cst_linkman1 l ON c.cust_id = l.lkm_cust_id;
+ 
+      右外连接:不仅查出两个表中有关联的数据,还会将右边表中的数据也查出来
+      SELECT * FROM cst_customer1 c RIGHT OUTER JOIN cst_linkman1 l ON c.cust_id = l.lkm_cust_id;
+```
+
+```java
+/**
+ *  HQL多表连接查询 -- 内连接
+ * */
+public void test09(){
+    Session session = HibernateUtils.getCurrentSession();
+    Transaction transaction = session.beginTransaction();
+
+    //HQL内连接：from Customer c inner join c.linkMans  会将查询结果复杂化
+    /*List<Object[]> list = session.createQuery("from Customer c inner join c.linkMans").list();
+    for(Object[] objects : list){
+        System.out.println(Arrays.toString(objects));
+    }*/
+
+    //HQL:迫切内连接  其实就是在普通的内连接inner join 后面加一个关键字 fetch
+    //fetch 作用就是通知hibernate ,将另一个对象的数据封装到该对象中
+    //作用就是通知hibernate ,将LinkMan对象的数据封装到Customer对象中
+    List<Customer> list = session.createQuery("select distinct c from Customer c inner join fetch c.linkMans").list();
+    for(Customer customer : list){
+        System.out.println(customer);
+    }
+    transaction.commit();
+}
+```
 
 ### <font color='red'> QBC检索</font>
 
@@ -530,6 +575,33 @@ public void test08(){
         System.out.println(customer);
     }
 
+}
+```
+
+### SQL查询
+
+```java
+/**
+ * 使用sql查询
+ * */
+public void test01(){
+    Session session = HibernateUtils.getCurrentSession();
+    Transaction transaction = session.beginTransaction();
+
+    /*NativeQuery sqlQuery = session.createSQLQuery("select * from cst_customer1");
+    List<Object[]> list =sqlQuery.list();
+    for(Object[] objects : list){
+        System.out.println(Arrays.toString(objects));
+    }*/
+
+    NativeQuery sqlQuery = session.createSQLQuery("select * from cst_customer1");
+    sqlQuery.addEntity(Customer.class);
+    List<Customer> list = sqlQuery.list();
+
+    for(Customer customer : list){
+        System.out.println(customer);
+    }
+    transaction.commit();
 }
 ```
 

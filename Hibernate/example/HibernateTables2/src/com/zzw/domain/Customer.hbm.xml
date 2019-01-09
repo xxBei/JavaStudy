@@ -3,7 +3,10 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="com.zzw.domain.Customer" table="cst_customer1">
+    <!--
+        lazy: 类的延迟加载  true: 表示开启类的延迟加载  false: 表示关闭类的延迟加载
+    -->
+    <class name="com.zzw.domain.Customer" table="cst_customer1" lazy="true">
         <id name="cust_id">
             <generator class="native"/>
         </id>

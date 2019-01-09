@@ -16,7 +16,13 @@
         <property name="lkm_position"/>
         <property name="lkm_memo"/>
 
-        <many-to-one name="customer" class="com.zzw.domain.Customer"
+        <!--
+            proxy的取值取决于另一端上的class里面lazy的值,
+            如果另一端的lazy="false" , 那么,proxy="false"
+            如果另一端的lazy="true" , 那么,proxy="true"
+            在这里面proxy取在于一的一方的lazy 也就是Customer.hbm.xml
+        -->
+        <many-to-one name="customer" fetch="join" lazy="proxy" class="com.zzw.domain.Customer"
                      column="lkm_cust_id"></many-to-one>
     </class>
 </hibernate-mapping>

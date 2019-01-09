@@ -22,7 +22,9 @@
             如果另一端的lazy="true" , 那么,proxy="true"
             在这里面proxy取在于一的一方的lazy 也就是Customer.hbm.xml
         -->
-        <many-to-one name="customer" fetch="join" lazy="proxy" class="com.zzw.domain.Customer"
+        <!--<many-to-one name="customer" fetch="join" lazy="proxy" class="com.zzw.domain.Customer"
+                     column="lkm_cust_id"></many-to-one>-->
+        <many-to-one name="customer" class="com.zzw.domain.Customer"
                      column="lkm_cust_id"></many-to-one>
     </class>
 </hibernate-mapping>

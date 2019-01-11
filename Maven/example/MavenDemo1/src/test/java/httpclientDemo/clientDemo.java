@@ -36,11 +36,15 @@ public class clientDemo {
 
             // 服务器响应状态行
             System.out.println(response.getStatusLine());
+            // 响应成功
             if(response.getStatusLine().getStatusCode() == 200){
+                //获取响应实体
                 HttpEntity entity = response.getEntity();
-
+                //创建文件
                 File file = new File("3.mp3");
+                //创建输出流
                 FileOutputStream fos = new FileOutputStream(file);
+                //输出文件
                 entity.writeTo(fos);
                 fos.flush();
                 fos.close();

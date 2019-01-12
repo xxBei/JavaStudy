@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.zzw.domain.LinkMan" table="cst_linkman1">
+        <id name="lkm_id">
+            <generator class="native"/>
+        </id>
+        <property name="lkm_name"/>
+        <property name="lkm_gender"/>
+        <property name="lkm_phone"/>
+        <property name="lkm_mobile"/>
+        <property name="lkm_email"/>
+        <property name="lkm_qq"/>
+        <property name="lkm_position"/>
+        <property name="lkm_memo"/>
+
+        <!--
+            proxy的取值取决于另一端上的class里面lazy的值,
+            如果另一端的lazy="false" , 那么,proxy="false"
+            如果另一端的lazy="true" , 那么,proxy="true"
+            在这里面proxy取在于一的一方的lazy 也就是Customer.hbm.xml
+        -->
+        <!--<many-to-one name="customer" fetch="join" lazy="proxy" class="com.zzw.domain.Customer"
+                     column="lkm_cust_id"></many-to-one>-->
+        <many-to-one name="customer" class="com.zzw.domain.Customer"
+                     column="lkm_cust_id"></many-to-one>
+    </class>
+</hibernate-mapping>

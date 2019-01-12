@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!--
+        lazy: 类的延迟加载  true: 表示开启类的延迟加载  false: 表示关闭类的延迟加载
+    -->
+    <class name="com.zzw.domain.Customer" table="cst_customer1" lazy="true" batch-size="4">
+        <id name="cust_id">
+            <generator class="native"/>
+        </id>
+        <property name="cust_name"/>
+        <property name="cust_source"/>
+        <property name="cust_industry"/>
+        <property name="cust_level"/>
+        <property name="cust_phone"/>
+        <property name="cust_mobile"/>
+
+        <!--<set name="linkMans" fetch="subselect" lazy="false">-->
+        <!--
+            batch-size="4" 用于批量抓取 可以优化代码,4表示查询的数据有4条
+        -->
+        <set name="linkMans" batch-size="4">
+            <key column="lkm_cust_id"/>
+            <one-to-many class="com.zzw.domain.LinkMan"></one-to-many>
+        </set>
+    </class>
+</hibernate-mapping>

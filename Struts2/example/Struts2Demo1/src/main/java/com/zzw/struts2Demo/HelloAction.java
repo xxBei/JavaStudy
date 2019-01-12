@@ -12,6 +12,6 @@ public class HelloAction {
     public String execute(){
 
         System.out.println("helloAction被执行了");
-        return null;
+        return "success";
     }
 }

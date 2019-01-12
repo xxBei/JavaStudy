@@ -18,7 +18,11 @@
             class: 要访问的这个类的全路径
         -->
         <action name="hello" class="com.zzw.struts2Demo.HelloAction">
-
+            <!-- Struts2的跳转 -->
+            <!--
+                name: success 表示成功跳转到哪个页面
+            -->
+            <result name="success">/demo1/success1.jsp</result>
         </action>
     </package>
 </struts>

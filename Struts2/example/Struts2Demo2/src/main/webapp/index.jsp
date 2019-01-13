@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: zBei
-  Date: 2019/1/13
-  Time: 19:24
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -12,7 +5,16 @@
 </head>
 <body>
 <h1>
-    <a href="hello.action">点击跳转</a>
+    <a href="hello1.action">Action手写实现</a>
+</h1>
+<h1>
+    <a href="hello2.action">实现Action接口</a>
+</h1>
+<h1>
+    <a href="hello3.action">继承ActionSupport(推荐使用)</a>
+</h1>
+<h1>
+    <a href="methodDemo/method.jsp">Action的访问:method</a>
 </h1>
 </body>
 </html>

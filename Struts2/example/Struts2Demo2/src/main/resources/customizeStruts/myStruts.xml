@@ -4,7 +4,13 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="demo1" extends="struts-default" namespace="/">
-        <action name="hello" class="com.zzw.demo1.HelloAction" >
+        <action name="hello1" class="com.zzw.demo1.HelloAction" >
+            <result name="success">success.jsp</result>
+        </action>
+        <action name="hello2" class="com.zzw.demo1.Hello2Action" >
+            <result name="success">success.jsp</result>
+        </action>
+        <action name="hello3" class="com.zzw.demo1.Hello3Action">
             <result name="success">success.jsp</result>
         </action>
     </package>

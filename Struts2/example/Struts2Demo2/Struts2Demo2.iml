@@ -7,7 +7,8 @@
           <fileset id="s2fileset" name="My Fileset " removed="false">
             <file>jar://E:/develop/Maven/repository/org/apache/struts/struts2-core/2.5.18/struts2-core-2.5.18.jar!/struts-default.xml</file>
             <file>file://$MODULE_DIR$/src/main/resources/struts.xml</file>
-            <file>file://$MODULE_DIR$/src/main/resources/userStruts/myStruts.xml</file>
+            <file>file://$MODULE_DIR$/src/main/resources/customizeStruts/myStruts.xml</file>
+            <file>file://$MODULE_DIR$/src/main/resources/customizeStruts/UserStruts.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>

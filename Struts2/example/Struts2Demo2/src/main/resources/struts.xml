@@ -10,5 +10,6 @@
         include : 用于引用自定义Struts配置,适用于多人开发时,各自配置各自的Struts文件
                     include可以引用多个自定义struts.xml文件
     -->
-    <include file="userStruts/myStruts.xml"></include>
+    <include file="customizeStruts/myStruts.xml"></include>
+    <include file="customizeStruts/UserStruts.xml"></include>
 </struts>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="userDemo" extends="struts-default" namespace="/">
+        <!--
+            使用method方法访问Action
+                name="userFind"         : 表示要跳转的Action的名称
+                class="...UserAction"   : 表示Action所对应的类
+                method="find"           : 表示调用UserAction中的find方法
+        -->
+        <action name="userFind" class="com.zzw.methodDemo.UserAction" method="find"></action>
+        <action name="userUpdate" class="com.zzw.methodDemo.UserAction" method="update"></action>
+        <action name="userDelete" class="com.zzw.methodDemo.UserAction" method="delete"></action>
+        <action name="userSave" class="com.zzw.methodDemo.UserAction" method="save"></action>
+    </package>
+</struts>

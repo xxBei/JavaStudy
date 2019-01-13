@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!--struts2为了管理Action的配置,通过包来进行管理-->
+    <!-- 配置完struts.xml还需要配置web.xml里面的过滤器 -->
+    <!-- 配置Struts2的包=============== -->
+    <!--
+        name: 可以随便起 ,但是一个配置文件中不能出现name一样的
+        extends: 只有继承了struts-defalut才可以使用Struts2的一些基本操作
+        namespace:
+    -->
+    <package name="demo1" extends="struts-default" namespace="/">
+        <!-- 配置Action================ -->
+        <!--
+            name:  要访问的路径名
+            class: 要访问的这个类的全路径
+        -->
+        <action name="hello" class="com.zzw.struts2Demo.HelloAction">
+            <!-- Struts2的跳转 -->
+            <!--
+                name: success 表示成功跳转到哪个页面
+            -->
+            <result name="success">/demo1/success1.jsp</result>
+        </action>
+    </package>
+</struts>

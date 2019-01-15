@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!--配置Struts2的常量 将后缀改为action,也可以改为其他的,例如abc-->
+    <constant name="struts.action.extension" value="action"></constant>
+    <!--<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>-->
+
+
+    <!--
+        include : 用于引用自定义Struts配置,适用于多人开发时,各自配置各自的Struts文件
+                    include可以引用多个自定义struts.xml文件
+    -->
+    <include file="customizeStruts/myStruts.xml"></include>
+    <include file="customizeStruts/UserStruts.xml"></include>
+</struts>

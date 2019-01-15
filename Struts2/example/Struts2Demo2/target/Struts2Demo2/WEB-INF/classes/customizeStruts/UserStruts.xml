@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+
+    <!--开启动态访问-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+
+    <!-- 动态方法除了开启常量外,还需要在package中填写: strict-method-invocation="false"-->
+    <package name="userDemo" extends="struts-default" namespace="/" strict-method-invocation="false">
+        <!--
+            使用method方法访问Action
+                name="userFind"         : 表示要跳转的Action的名称
+                class="...UserAction"   : 表示Action所对应的类
+                method="find"           : 表示调用UserAction中的find方法
+        -->
+        <action name="userFind" class="com.zzw.methodDemo.UserAction" method="find"></action>
+        <action name="userUpdate" class="com.zzw.methodDemo.UserAction" method="update"></action>
+        <action name="userDelete" class="com.zzw.methodDemo.UserAction" method="delete"></action>
+        <action name="userSave" class="com.zzw.methodDemo.UserAction" method="save"></action>
+
+        <!--
+            使用通配符访问Action  可以减少action的语句
+            *表示method.jsp中prodect_后面所对应的词
+            {1} 表示前面对应的是什么词,后面显示什么词
+        -->
+        <action name="product_*" class="com.zzw.methodDemo.ProductAction" method="{1}">
+            <!-- struts2.5 版本以后, 为了提升安全性，添加了 allowed-method 这么个玩意。只有配置了才能使用通配符,以下两种都是配置的方法 -->
+            
+            <allowed-methods>regex:.*</allowed-methods>
+            <!-- 需要填写要访问哪些方法 -->
+            <!--<allowed-methods>find,update,delete,save</allowed-methods>-->
+        </action>
+
+        <!-- 使用动态方法访问Action -->
+        <action name="customer" class="com.zzw.methodDemo.CustomerAction"></action>
+    </package>
+</struts>

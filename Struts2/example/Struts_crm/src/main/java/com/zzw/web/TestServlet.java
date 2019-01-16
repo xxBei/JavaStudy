@@ -15,11 +15,8 @@ public class TestServlet extends HttpServlet {
         String name = req.getParameter("name");
         req.getParameter("name");
         if(name.equals("zbei")){
-            System.out.println("访问成功");
-            req.setAttribute("t","This is a Ajax Test!");
-            //resp.getWriter().write("This is a Ajax Test!");
-            //req.getRequestDispatcher("index.jsp").forward(req, resp);
-            req.getRequestDispatcher("test.jsp").forward(req, resp);
+            System.out.println("ajax访问成功");
+            req.getRequestDispatcher("cst_list.jsp").forward(req, resp);
         }
     }
 

@@ -129,12 +129,7 @@
             }
         %>
     </div>
-    <div class="pageBox">
-        <a href="#">上一页</a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">下一页</a>
-    </div>
+
     <script src="js/myScript.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="2f9ddf63-74fa-4eae-97cf-bc128e7b7045">
+      <imported>true</imported>
+      <configured-by-url>true</configured-by-url>
+      <remarks>Hibernate
+
+E:/WeStudy/Java/Struts2/example/Struts2_crm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql:///struts_crm?userSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF8&amp;serverTimezone=GMT</jdbc-url>
+    </data-source>
+  </component>
+</project>

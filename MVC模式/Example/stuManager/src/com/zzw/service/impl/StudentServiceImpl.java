@@ -74,7 +74,6 @@ public class StudentServiceImpl implements StudentService {
         int pageSize = StudentDao.PAGE_SIZE;
         pageBean.setTotalPage(count % pageSize == 0 ? count / pageSize :
                 (count / pageSize)+1);
-
         return pageBean;
     }
 }

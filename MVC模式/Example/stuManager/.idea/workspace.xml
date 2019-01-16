@@ -7,39 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80850502-cbad-4496-874d-19dfdb19be80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/artifacts/AutoLogin_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/libraries/commons_dbutils_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/libraries/junit_jupiter_api_5_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/libraries/mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/libraries/standard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/AutoLogin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/src/com/zzw/Utils/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/src/com/zzw/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/src/com/zzw/dao/impl/userImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/src/com/zzw/domain/UserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/src/com/zzw/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/commons-pool2-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/junit-jupiter-api-5.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/junit-platform-commons-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/css/myStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Filter/example/AutoLogin/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/.idea/libraries/apache_tomcat_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/java/com/zzw/web/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/web/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stuManager_war_exploded/stuList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stuManager_war_exploded/stuList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzw/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzw/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2Demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2Demo2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2Demo2/Struts2Demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2Demo2/Struts2Demo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2Demo2/target/Struts2Demo2/WEB-INF/classes/customizeStruts/UserStruts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2Demo2/target/Struts2Demo2/WEB-INF/classes/customizeStruts/UserStruts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/Struts2_crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/Struts2_crm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/java/com/zzw/Utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/java/com/zzw/Utils/HibernateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/web/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts2_crm/src/main/webapp/web/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,9 +43,11 @@
     <session id="-1165445803">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.31" value="4" />
@@ -68,34 +57,34 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="188" />
+          <entry key="java" value="189" />
           <entry key="js" value="3" />
           <entry key="jsp" value="40" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="188" />
+          <entry key="JAVA" value="189" />
           <entry key="JSP" value="40" />
           <entry key="JavaScript" value="3" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="324" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="7068" />
+          <entry key="java" value="7127" />
           <entry key="js" value="213" />
           <entry key="jsp" value="4200" />
           <entry key="txt" value="185" />
@@ -105,7 +94,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="324" />
-          <entry key="JAVA" value="7068" />
+          <entry key="JAVA" value="7127" />
           <entry key="JSP" value="4200" />
           <entry key="JavaScript" value="213" />
           <entry key="PLAIN_TEXT" value="193" />
@@ -119,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/stuList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
+            <state relative-caret-position="2880">
+              <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -137,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="192">
               <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
@@ -147,22 +136,30 @@
         <entry file="file://$PROJECT_DIR$/src/com/zzw/Utils/JDBCUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/dao/impl/StudentDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <folding>
+                <element signature="method#insertStuInfo#0;class#StudentDaoImpl#0" />
+                <element signature="method#updateStu#0;class#StudentDaoImpl#0" />
+                <element signature="method#deleteStudent#0;class#StudentDaoImpl#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zzw/dao/impl/StudentDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
-              <folding>
-                <element signature="method#findOther#0;class#StudentDaoImpl#0" />
-                <element signature="method#insertStuInfo#0;class#StudentDaoImpl#0" />
-                <element signature="method#updateStu#0;class#StudentDaoImpl#0" />
-                <element signature="method#deleteStudent#0;class#StudentDaoImpl#0" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -215,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/com/zzw/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/domain/PageBean.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/com/zzw/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/dao/impl/StudentDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/stuListPage.jsp" />
         <option value="$PROJECT_DIR$/src/com/zzw/servlet/StudentPageList.java" />
@@ -224,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/com/zzw/servlet/StudentDeleteServlet.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/servlet/StudentUpdateServlet.java" />
         <option value="$PROJECT_DIR$/web/stuList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/zzw/service/impl/StudentServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -255,7 +252,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +290,21 @@
               <item name="stuManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stuManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stuManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stuManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stuManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,12 +320,19 @@
             </path>
             <path>
               <item name="stuManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stuManager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stuManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -322,12 +340,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545230593744" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/junit-platform-commons-1.3.2.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547627138398" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -555,6 +573,8 @@
       <workItem from="1544788476340" duration="1461000" />
       <workItem from="1544867254256" duration="7409000" />
       <workItem from="1545227469903" duration="2875000" />
+      <workItem from="1547624640201" duration="2474000" />
+      <workItem from="1547643173387" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="对DBUtils的增删改查的分析">
       <created>1544279844961</created>
@@ -725,13 +745,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65400000" />
+    <option name="totallyTimeSpent" value="68265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4923077" visible="true" weight="0.19772118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4923077" visible="true" weight="0.20308311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -764,7 +784,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4923077" visible="true" weight="0.19504021" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4923077" visible="true" weight="0.20040214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -774,7 +794,7 @@
       <window_info id="Web" order="7" sideWeight="0.50769234" side_tool="true" weight="0.19504021" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.4909091" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.4909091" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -785,7 +805,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32867134" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32867134" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32867134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -845,13 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -948,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/stuUpdate.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -1027,22 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stuList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="130" column="10" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/Utils/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        <state relative-caret-position="2880">
+          <caret line="120" column="62" selection-start-line="120" selection-start-column="62" selection-end-line="120" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1053,16 +1045,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/Utils/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/dao/impl/StudentDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+        <state relative-caret-position="528">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding>
-            <element signature="method#findOther#0;class#StudentDaoImpl#0" />
             <element signature="method#insertStuInfo#0;class#StudentDaoImpl#0" />
             <element signature="method#updateStu#0;class#StudentDaoImpl#0" />
             <element signature="method#deleteStudent#0;class#StudentDaoImpl#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1120,7 +1139,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>stuManager</last-edited>
+          <last-edited>Web|stuManager</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

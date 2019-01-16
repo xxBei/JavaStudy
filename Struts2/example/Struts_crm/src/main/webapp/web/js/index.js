@@ -29,14 +29,14 @@ function cstList() {
         success:function (result) {//请求成功时执行的函数
             $(".rightCore").html(result);//改变div的内容
         },
-        error:function () {
+        error:function () {//请求失败时执行的函数
             $(".rightCore").html("加载失败");
         }
     });*/
 
     $.ajax({
         type:"post",
-        url:"TestServlet1",
+        url:"TestServlet",
         data:{
             "name":"zbei"
         },

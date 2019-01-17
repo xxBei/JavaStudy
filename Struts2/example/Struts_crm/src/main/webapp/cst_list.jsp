@@ -15,18 +15,18 @@
     <div class="listTitle">
         <ul>
             <li class="cst_TitleLi">客户名称</li>
-            <li class="cst_TitleLi">客户级别</li>
             <li class="cst_TitleLi">客户来源</li>
             <li class="cst_TitleLi">客户所属行业</li>
+            <li class="cst_TitleLi">客户级别</li>
             <li class="cst_TitleLi">电话</li>
             <li class="cst_TitleLi">手机</li>
             <li class="cst_TitleLi">操作</li>
         </ul>
         <ul class="listTitle_ul2">
             <li class="cst_TitleLi2">zbei</li>
-            <li class="cst_TitleLi2">经理</li>
             <li class="cst_TitleLi2">微信推广</li>
             <li class="cst_TitleLi2">IT</li>
+            <li class="cst_TitleLi2">经理</li>
             <li class="cst_TitleLi2">13100001234</li>
             <li class="cst_TitleLi2">13211114321</li>
             <li class="cst_TitleLi2">

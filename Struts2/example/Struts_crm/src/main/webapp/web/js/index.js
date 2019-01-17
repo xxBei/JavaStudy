@@ -22,9 +22,23 @@ for(var i=0;i<leftMenu.length;i++){
 var rightCore = document.getElementsByClassName('rightCore')[0];
 /*jquery实现Ajax*/
 function cstList() {
+    $.ajax({
+       type:"post",
+       // url:"/CustomerListServlet",//通过servlet跳转获取数据
+        url:"customer_find.action",//通过Struts中的action跳转获取数据
+        success:function (result) {
+            $(".rightCore").html(result);
+        },
+        error:function () {
+            $(".rightCore").html("加载失败");
+        }
+    });
+
+
+
     /*$.ajax({
         type:"get",
-        url:"TestServlet?name=zbei",//要访问的路径
+        url:"CustomerListServlet?name=zbei",//要访问的路径
         async:true,//开启异步加载
         success:function (result) {//请求成功时执行的函数
             $(".rightCore").html(result);//改变div的内容
@@ -34,9 +48,9 @@ function cstList() {
         }
     });*/
 
-    $.ajax({
+    /*$.ajax({
         type:"post",
-        url:"TestServlet",
+        url:"CustomerListServlet",
         data:{
             "name":"zbei"
         },
@@ -46,5 +60,5 @@ function cstList() {
         error:function () {
             $(".rightCore").html("加载失败");
         }
-    });
+    });*/
 }

@@ -22,5 +22,23 @@
 <a href="customer!update.action">修改客户</a><br>
 <a href="customer!delete.action">删除客户</a><br>
 <a href="customer!save.action">保存客户</a><br>
+
+<button onclick="btn()">jQuery Ajax</button>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+    function btn() {
+        $.ajax({
+           type:"post",
+           url:"product_find.action",
+           success:function () {
+               console.log("成功");
+           },
+            error:function () {
+                console.log("失败");
+            }
+        });
+    }
+</script>
+
 </body>
 </html>

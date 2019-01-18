@@ -1,0 +1,84 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.mainContent{
+    width: 100%;
+    min-height: 745px;
+    background: #e7e7e7;
+}
+.leftContent{
+    width: 220px;
+    min-height: 745px;
+    background: #20222a;
+    float: left;
+}
+.rightContent{
+    float: left;
+    min-width: 1298px;
+    min-height: 745px;
+}
+
+/*左菜单*/
+.humanText{
+    color: #e7e7e7;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0 20px 0;
+}
+.leftMenu{
+    color: #e7e7e7;
+    margin: 0 0 5px 30px;
+    cursor: pointer;
+    height: 35px;
+    line-height: 35px;
+}
+.leftMenuUl{
+    margin: 7px 0 7px 0;
+}
+.leftMenuUl li{
+    height: 25px;
+    font-size: 13px;
+    color: #e7e7e7;
+    padding-left: 50px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.leftMenuUl li:hover{
+    color: aqua;
+}
+.noneUl{
+    display: none;
+}
+
+/*右侧主要内容*/
+.rightTop{
+    width: 100%;
+    height: 60px;
+    background: #f9f9f9;
+}
+.rightUser{
+    text-align: left;
+    padding: 10px 0 0 13px;
+    font-size: 15px;
+    color: #484848;
+}
+.rightOperating{
+    font-size: 13px;
+    margin:5px 0 0 50px;
+}
+.rightOperating a{
+    color: #a93436;
+    margin-right: 10px;
+}
+.rightCore{
+    width: 1275px;
+    min-height: 650px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    margin: 10px 12px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!--配置Struts2的常量 将后缀改为action,也可以改为其他的,例如abc-->
+    <constant name="struts.action.extension" value="action"/>
+
+    <include file="Struts_Customer/struts_customer.xml"/>
+</struts>

@@ -9,9 +9,11 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Struts2访问Servlet的API</h1>
+    <h3>方式一:完全解耦合的方式</h3>
     <form action="requestDemo1.action" method="get">
-        <input name="username" type="text"><br>
-        <input name="password" type="password"><br>
+        姓名:<input name="username" type="text"><br>
+        密码:<input name="password" type="password"><br>
         <input type="submit" value="登录">
     </form>
 </body>

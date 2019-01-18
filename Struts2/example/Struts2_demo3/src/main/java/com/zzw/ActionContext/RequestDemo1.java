@@ -21,6 +21,14 @@ public class RequestDemo1 extends ActionSupport {
             System.out.println("key:"+key+"------"+"value:"+parameters.get(key));
         }
 
-        return NONE;
+        /**
+         * 二、向域对象存储数据
+         * */
+
+        context.put("reqName","reqValue");//相当于request.setAttribute();
+        context.getSession().put("sessName","sessValue");//session.setAttribute();
+        context.getApplication().put("appName","appValue");//application.setAttribute();
+
+        return SUCCESS;
     }
 }

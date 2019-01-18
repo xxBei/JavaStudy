@@ -7,37 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc2b53e3-549b-411c-8905-1b11e3e9ffc2" name="Default Changelist" comment="Struts2访问Action,使用method,通配符,动态方法案例">
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/service/Impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/web/CustomerListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/web/TestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/web/action/CustomerAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/Struts_Customer/struts_customer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/test/java/CustomerTest/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/Utils/HibernateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/domain/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/domain/LinkMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/BatchCrawlingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/HQLDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/QBCDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/QBC_CriteriaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/SQLDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/lazyAndFetchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/lazyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables2/out/production/HibernateTables2/com/zzw/test/mToOneFetchLazy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/web/TestServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/cst_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/cst_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/css/cst_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/css/cst_list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Struts2_demo3/src/main/webapp/actionContext.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts2_demo3/src/main/java/com/zzw/ActionContext/RequestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_demo3/src/main/java/com/zzw/ActionContext/RequestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts2_demo3/src/main/resources/myStruts/actionContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_demo3/src/main/resources/myStruts/actionContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts2_demo3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_demo3/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,14 +26,14 @@
     <session id="730470949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,7 +45,7 @@
           <entry key="jsp" value="13" />
           <entry key="log" value="3" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="31" />
+          <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -83,7 +58,7 @@
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -108,11 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -121,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -129,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/customizeStruts/myStruts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="384">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -139,7 +114,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/methodDemo/CustomerAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/customizeStruts/UserStruts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -220,7 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,7 +280,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -429,6 +413,7 @@
       <workItem from="1547553321251" duration="157000" />
       <workItem from="1547602678152" duration="48000" />
       <workItem from="1547708394995" duration="3045000" />
+      <workItem from="1547805888521" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="struts配置文件中的include使用">
       <created>1547379461182</created>
@@ -518,13 +503,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20066000" />
+    <option name="totallyTimeSpent" value="20133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -716,7 +701,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/methodDemo/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/customizeStruts/myStruts.xml">
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -727,37 +741,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/customizeStruts/UserStruts.xml">
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/customizeStruts/myStruts.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/methodDemo/CustomerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="411">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>

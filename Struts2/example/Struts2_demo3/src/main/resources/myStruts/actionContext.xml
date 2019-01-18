@@ -10,5 +10,8 @@
         <action name="requestDemo2" class="com.zzw.ActionContext.RequestDemo2">
             <result name="success">actionContext.jsp</result>
         </action>
+        <action name="requestDemo3" class="com.zzw.ActionContext.RequestDemo3">
+            <result name="success">actionContext.jsp</result>
+        </action>
     </package>
 </struts>

@@ -11,6 +11,8 @@
         <action name="userAction2" class="com.zzw.fengzhuang.UserAction2">
 
         </action>
+        <action name="userAction3" class="com.zzw.fengzhuang.UserAction3">
 
+        </action>
     </package>
 </struts>

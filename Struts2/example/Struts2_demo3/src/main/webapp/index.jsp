@@ -30,6 +30,7 @@
     </form>
 
     <h3><a href="UserDemo/userFZ1.jsp">封住数据方式一:属性驱动-提供set方法的方式</a></h3>
-    <h3><a href="UserDemo/userFZ2.jsp">封住数据方式一:属性驱动-提供set方法的方式</a></h3>
+    <h3><a href="UserDemo/userFZ2.jsp">封住数据方式二:属性驱动-页面提供表达式方法</a></h3>
+    <h3><a href="UserDemo/userFZ3.jsp">封住数据方式三:模型驱动-模型驱动方法</a></h3>
 </body>
 </html>

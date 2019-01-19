@@ -14,4 +14,10 @@ public class CustomerServiceImpl implements CustomerService {
         CustomerDao customerDao = new CustomerDaoImpl();
         return customerDao.find();
     }
+
+    @Override
+    public void save(Customer customer) {
+        CustomerDao customerDao = new CustomerDaoImpl();
+        customerDao.save(customer);
+    }
 }

@@ -20,19 +20,44 @@ for(var i=0;i<leftMenu.length;i++){
 * 右侧菜单
 **/
 var rightCore = document.getElementsByClassName('rightCore')[0];
+
 /*jquery实现Ajax*/
 function cstList() {
     $.ajax({
-       type:"post",
-       // url:"/CustomerListServlet",//通过servlet跳转获取数据
-        url:"customer_find.action",//通过Struts中的action跳转获取数据
-        success:function (result) {
+        type: "post",
+        // url:"/CustomerListServlet",//通过servlet跳转获取数据
+        url: "customer_find.action",//通过Struts中的action跳转获取数据
+        success: function (result) {
             $(".rightCore").html(result);
         },
+        error: function () {
+            $(".rightCore").html("加载失败");
+        }
+    });
+}
+function addCustomer() {
+    console.log(111);
+    $.ajax({
+       type:"post",
+       url:"customer_comeUI.action",
+       success:function (result) {
+           $(".rightCore").html(result);
+       },
         error:function () {
             $(".rightCore").html("加载失败");
         }
     });
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,7 @@
 package com.zzw.web.action;
 
 import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.domain.Customer;
 import com.zzw.service.CustomerService;
 import com.zzw.service.Impl.CustomerServiceImpl;
@@ -8,7 +9,15 @@ import org.apache.struts2.ServletActionContext;
 
 import java.util.List;
 
-public class CustomerAction extends ActionSupport {
+public class CustomerAction extends ActionSupport implements ModelDriven<Customer> {
+
+    private Customer customer = new Customer();
+
+    @Override
+    public Customer getModel() {
+        return customer;
+    }
+
 
     public String find(){
         System.out.println("成功");
@@ -19,5 +28,18 @@ public class CustomerAction extends ActionSupport {
         ServletActionContext.getRequest().setAttribute("list",list);
         return "findSuccess";
     }
+
+    public String comeUI(){
+        System.out.println("跳转客户添加页面");
+        return "comeSuccess";
+    }
+
+    public String saveUI(){
+        System.out.println(customer.getCust_name());
+        CustomerService service = new CustomerServiceImpl();
+        service.save(customer);
+        return "saveSuccess";
+    }
+
 
 }

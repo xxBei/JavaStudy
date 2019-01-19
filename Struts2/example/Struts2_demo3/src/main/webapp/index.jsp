@@ -1,4 +1,5 @@
 <%@page contentType="text/html; charset=utf-8" language="java" %>
+<%@taglib uri="/struts-tags" prefix="s" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,6 +10,8 @@
     <title>Document</title>
 </head>
 <body>
+    <%--用于将错误信息显示在页面--%>
+    <s:fielderror/>
     <h1>Struts2访问Servlet的API</h1>
     <h3>方式一:完全解耦合的方式</h3>
     <form action="requestDemo1.action" method="get">

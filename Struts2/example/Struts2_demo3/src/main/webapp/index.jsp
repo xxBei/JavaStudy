@@ -37,5 +37,6 @@
     <h3><a href="UserDemo/userFZ3.jsp">封装数据方式三:模型驱动-模型驱动方法</a></h3>
     <br>
     <h3><a href="ProjectDemo/projectFZ1.jsp">复杂数据封装方式一:封装到List集合中</a></h3>
+    <h3><a href="ProjectDemo/projectFZ2.jsp">复杂数据封装方式二:封装到Map集合中</a></h3>
 </body>
 </html>

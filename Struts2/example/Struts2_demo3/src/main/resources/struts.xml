@@ -7,4 +7,5 @@
 
     <include file="myStruts/actionContext.xml"/>
     <include file="myStruts/userFx.xml"/>
+    <include file="myStruts/projectFx.xml"/>
 </struts>

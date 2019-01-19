@@ -7,7 +7,7 @@
 <head>
     <title>Document</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="web/css/cst_list.css">
+    <link rel="stylesheet" href="../web/css/cst_list.css">
 </head>
 <body>
     <div class="cstListTitle">

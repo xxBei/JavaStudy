@@ -4,8 +4,9 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="demo1" extends="struts-default" namespace="/">
-        <action name="customer_find" class="com.zzw.web.action.CustomerAction" method="find">
-            <result name="findSuccess">cst_list.jsp</result>
+        <action name="customer_*" class="com.zzw.web.action.CustomerAction" method="{1}">
+            <result name="findSuccess">/Customer/cst_list.jsp</result>
+            <allowed-methods>regex:.*</allowed-methods>
         </action>
     </package>
 </struts>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="demo3" extends="struts-default" namespace="/">
+        <global-results>
+            <!--
+                配置逻辑视图中的Input属性
+                如果在需要数字类型的文本框中输入的非数字则会调用input
+                将页面跳转到index.jsp页面
+            -->
+            <result name="input">/index.jsp</result>
+        </global-results>
+        <action name="projectAction1" class="com.zzw.fengzhuang.ProjectAction1">
+
+        </action>
+        <action name="projectAction2" class="com.zzw.fengzhuang.ProjectAction2">
+
+        </action>
+    </package>
+</struts>

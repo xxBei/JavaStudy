@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="demo1" extends="struts-default" namespace="/">
+        <!--全局结果页面,用于result中name一样的,跳转的网页一样的时候,需要全局页面-->
+        <global-results>
+            <result name="success">actionContext.jsp</result>
+        </global-results>
+
+        <action name="requestDemo1" class="com.zzw.ActionContext.RequestDemo1">
+
+        </action>
+        <action name="requestDemo2" class="com.zzw.ActionContext.RequestDemo2">
+
+        </action>
+        <action name="requestDemo3" class="com.zzw.ActionContext.RequestDemo3">
+            <!--这个是局部的,局部的优先级高于全局-->
+            <result name="success">actionContext.jsp</result>
+        </action>
+    </package>
+</struts>

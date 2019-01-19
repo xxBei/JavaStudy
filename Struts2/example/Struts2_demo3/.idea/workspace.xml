@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa317b2c-7b76-4c4c-a771-260f4e5781f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/fengzhuang/ProjectAction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ProjectDemo/projectFZ2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/myStruts/projectFx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/myStruts/projectFx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +24,7 @@
     <session id="1248591364">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.34" value="2" />
@@ -301,7 +297,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547908006260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547908040295" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -428,7 +424,7 @@
       <workItem from="1547803529150" duration="1404000" />
       <workItem from="1547813767089" duration="4744000" />
       <workItem from="1547859052068" duration="9181000" />
-      <workItem from="1547900314325" duration="4684000" />
+      <workItem from="1547900314325" duration="4768000" />
     </task>
     <task id="LOCAL-00001" summary="Struts2:ActionContext接收参数">
       <created>1547802048088</created>
@@ -528,11 +524,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547905617582</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Struts2:复杂数据类型的封装方式一:Map集合">
+      <created>1547907958856</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547907958856</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Struts2:复杂数据类型的封装方式一:Map集合">
+      <created>1547908019554</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547908019554</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23991000" />
+    <option name="totallyTimeSpent" value="24075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />

@@ -12,6 +12,7 @@
 </head>
 <body>
     <form method="post" action="userAction2.action">
+        <%--这里面的user是UserAction2中的User名,username必须和User类中的属性名一样--%>
         用户名: <input type="text" name="user.username"><br>
         密　码: <input type="password" name="user.password"><br>
         年　龄: <input type="text" name="user.age"><br>

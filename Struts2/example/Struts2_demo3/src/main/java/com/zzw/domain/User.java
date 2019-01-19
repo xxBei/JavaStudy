@@ -28,4 +28,24 @@ public class User {
     public void setSalary(Double salary) {
         this.salary = salary;
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public Double getSalary() {
+        return salary;
+    }
 }

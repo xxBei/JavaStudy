@@ -28,5 +28,8 @@
         密码:<input name="password" type="password"><br>
         <input type="submit" value="登录">
     </form>
+
+    <h3><a href="UserDemo/userFZ1.jsp">封住数据方式一:属性驱动-提供set方法的方式</a></h3>
+    <h3><a href="userFZ2.jsp">封住数据方式一:属性驱动-提供set方法的方式</a></h3>
 </body>
 </html>

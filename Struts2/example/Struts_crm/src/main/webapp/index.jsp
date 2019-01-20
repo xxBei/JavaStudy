@@ -51,7 +51,8 @@
                     href="javascript:0">安全退出</a></p>
         </div>
         <div class="rightCore">
-
+            <h2 class="right_welcome">欢迎来到客户管理系统</h2>
+            <h4>${customerAdd}</h4>
         </div>
     </div>
 </div>

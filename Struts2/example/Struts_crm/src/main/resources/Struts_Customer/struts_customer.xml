@@ -8,7 +8,8 @@
             <result name="findSuccess">/Customer/cst_list.jsp</result>
             <result name="comeSuccess">/Customer/cst_add.jsp</result>
             <!-- type="redirectAction":表示重定向到customer_find.action页面 -->
-            <result name="saveSuccess" type="redirectAction">customer_find.action</result>
+            <result name="saveSuccess">index.jsp</result>
+            <!--<result name="saveSuccess" type="redirectAction">customer_find.action</result>-->
             <allowed-methods>regex:.*</allowed-methods>
         </action>
     </package>

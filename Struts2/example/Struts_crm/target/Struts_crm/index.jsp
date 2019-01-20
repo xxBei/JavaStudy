@@ -12,7 +12,7 @@
         <p class="humanText">人力资源 - 功能菜单</p>
         <h4 class="leftMenu">客户管理</h4>
         <ul class="leftMenuUl noneUl">
-            <li>新增客户</li>
+            <li onclick="addCustomer()">新增客户</li>
             <li onclick="cstList()">客户列表</li>
         </ul>
         <h4 class="leftMenu">联系人管理</h4>
@@ -51,7 +51,8 @@
                     href="javascript:0">安全退出</a></p>
         </div>
         <div class="rightCore">
-
+            <h2 class="right_welcome">欢迎来到客户管理系统</h2>
+            <h4>${customerAdd}</h4>
         </div>
     </div>
 </div>

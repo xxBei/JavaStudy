@@ -7,6 +7,8 @@ import com.zzw.service.CustomerService;
 import com.zzw.service.Impl.CustomerServiceImpl;
 import org.apache.struts2.ServletActionContext;
 
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 public class CustomerAction extends ActionSupport implements ModelDriven<Customer> {
@@ -38,6 +40,9 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
         System.out.println(customer.getCust_name());
         CustomerService service = new CustomerServiceImpl();
         service.save(customer);
+        //利用Struts2中的ServletActionContext对象获取request
+        HttpServletRequest request = ServletActionContext.getRequest();
+        request.setAttribute("customerAdd","保存成功");
         return "saveSuccess";
     }
 

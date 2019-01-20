@@ -36,9 +36,9 @@
                 <li class="cst_TitleLi2">${customer.cust_phone}</li>
                 <li class="cst_TitleLi2">${customer.cust_mobile}</li>
                 <li class="cst_TitleLi2">
-                    <a href="javascript:;">修改</a>
+                    <button onclick="updateCst(${customer.cust_id})">修改</button>
                     &emsp;&emsp;
-                    <a href="javascript:;">删除</a>
+                    <button onclick="deleteCst(${customer.cust_id})">删除</button>
                 </li>
             </ul>
         </c:forEach>

@@ -36,17 +36,44 @@ function cstList() {
     });
 }
 function addCustomer() {
-    console.log(111);
     $.ajax({
-       type:"post",
-       url:"customer_comeUI.action",
-       success:function (result) {
-           $(".rightCore").html(result);
-       },
-        error:function () {
+        type: "post",
+        url: "customer_comeUI.action",
+        success: function (result) {
+            $(".rightCore").html(result);
+        },
+        error: function () {
             $(".rightCore").html("加载失败");
         }
     });
+}
+
+function updateCst(id) {
+    $.ajax({
+        type: "get",
+        url: "customer_update.action?id="+id,
+        success: function (result) {
+            $(".rightCore").html(result);
+        },
+        error: function () {
+            $(".rightCore").html("加载失败");
+        }
+    })
+}
+
+function deleteCst(id) {
+    $.ajax({
+        type:"get",
+        url:"customer_delete.action?id="+id,
+        success: function (result) {
+            $(".rightCore").html(result);
+        },
+        error: function () {
+            $(".rightCore").html("加载失败");
+        }
+    })
+}
+
 
 
 
@@ -86,4 +113,3 @@ function addCustomer() {
             $(".rightCore").html("加载失败");
         }
     });*/
-}

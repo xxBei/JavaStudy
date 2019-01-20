@@ -2,32 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87da236b-ac5e-4008-95e2-7d75a3c331df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/Impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/web/CustomerListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/web/action/CustomerAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/Struts_Customer/CustomerFind.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/test/java/CustomerTest/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/Utils/HibernateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/domain/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/domain/LinkMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/BatchCrawlingDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/HQLDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/QBCDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/QBC_CriteriaDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/SQLDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/lazyAndFetchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/lazyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HibernateTables2/com/zzw/test/mToOneFetchLazy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/web/TestServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/webapp/cst_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/webapp/cst_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/webapp/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/webapp/web/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateTables2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateTables2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zzw/test/HQLDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zzw/test/HQLDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/Impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/Impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/web/action/CustomerAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/webapp/Customer/cst_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/webapp/Customer/cst_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/Struts_crm/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/Struts_crm/web/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/com/zzw/dao/CustomerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/com/zzw/dao/Impl/CustomerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/com/zzw/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/com/zzw/service/Impl/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/com/zzw/web/action/CustomerAction.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +29,9 @@
     <session id="-237384081">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -51,7 +41,7 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,8 +50,8 @@
           <entry key="dtd" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="23" />
-          <entry key="md" value="1" />
+          <entry key="java" value="24" />
+          <entry key="md" value="2" />
           <entry key="properties" value="1" />
           <entry key="xml" value="10" />
         </counts>
@@ -72,8 +62,8 @@
           <entry key="DTD" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="23" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="24" />
+          <entry key="Markdown" value="2" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="10" />
         </counts>
@@ -98,12 +88,15 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/zzw/test/HQLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="221">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +136,6 @@
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/zzw/test/QBC_CriteriaDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/test/QBCDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zzw/test/HQLDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/domain/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/test/SQLDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/test/lazyDemo.java" />
@@ -153,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/com/zzw/test/BatchCrawlingDemo.java" />
         <option value="$PROJECT_DIR$/src/com/zzw/domain/Customer.hbm.xml" />
         <option value="$PROJECT_DIR$/src/com/zzw/domain/index.html" />
+        <option value="$PROJECT_DIR$/src/com/zzw/test/HQLDemo.java" />
       </list>
     </option>
   </component>
@@ -176,7 +169,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,8 +211,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,6 +369,7 @@
       <workItem from="1547080963044" duration="2071000" />
       <workItem from="1547166185307" duration="731000" />
       <workItem from="1547695758429" duration="536000" />
+      <workItem from="1547948326549" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="HQL查询">
       <created>1546777380664</created>
@@ -504,13 +498,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61677000" />
+    <option name="totallyTimeSpent" value="61946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -686,14 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HIbernate查询方式.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/test/QBC_CriteriaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2712">
@@ -740,16 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/test/lazyAndFetchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,10 +776,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HIbernate查询方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3384" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/test/lazyAndFetchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/test/HQLDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="221">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

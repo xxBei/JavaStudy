@@ -19,5 +19,8 @@
     <h3><a href="getStack.action">获取值栈方法</a></h3>
     <h3><a href="getStackDate.action">获取值栈保存的数据方式一</a></h3>
     <h3><a href="getStackDate2.action">获取值栈保存的数据方式二</a></h3>
+
+    <h3><a href="getStackDate3.action">获取值栈的root的数据</a></h3>
+    <h3><a href="getStackDate4.action">获取值栈的context数据</a></h3>
 </body>
 </html>

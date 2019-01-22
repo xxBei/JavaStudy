@@ -15,5 +15,13 @@
         <action name="getStackDate2" class="com.zzw.getValueStack.getValueStackDemo3">
             <result name="success">demo1/success.jsp</result>
         </action>
+
+        <action name="getStackDate3" class="com.zzw.getValueStack.getValueStackDemo4">
+            <result name="success">demo1/success2.jsp</result>
+        </action>
+
+        <action name="getStackDate4" class="com.zzw.getValueStack.getValueStackDemo5">
+            <result name="success">demo1/success2.jsp</result>
+        </action>
     </package>
 </struts>

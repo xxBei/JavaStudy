@@ -24,5 +24,6 @@
     <h3><a href="getStackDate4.action">获取值栈的context数据</a></h3>
 
     <h3><a href="fuhaoDemo1.action">使用#号获取list和map</a></h3>
+    <h3><a href="demo1/fuhaoExample2.jsp">使用%号强制解析OGNL</a></h3>
 </body>
 </html>

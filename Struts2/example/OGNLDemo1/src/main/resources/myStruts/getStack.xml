@@ -23,5 +23,9 @@
         <action name="getStackDate4" class="com.zzw.getValueStack.getValueStackDemo5">
             <result name="success">demo1/success2.jsp</result>
         </action>
+
+        <action name="fuhaoDemo1" class="com.zzw.fuhao.demo1">
+            <result name="success">demo1/fuhaoExample1.jsp</result>
+        </action>
     </package>
 </struts>

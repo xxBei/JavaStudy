@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="demo1" namespace="/" extends="struts-default">
+        <action name="getStack" class="com.zzw.getValueStack.getValueStackDemo1">
+
+        </action>
+
+        <action name="getStackDate" class="com.zzw.getValueStack.getValueStackDemo2">
+            <result name="success">demo1/success.jsp</result>
+        </action>
+
+        <action name="getStackDate2" class="com.zzw.getValueStack.getValueStackDemo3">
+            <result name="success">demo1/success.jsp</result>
+        </action>
+
+        <action name="getStackDate3" class="com.zzw.getValueStack.getValueStackDemo4">
+            <result name="success">demo1/success2.jsp</result>
+        </action>
+
+        <action name="getStackDate4" class="com.zzw.getValueStack.getValueStackDemo5">
+            <result name="success">demo1/success2.jsp</result>
+        </action>
+
+        <action name="fuhaoDemo1" class="com.zzw.fuhao.demo1">
+            <result name="success">demo1/fuhaoExample1.jsp</result>
+        </action>
+    </package>
+</struts>

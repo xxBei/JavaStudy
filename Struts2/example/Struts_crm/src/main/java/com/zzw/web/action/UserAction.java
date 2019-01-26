@@ -1,6 +1,5 @@
 package com.zzw.web.action;
 
-import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.domain.User;
@@ -17,8 +16,7 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
         return user;
     }
 
-    @Override
-    public String execute() throws Exception {
+    public String login() throws Exception {
         UserService userService = new UserServiceImpl();
         User login = userService.Login(user);
         if(login!=null){

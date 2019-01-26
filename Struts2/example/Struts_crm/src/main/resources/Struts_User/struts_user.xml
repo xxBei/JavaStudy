@@ -4,9 +4,25 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="userDemo1" extends="struts-default" namespace="/">
+
+        <interceptors>
+            <interceptor name="PrivilegeInterceptor" class="com.zzw.web.interceptor.PrivilegeInterceptor"/>
+            <!--定义拦截器栈-->
+            <interceptor-stack name="privilege">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="privilege">
+                    <param name="excludeMethods">login</param>
+                </interceptor-ref>
+            </interceptor-stack>
+
+        </interceptors>
+
         <action name="login" class="com.zzw.web.action.UserAction" method="execute">
             <result>index.jsp</result>
             <result name="login">login.jsp</result>
+
+            <!--引入拦截器-->
+            <interceptor-ref name="privilege"/>
         </action>
     </package>
 </struts>

@@ -4,6 +4,23 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 <struts>
     <package name="demo1" extends="struts-default" namespace="/">
+
+        <interceptors>
+            <interceptor name="PrivilegeInterceptor" class="com.zzw.web.interceptor.PrivilegeInterceptor"/>
+            <!--定义拦截器栈-->
+            <interceptor-stack name="myStack">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="PrivilegeInterceptor">
+                    <!--忽略login方法,不拦截login方法-->
+                    <param name="excludeMethods">login</param>
+                </interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+
+        <global-results>
+            <result name="login">login.jsp</result>
+        </global-results>
+
         <action name="customer_*" class="com.zzw.web.action.CustomerAction" method="{1}">
             <result name="findSuccess">/Customer/cst_list.jsp</result>
             <result name="comeSuccess">/Customer/cst_add.jsp</result>
@@ -11,8 +28,21 @@
             <result name="deleteSuccess">index.jsp</result>
             <result name="updateUISuccess">index.jsp</result>
             <result name="updateSuccess">/Customer/cst_update.jsp</result>
+
+            <!--引入拦截器-->
+            <interceptor-ref name="myStack"/>
+
             <!-- type="redirectAction":表示重定向到customer_find.action页面 -->
             <!--<result name="saveSuccess" type="redirectAction">customer_find.action</result>-->
+            <allowed-methods>regex:.*</allowed-methods>
+        </action>
+
+        <action name="user_*" class="com.zzw.web.action.UserAction" method="{1}">
+            <result name="success" type="redirect">index.jsp</result>
+
+            <!--引入拦截器-->
+            <interceptor-ref name="myStack"/>
+
             <allowed-methods>regex:.*</allowed-methods>
         </action>
     </package>

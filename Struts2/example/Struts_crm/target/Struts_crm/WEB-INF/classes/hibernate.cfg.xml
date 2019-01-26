@@ -42,5 +42,6 @@
 
         <!-- 找到映射配置位置 -->
         <mapping resource="hibernateMapping/Customer.hbm.xml"/>
+        <mapping resource="hibernateMapping/User.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

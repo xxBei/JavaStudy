@@ -7,4 +7,5 @@
     <constant name="struts.action.extension" value="action"/>
 
     <include file="Struts_Customer/struts_customer.xml"/>
+    <include file="Struts_User/struts_user.xml"/>
 </struts>

@@ -2,6 +2,7 @@
 <%@ page import="com.zzw.domain.Customer" %>
 <%@page contentType="text/html; charset=UTF-8" language="java" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib prefix="s" uri="/struts-tags" %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -27,21 +28,23 @@
         </ul>
 
 
-        <c:forEach var="customer" items="${list}" >
+        <%--<c:forEach var="customer" items="${list}" >--%>
+            <s:iterator value="list">
             <ul class="listTitle_ul2">
-                <li class="cst_TitleLi2">${customer.cust_name}</li>
-                <li class="cst_TitleLi2">${customer.cust_source}</li>
-                <li class="cst_TitleLi2">${customer.cust_industry}</li>
-                <li class="cst_TitleLi2">${customer.cust_level}</li>
-                <li class="cst_TitleLi2">${customer.cust_phone}</li>
-                <li class="cst_TitleLi2">${customer.cust_mobile}</li>
+                <li class="cst_TitleLi2"><s:property value="cust_name"/></li>
+                <li class="cst_TitleLi2"><s:property value="cust_source"/></li>
+                <li class="cst_TitleLi2"><s:property value="cust_industry"/></li>
+                <li class="cst_TitleLi2"><s:property value="cust_level"/></li>
+                <li class="cst_TitleLi2"><s:property value="cust_phone"/></li>
+                <li class="cst_TitleLi2"><s:property value="cust_mobile"/></li>
                 <li class="cst_TitleLi2">
-                    <button onclick="updateCst(${customer.cust_id})">修改</button>
+                    <button onclick="updateCst(<s:property value="cust_id"/>)">修改</button>
                     &emsp;&emsp;
-                    <button onclick="deleteCst(${customer.cust_id})">删除</button>
+                    <button onclick="deleteCst(<s:property value="cust_id"/>)">删除</button>
                 </li>
             </ul>
-        </c:forEach>
+            </s:iterator>
+        <%--</c:forEach>--%>
 
 
         <%--<%

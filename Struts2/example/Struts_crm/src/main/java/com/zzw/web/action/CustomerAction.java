@@ -1,5 +1,6 @@
 package com.zzw.web.action;
 
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.domain.Customer;
@@ -32,7 +33,8 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
         CustomerService service = new CustomerServiceImpl();
         List<Customer> list = service.find();
         //获取request,通过request存储list'
-        ServletActionContext.getRequest().setAttribute("list",list);
+        //ServletActionContext.getRequest().setAttribute("list",list);
+        ActionContext.getContext().getValueStack().set("list",list);
         return "findSuccess";
     }
 

@@ -7,16 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88c32a94-f75f-4707-b000-447406773171" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/Utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo1/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo2/Hib_CriteriaBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo2/Hib_CriteriaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo2/Hib_queryDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateDemo/out/production/HibernateDemo/com/zzw/hibernate/demo2/cst_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/Test/demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/Test/demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/Test/demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/Utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/domin/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/domin/Linkman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/domin/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/domin/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/domin2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate/example/HibernateTables/out/production/HibernateTables/com/zzw/domin2/Teacher.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Struts_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/web/action/CustomerAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/Customer/cst_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/Customer/cst_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/Customer/cst_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/Customer/cst_update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/Customer/cst_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/Customer/cst_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/Customer/cst_update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/Customer/cst_update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/WEB-INF/classes/com/zzw/web/action/CustomerAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/WEB-INF/classes/com/zzw/web/action/CustomerAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts_crm/target/classes/com/zzw/web/action/CustomerAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/target/classes/com/zzw/web/action/CustomerAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts_crm/target/Struts_crm/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +47,9 @@
     <session id="-1186876818">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -41,7 +59,7 @@
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -65,24 +83,24 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="dtd" value="1" />
-          <entry key="java" value="22" />
-          <entry key="jsp" value="26" />
+          <entry key="java" value="34" />
+          <entry key="jsp" value="29" />
           <entry key="log" value="1" />
           <entry key="properties" value="1" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="31" />
+          <entry key="xml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="22" />
-          <entry key="JSP" value="26" />
+          <entry key="JAVA" value="34" />
+          <entry key="JSP" value="29" />
           <entry key="Log" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="31" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
     </session>
@@ -90,46 +108,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="360">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/myStruts/getStack.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/success2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="785">
+              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/fuhaoExample1.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+            <state relative-caret-position="75">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/success.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/fuhaoExample2.jsp">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/ognl/OgnlDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="696">
+              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -217,7 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,6 +262,39 @@
               <item name="OGNLDemo1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OGNLDemo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OGNLDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OGNLDemo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OGNLDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OGNLDemo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OGNLDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="fuhao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OGNLDemo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OGNLDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zzw" type="462c0819:PsiDirectoryNode" />
+              <item name="getValueStack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OGNLDemo1" type="b2602c69:ProjectViewProjectNode" />
@@ -280,12 +340,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OGNLDemo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OGNLDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OGNLDemo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OGNLDemo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ognl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,7 +603,8 @@
       <workItem from="1548421774506" duration="4744000" />
       <workItem from="1548429863229" duration="927000" />
       <workItem from="1548497638419" duration="1341000" />
-      <workItem from="1548502944763" duration="187000" />
+      <workItem from="1548502944763" duration="772000" />
+      <workItem from="1548512702040" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="OGNL表达式在java下的使用">
       <created>1548079414367</created>
@@ -623,13 +699,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32187000" />
+    <option name="totallyTimeSpent" value="33403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20978552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -745,13 +821,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/ognl/getValueStackDemo1.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/ognl/OgnlDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/develop/Maven/repository/org/apache/struts/struts2-core/2.5.18/struts2-core-2.5.18.jar!/com/opensymphony/xwork2/ActionSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -764,62 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/success2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/fuhao/demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -844,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/myStruts/getStack.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -858,24 +864,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/fuhaoExample1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+        <state relative-caret-position="1008">
+          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/fuhaoExample2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="377">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/fuhao/demo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/demo1/success2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/myStruts/getStack.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/getValueStack/getValueStackDemo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/ognl/OgnlDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
         </state>
       </provider>
     </entry>

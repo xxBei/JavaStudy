@@ -6,6 +6,7 @@ import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.domain.User;
 import com.zzw.service.Impl.UserServiceImpl;
 import com.zzw.service.UserService;
+import org.apache.struts2.ServletActionContext;
 
 public class UserAction extends ActionSupport implements ModelDriven<User> {
 
@@ -22,7 +23,9 @@ public class UserAction extends ActionSupport implements ModelDriven<User> {
         User login = userService.Login(user);
         if(login!=null){
             //登录成功
-            ActionContext.getContext().getValueStack().set("user_login",login);
+            //ServletActionContext.getContext().getSession().put("user_login",login);
+            //或者使用
+            ServletActionContext.getRequest().getSession().setAttribute("user_login",login);
             return SUCCESS;
         }else{
             //登录失败

@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3159896-e8d0-4381-8523-82357de3c00a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/Impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/java/com/zzw/web/action/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/Struts_User/struts_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/hibernateMapping/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/Utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo1/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo1/HibernateDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo2/Hib_CriteriaBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo2/Hib_CriteriaDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo2/Hib_queryDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HibernateDemo/com/zzw/hibernate/demo2/cst_user.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HibernateTables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/Test/demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/Test/demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/Test/demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/Utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/domin/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/domin/Linkman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/domin/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/domin/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/domin2/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateTables/out/production/HibernateTables/com/zzw/domin2/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/OGNLDemo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/OGNLDemo1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/Struts_crm/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/Struts_crm/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/Struts_crm/WEB-INF/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/Struts_crm/WEB-INF/classes/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Struts2/example/Struts_crm/target/classes/struts.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,9 +67,9 @@
     <session id="852414654">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -42,7 +80,7 @@
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,7 +88,7 @@
           <entry key="class" value="6" />
           <entry key="dtd" value="8" />
           <entry key="iml" value="1" />
-          <entry key="java" value="76" />
+          <entry key="java" value="80" />
           <entry key="jsp" value="3" />
           <entry key="sql" value="2" />
           <entry key="xml" value="26" />
@@ -62,7 +100,7 @@
           <entry key="CLASS" value="6" />
           <entry key="DTD" value="8" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="80" />
           <entry key="JSP" value="3" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="27" />
@@ -92,17 +130,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo2/Hib_CriteriaDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="648">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo2/Hib_CriteriaBuilderDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo2/Hib_CriteriaBuilderDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672">
-              <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+            <state relative-caret-position="312">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -180,8 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,7 +326,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,6 +567,7 @@
       <workItem from="1546418474526" duration="122000" />
       <workItem from="1546418679192" duration="1824000" />
       <workItem from="1546826429267" duration="8966000" />
+      <workItem from="1548508104395" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate映射配置文件">
       <created>1545913151301</created>
@@ -640,13 +724,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51667000" />
+    <option name="totallyTimeSpent" value="51708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -827,13 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.0-M1/junit-platform-commons-1.4.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="288" selection-start-line="288" selection-end-line="288" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.0-M1/junit-platform-commons-1.4.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class" />
     <entry file="jar://E:/develop/Tool/SSH/Hibernate/hibernate-release-5.4.0.Final.zip!/hibernate-release-5.4.0.Final/project/hibernate-core/src/main/java/org/hibernate/internal/SessionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -927,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/develop/Tool/SSH/Hibernate/hibernate-release-5.4.0.Final.zip!/hibernate-release-5.4.0.Final/project/hibernate-core/src/main/java/org/hibernate/query/Query.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -990,16 +1061,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo2/Hib_CriteriaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="648">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo2/Hib_CriteriaBuilderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
+        <state relative-caret-position="641">
           <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
         </state>
       </provider>
@@ -1013,22 +1098,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="122" column="11" lean-forward="true" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+        <state relative-caret-position="281">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo2/Hib_CriteriaDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo1/HibernateDemo5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zzw/hibernate/demo2/Hib_CriteriaBuilderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="56" column="45" lean-forward="true" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        <state relative-caret-position="312">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>

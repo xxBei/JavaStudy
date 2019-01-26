@@ -46,7 +46,7 @@
     </div>
     <div class="rightContent">
         <div class="rightTop">
-            <p class="rightUser">当前用户 : <s:property value="user_login.user_name"/></p>
+            <p class="rightUser">当前用户 : <s:property value="#session.user_login.user_name"/></p>
             <p
                     class="rightOperating"><a href="javascript:0">修改密码</a><a
                     href="javascript:0">安全退出</a></p>

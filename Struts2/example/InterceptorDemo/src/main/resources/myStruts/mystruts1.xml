@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="demo1" namespace="/" extends="struts-default">
+
+        <!-- 定义拦截器方式一: -->
+        <!--<interceptors>
+            <interceptor name="InterceptorDemo1" class="com.zzw.web.interceptor.InterceptorDemo1"/>
+            <interceptor name="InterceptorDemo2" class="com.zzw.web.interceptor.InterceptorDemo2"/>
+        </interceptors>
+
+        <action name="actionDemo1" class="com.zzw.web.action.ActionDemo1">
+            <result name="success">demo1/demo1.jsp</result>
+
+            &lt;!&ndash; 引入拦截器(一旦引入自定义拦截器,默认拦截器栈的拦截器就不执行了,索引需要手动引入默认拦截器) &ndash;&gt;
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="InterceptorDemo1"/>
+            <interceptor-ref name="InterceptorDemo2"/>
+        </action>-->
+
+        <!-- 定义拦截器方式二: -->
+        <interceptors>
+            <interceptor name="InterceptorDemo1" class="com.zzw.web.interceptor.InterceptorDemo1"/>
+            <interceptor name="InterceptorDemo2" class="com.zzw.web.interceptor.InterceptorDemo2"/>
+
+            <!--定义拦截器栈-->
+            <interceptor-stack name="myStack">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="InterceptorDemo1"/>
+                <interceptor-ref name="InterceptorDemo2"/>
+            </interceptor-stack>
+        </interceptors>
+
+        <action name="actionDemo1" class="com.zzw.web.action.ActionDemo1">
+            <result name="success">demo1/demo1.jsp</result>
+
+            <!-- 引入拦截器(一旦引入自定义拦截器,默认拦截器栈的拦截器就不执行了,索引需要手动引入默认拦截器) -->
+            <interceptor-ref name="myStack"/>
+        </action>
+    </package>
+</struts>

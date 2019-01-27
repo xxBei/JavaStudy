@@ -33,6 +33,7 @@ public class PrivilegeInterceptor extends MethodFilterInterceptor {
 
         }else{
             //已经登录
+            //invocation.invoke() 表示执行下一个拦截器
             return invocation.invoke();
         }
     }

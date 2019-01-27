@@ -7,9 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1412129-083d-4caf-8f42-1b562d4e3428" name="Default Changelist" comment="客户对象关系:新增登录功能">
+      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/TagDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/java/com/zzw/tagDemo/TagDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/resources/log/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/resources/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/tagDemo1/ifelse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/tagDemo1/iteratorTest.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../InterceptorDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InterceptorDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +39,7 @@
     <session id="-718095225">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.24" value="1" />
@@ -44,7 +60,7 @@
           <entry key="js" value="20" />
           <entry key="jsp" value="50" />
           <entry key="log" value="2" />
-          <entry key="xml" value="51" />
+          <entry key="xml" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -56,7 +72,7 @@
           <entry key="JavaScript" value="20" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="51" />
+          <entry key="XML" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -66,7 +82,7 @@
           <entry key="java" value="4467" />
           <entry key="js" value="1018" />
           <entry key="jsp" value="1689" />
-          <entry key="txt" value="224" />
+          <entry key="txt" value="246" />
           <entry key="xml" value="1098" />
         </counts>
       </usages-collector>
@@ -76,7 +92,7 @@
           <entry key="JAVA" value="4467" />
           <entry key="JSP" value="1689" />
           <entry key="JavaScript" value="1018" />
-          <entry key="PLAIN_TEXT" value="248" />
+          <entry key="PLAIN_TEXT" value="270" />
           <entry key="XML" value="1098" />
         </counts>
       </usages-collector>
@@ -85,43 +101,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
+            <state relative-caret-position="641">
               <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/action/UserAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -257,40 +240,6 @@
               <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,21 +249,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Struts_Customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts_User" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,14 +272,14 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WeStudy\Java\Struts2\example\Struts_crm\src\main\webapp\Customer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WeStudy\Java\Struts2\example\Struts_crm\src\main\webapp\Customer" />
       <recent name="E:\WeStudy\Java\Struts2\example\Struts_crm\src\main\webapp" />
       <recent name="E:\WeStudy\Java\Struts2\example\Struts_crm\src" />
       <recent name="E:\WeStudy\Java\Struts2\example\Struts_crm\src\main" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WeStudy\Java\Struts2\example\Struts_crm\src\main\webapp\Customer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -480,7 +414,7 @@
       <workItem from="1548035918184" duration="940000" />
       <workItem from="1548061374719" duration="927000" />
       <workItem from="1548501822275" duration="15219000" />
-      <workItem from="1548569276528" duration="509000" />
+      <workItem from="1548569276528" duration="2991000" />
     </task>
     <task id="LOCAL-00001" summary="点击按钮通过jQuery中的Ajax实现异步加载功能">
       <created>1547647034213</created>
@@ -629,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548521622146</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="客户对象关系:新增登录功能,没有登录不能执行增删改查">
+      <created>1548569834395</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1548569834395</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -665,13 +606,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67506000" />
+    <option name="totallyTimeSpent" value="69988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17828418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17828418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -758,7 +698,8 @@
     <MESSAGE value="Struts2:使用堆栈存储方式优化查询客户列表" />
     <MESSAGE value="客户对象关系:新增登录功能" />
     <MESSAGE value="客户对象关系:新增权限功能,必须登录才能查看数据(使用的拦截器功能)" />
-    <option name="LAST_COMMIT_MESSAGE" value="客户对象关系:新增权限功能,必须登录才能查看数据(使用的拦截器功能)" />
+    <MESSAGE value="客户对象关系:新增登录功能,没有登录不能执行增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="客户对象关系:新增登录功能,没有登录不能执行增删改查" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web/test.jsp" />
@@ -827,13 +768,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web/js/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="67" column="17" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/Customer/cst_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -965,13 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_User/struts_user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -979,13 +906,6 @@
         </state>
       </provider>
       <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1007,10 +927,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_User/struts_user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
         </state>
       </provider>
     </entry>

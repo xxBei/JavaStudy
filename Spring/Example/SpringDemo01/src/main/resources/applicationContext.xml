@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
@@ -33,18 +34,28 @@
     </bean>
 
     <!-- set方法的方式 -->
-    <bean id="Car2" class="com.zzw.spring.test1.Car2">
+    <!--<bean id="Car2" class="com.zzw.spring.test1.Car2">
         <property name="name" value="玛莎拉蒂"/>
         <property name="price" value="8000000"/>
-    </bean>
+    </bean>-->
 
     <!-- set方法注入对象的方式 -->
-    <bean id="Car3" class="com.zzw.spring.test1.Car3">
-        <!--
+    <!--<bean id="Car3" class="com.zzw.spring.test1.Car3">
+        &lt;!&ndash;
             value用于注入普通方式
             ref用于设置其他类的id或name
-        -->
+        &ndash;&gt;
         <property name="name" value="刘备"/>
         <property name="car2" ref="Car2"/>
-    </bean>
+    </bean>-->
+
+    <!--
+        使用p名称空间的方式属性注入
+        要使用p名称空间需要在约束里面写入下面这句话:
+             xmlns:p="http://www.springframework.org/schema/p"
+    -->
+    <!-- set方法的方式 -->
+    <bean id="Car2" class="com.zzw.spring.test1.Car2" p:name="大众polo" p:price="100000"></bean>
+    <!-- set方法注入对象的方式 -->
+    <bean id="Car3" class="com.zzw.spring.test1.Car3" p:name="章凡" p:car2-ref="Car2"></bean>
 </beans>

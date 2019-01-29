@@ -8,7 +8,16 @@
     <!--
         id: 名字任意起,只需要在 applicationContext.getBean("userDao");写入id名即可
         class: 需要实现功能的类名
-
     -->
-    <bean id="userDao" class="com.zzw.spring.test.Impl.UserHibernateImpl"></bean>
+
+    <!--
+        IOC 和 DI 的区别
+            IOC 控制反转: 将对象的创建权交给了Spring (通俗说,是将类交给了Spring管理了)
+            DI  依赖注入: 必须拥有IOC环境,Spring在管理这个类的时候,将类的依赖的属性注入(设置)进来。
+                （在Spring管理这个类的时候，将类的属性给设置进来）。
+    -->
+    <bean id="userDao" class="com.zzw.spring.test.Impl.UserDaoImpl">
+        <!--将类的name属性设置进来-->
+        <property name="name" value="李四"/>
+    </bean>
 </beans>

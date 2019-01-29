@@ -12,7 +12,8 @@ public class UserTest {
      * */
     @Test
     public void test01(){
-        UserDao userDao = new UserDaoImpl();
+        UserDaoImpl userDao = new UserDaoImpl();
+        userDao.setName("张三");
         userDao.save();
     }
 

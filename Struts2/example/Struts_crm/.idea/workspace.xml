@@ -7,25 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1412129-083d-4caf-8f42-1b562d4e3428" name="Default Changelist" comment="客户对象关系:新增登录功能">
-      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/TagDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/java/com/zzw/tagDemo/TagDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/resources/log/test.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/resources/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/tagDemo1/ifelse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TagDemo/src/main/webapp/tagDemo1/iteratorTest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InterceptorDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InterceptorDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_demo3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/SpringDemo01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/src/main/resources/log/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/SpringDemo01/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TagDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TagDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,16 +33,16 @@
     <session id="-718095225">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,23 +50,23 @@
           <entry key="action" value="1" />
           <entry key="class" value="1" />
           <entry key="css" value="5" />
-          <entry key="java" value="126" />
+          <entry key="java" value="127" />
           <entry key="js" value="20" />
           <entry key="jsp" value="50" />
           <entry key="log" value="2" />
-          <entry key="xml" value="54" />
+          <entry key="xml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="5" />
-          <entry key="JAVA" value="126" />
+          <entry key="JAVA" value="127" />
           <entry key="JSP" value="50" />
           <entry key="JavaScript" value="20" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="54" />
+          <entry key="XML" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -101,10 +95,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="528">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -214,8 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,6 +249,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,6 +412,9 @@
       <workItem from="1548061374719" duration="927000" />
       <workItem from="1548501822275" duration="15219000" />
       <workItem from="1548569276528" duration="2991000" />
+      <workItem from="1548576854921" duration="15000" />
+      <workItem from="1548743541053" duration="19000" />
+      <workItem from="1548745298157" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="点击按钮通过jQuery中的Ajax实现异步加载功能">
       <created>1547647034213</created>
@@ -606,12 +606,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69988000" />
+    <option name="totallyTimeSpent" value="70045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17828418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -787,10 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-336">
           <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,12 +897,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,26 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="67" column="17" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -950,8 +927,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
+        <state relative-caret-position="978">
           <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="978">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

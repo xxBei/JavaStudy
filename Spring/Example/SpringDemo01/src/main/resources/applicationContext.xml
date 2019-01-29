@@ -23,4 +23,28 @@
         <!--将类的name属性设置进来-->
         <property name="name" value="李四"/>
     </bean>
+
+
+    <!-- Spring的属性注入的方式 -->
+    <!-- 构造方法的方式 -->
+    <bean id="Car1" class="com.zzw.spring.test1.Car1">
+        <constructor-arg index="0" value="宝马"/>
+        <constructor-arg index="1" value="400000"/>
+    </bean>
+
+    <!-- set方法的方式 -->
+    <bean id="Car2" class="com.zzw.spring.test1.Car2">
+        <property name="name" value="玛莎拉蒂"/>
+        <property name="price" value="8000000"/>
+    </bean>
+
+    <!-- set方法注入对象的方式 -->
+    <bean id="Car3" class="com.zzw.spring.test1.Car3">
+        <!--
+            value用于注入普通方式
+            ref用于对象中指定id或name
+        -->
+        <property name="name" value="刘备"/>
+        <property name="car2" ref="Car2"/>
+    </bean>
 </beans>

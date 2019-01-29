@@ -42,7 +42,7 @@
     <bean id="Car3" class="com.zzw.spring.test1.Car3">
         <!--
             value用于注入普通方式
-            ref用于对象中指定id或name
+            ref用于设置其他类的id或name
         -->
         <property name="name" value="刘备"/>
         <property name="car2" ref="Car2"/>

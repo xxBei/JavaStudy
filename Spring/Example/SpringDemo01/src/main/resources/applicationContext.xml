@@ -63,15 +63,31 @@
         使用SpEl的属性注入
     -->
     <!-- set注入普通方法的方式 -->
-    <bean id="Car2" class="com.zzw.spring.test1.Car2">
+    <!--<bean id="Car2" class="com.zzw.spring.test1.Car2">
         <property name="name" value="#{'法拉利'}"/>
         <property name="price" value="#{1000000}"/>
-    </bean>
+    </bean>-->
 
     <!-- set方法注入对象的方式 -->
-    <bean id="Car3" class="com.zzw.spring.test1.Car3">
+    <!--<bean id="Car3" class="com.zzw.spring.test1.Car3">
         <property name="name" value="小王"/>
         <property name="car2" value="#{Car2}"/>
+    </bean>-->
+
+    <!--
+        使用SpEl的属性注入,但是下面采用的是借助第三个类提供的名字和自定义方法来对名字和价格进行赋值
+     -->
+    <!-- 引用CarInfo -->
+    <bean id="CarInfo" class="com.zzw.spring.test1.CarInfo"></bean>
+    <bean id="Car2" class="com.zzw.spring.test1.Car2">
+        <!-- 通过CarInfo提供的名字进行赋值 -->
+        <property name="name" value="#{CarInfo.name}"/>
+        <!-- 通过CarInfo提供的方法进行赋值计算 -->
+        <property name="price" value="#{CarInfo.catculatePrice()}"/>
     </bean>
 
+    <bean id="Car3" class="com.zzw.spring.test1.Car3">
+        <property name="name" value="#{'孔融'}"/>
+        <property name="car2" value="#{Car2}"/>
+    </bean>
 </beans>

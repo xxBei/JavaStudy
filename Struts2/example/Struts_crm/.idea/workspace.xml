@@ -38,11 +38,6 @@
       <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Spring_crm/src/main/webapp/web/js/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Spring_crm/src/main/webapp/web/js/jquery-3.3.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Struts_crm/WEB-INF/classes/com/zzw/web/interceptor/PrivilegeInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Struts_crm/WEB-INF/classes/com/zzw/web/interceptor/PrivilegeInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Struts_crm/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Struts_crm/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zzw/web/interceptor/PrivilegeInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zzw/web/interceptor/PrivilegeInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,7 +51,7 @@
     <session id="-718095225">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.24" value="1" />
@@ -77,7 +72,7 @@
           <entry key="js" value="21" />
           <entry key="jsp" value="52" />
           <entry key="log" value="2" />
-          <entry key="xml" value="58" />
+          <entry key="xml" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -89,27 +84,27 @@
           <entry key="JavaScript" value="21" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="58" />
+          <entry key="XML" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="333" />
           <entry key="dummy" value="24" />
-          <entry key="java" value="4468" />
+          <entry key="java" value="4472" />
           <entry key="js" value="1018" />
           <entry key="jsp" value="1689" />
-          <entry key="txt" value="246" />
+          <entry key="txt" value="263" />
           <entry key="xml" value="1103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="333" />
-          <entry key="JAVA" value="4468" />
+          <entry key="JAVA" value="4472" />
           <entry key="JSP" value="1689" />
           <entry key="JavaScript" value="1018" />
-          <entry key="PLAIN_TEXT" value="270" />
+          <entry key="PLAIN_TEXT" value="287" />
           <entry key="XML" value="1103" />
         </counts>
       </usages-collector>
@@ -120,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="329">
+              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -135,16 +130,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -194,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/service/Impl/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/dao/CustomerDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Customer/cst_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/Customer/cst_update.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernateMapping/User.hbm.xml" />
@@ -213,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/web/interceptor/PrivilegeInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java" />
       </list>
     </option>
   </component>
@@ -355,6 +350,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Struts_Customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
@@ -532,7 +535,7 @@
       <workItem from="1548576854921" duration="15000" />
       <workItem from="1548743541053" duration="19000" />
       <workItem from="1548745298157" duration="23000" />
-      <workItem from="1548921714226" duration="6137000" />
+      <workItem from="1548921714226" duration="6583000" />
     </task>
     <task id="LOCAL-00001" summary="点击按钮通过jQuery中的Ajax实现异步加载功能">
       <created>1547647034213</created>
@@ -688,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548569834395</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="纠正hibernate配置文件">
+      <created>1548943445727</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1548943445727</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -724,13 +734,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76182000" />
+    <option name="totallyTimeSpent" value="76628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18766756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -764,7 +774,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18766756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -818,7 +828,8 @@
     <MESSAGE value="客户对象关系:新增登录功能" />
     <MESSAGE value="客户对象关系:新增权限功能,必须登录才能查看数据(使用的拦截器功能)" />
     <MESSAGE value="客户对象关系:新增登录功能,没有登录不能执行增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="客户对象关系:新增登录功能,没有登录不能执行增删改查" />
+    <MESSAGE value="纠正hibernate配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="纠正hibernate配置文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web/test.jsp" />
@@ -1011,24 +1022,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="40" column="29" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1053,13 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1067,10 +1057,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="330">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/dao/Impl/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
         </state>
       </provider>
     </entry>

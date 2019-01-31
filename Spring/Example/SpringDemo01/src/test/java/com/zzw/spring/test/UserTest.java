@@ -24,7 +24,8 @@ public class UserTest {
     @Test
     public void test02(){
         //引入配置文件,或者说是创建Spring工厂
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("springConfig" +
+                "/applicationContext.xml");
         //找到配置文件中的id名
         UserDao userDao = (UserDao) applicationContext.getBean("userDao");
         //调用save方法

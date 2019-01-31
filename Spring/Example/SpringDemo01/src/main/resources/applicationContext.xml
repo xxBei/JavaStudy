@@ -90,4 +90,53 @@
         <property name="name" value="#{'孔融'}"/>
         <property name="car2" value="#{Car2}"/>
     </bean>
+
+    <!-- ================= 集合的属性注入 ================ -->
+
+
+    <bean id="Collection" class="com.zzw.spring.test2.CollectionBean">
+        <!-- 数组的属性注入 -->
+        <property name="arrs">
+            <list>
+                <value>数组:张飒</value>
+                <value>数组:张封</value>
+                <value>数组:张里仁</value>
+            </list>
+        </property>
+
+        <!-- List集合的属性注入 -->
+        <property name="list">
+            <list>
+                <value>list:王刚</value>
+                <value>list:王篮</value>
+                <value>list:王柞栎</value>
+            </list>
+        </property>
+
+        <!-- Set集合的属性注入 -->
+        <property name="set">
+            <set>
+                <value>set:李晓峰</value>
+                <value>set:李晓空</value>
+                <value>set:李晓龙</value>
+            </set>
+        </property>
+
+        <!--
+            Map集合的属性注入
+                如果Map中是对象类型
+                    key可以是key-ref
+                    value可以是value-ref
+        -->
+        <property name="map">
+            <map>
+                <entry key="map1" value="赵伯庸"/>
+                <entry key="map2" value="赵伯亚"/>
+                <entry key="map3" value="赵伯仁"/>
+            </map>
+        </property>
+    </bean>
+
+
+
 </beans>

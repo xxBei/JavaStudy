@@ -55,7 +55,23 @@
              xmlns:p="http://www.springframework.org/schema/p"
     -->
     <!-- set方法的方式 -->
-    <bean id="Car2" class="com.zzw.spring.test1.Car2" p:name="大众polo" p:price="100000"></bean>
+    <!--<bean id="Car2" class="com.zzw.spring.test1.Car2" p:name="大众polo" p:price="100000"></bean>-->
     <!-- set方法注入对象的方式 -->
-    <bean id="Car3" class="com.zzw.spring.test1.Car3" p:name="章凡" p:car2-ref="Car2"></bean>
+    <!--<bean id="Car3" class="com.zzw.spring.test1.Car3" p:name="章凡" p:car2-ref="Car2"></bean>-->
+
+    <!--
+        使用SpEl的属性注入
+    -->
+    <!-- set注入普通方法的方式 -->
+    <bean id="Car2" class="com.zzw.spring.test1.Car2">
+        <property name="name" value="#{'法拉利'}"/>
+        <property name="price" value="#{1000000}"/>
+    </bean>
+
+    <!-- set方法注入对象的方式 -->
+    <bean id="Car3" class="com.zzw.spring.test1.Car3">
+        <property name="name" value="小王"/>
+        <property name="car2" value="#{Car2}"/>
+    </bean>
+
 </beans>

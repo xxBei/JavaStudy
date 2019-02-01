@@ -9,7 +9,7 @@
 
     <!-- ================ Spring的IOC的注解入门 ================== -->
     <!-- 使用IOC的注解开发,使用组件扫描 -->
-    <context:component-scan base-package="com.zzw.demo1"/>
+    <context:component-scan base-package="com.zzw"/>
 
 </beans>
 

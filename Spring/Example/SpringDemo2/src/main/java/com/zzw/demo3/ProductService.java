@@ -2,6 +2,9 @@ package com.zzw.demo3;
 
 import javax.annotation.Resource;
 
+/**
+ * xml和注解的整合开发
+ * */
 public class ProductService {
 
     @Resource(name = "productDao")

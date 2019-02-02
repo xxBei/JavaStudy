@@ -4,6 +4,10 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+
+/**
+ * xml和注解的整合开发
+ * */
 public class Demo3 {
 
     @Test

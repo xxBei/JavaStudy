@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- ================ Spring的IOC的注解入门 ================== -->
+    <!-- 使用IOC的注解开发,使用组件扫描 -->
+    <!-- 组件扫描是用于扫描类上的注解 -->
+    <context:component-scan base-package="com.zzw.demo1,com.zzw.demo2"/>
+
+    <!--现在使用xml配合属性注解的方式进行开发,所以可以不用写组件扫描-->
+    <context:annotation-config/>
+
+    <!--这是使用-->
+    <bean id="productService" class="com.zzw.demo3.ProductService"></bean>
+    <bean id="productDao" class="com.zzw.demo3.ProductDao"></bean>
+    <bean id="orderDao" class="com.zzw.demo3.OrderDao"></bean>
+</beans>
+

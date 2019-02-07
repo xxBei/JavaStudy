@@ -11,5 +11,27 @@
         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <context:annotation-config/>
+
+    <!-- 配置目标对象: 被增强的对象 -->
     <bean id="ProductDao" class="com.zzw.demo1.impl.ProductDaoImpl"></bean>
+
+    <!--将切面交给Spring管理-->
+    <bean id="MyAspect" class="com.zzw.demo1.MyAspectXML"></bean>
+
+    <!-- 通过AOP的配置完成对目标类产生代理 -->
+    <aop:config>
+        <!-- 配置切入点 表达式用于配置哪些类的哪些方法需要进行增强 -->
+        <!--id名任意起 expression:表达式 *表示任意类型 ..表示任意参数 -->
+        <aop:pointcut id="pointcut1"
+                      expression="execution(* com.zzw.demo1.impl.ProductDaoImpl.save(..))"/>
+
+        <!-- 配置切面 ref:表示对那个类进行增强-->
+        <aop:aspect ref="MyAspect">
+            <!--before表示在方法执行之前执行 method:执行那个方法 pointcut-ref:在哪个方法前进行执行-->
+            <aop:before method="checkPri" pointcut-ref="pointcut1"/>
+            <!--after表示在方法执行之后执行 method:执行那个方法 pointcut-ref:在哪个方法后进行执行-->
+            <aop:after method="checkLog" pointcut-ref="pointcut1"/>
+        </aop:aspect>
+
+    </aop:config>
 </beans>

@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2249812-b547-4c45-be01-55d9c7965051" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/SpringDemo3_JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/main/java/com/zzw/jdbc/demo1/JdbcDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/main/resources/log/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/test/java/demo1/JdbcDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo3_JDBC/src/test/java/demo1/JdbcDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +31,7 @@
     <session id="-1494526836">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -25,27 +40,27 @@
         <counts>
           <entry key="java" value="3" />
           <entry key="log" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="Log" value="1" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1218" />
-          <entry key="txt" value="52" />
+          <entry key="java" value="1220" />
+          <entry key="txt" value="56" />
           <entry key="xml" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1217" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="JAVA" value="1219" />
+          <entry key="PLAIN_TEXT" value="56" />
           <entry key="Pointcut Expression" value="1" />
           <entry key="XML" value="190" />
         </counts>
@@ -67,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#78#79#0" expanded="true" />
                 <element signature="e#114#115#0" expanded="true" />
@@ -81,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="27" column="81" lean-forward="true" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+            <state relative-caret-position="648">
+              <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#121#122#0" expanded="true" />
@@ -99,11 +114,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="288">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -125,9 +149,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java" />
       </list>
     </option>
   </component>
@@ -244,14 +268,6 @@
               <item name="SpringDemo3_AOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringDemo3_AOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringDemo3_AOP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,7 +295,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549720682560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549725813904" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -415,7 +431,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549711568063</updated>
-      <workItem from="1549711571388" duration="5241000" />
+      <workItem from="1549711571388" duration="7220000" />
     </task>
     <task id="LOCAL-00001" summary="Spring:AOP注解入门">
       <created>1549713039170</created>
@@ -431,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549718286734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring:AOP切入点的注解方式">
+      <created>1549720714623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549720714623</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -467,11 +490,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5241000" />
+    <option name="totallyTimeSpent" value="7220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -479,7 +501,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -550,7 +572,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring:AOP注解入门" />
     <MESSAGE value="Spring:AOP注解方式使用通知(前置通知,后置通知,环绕通知,异常通知,最终通知)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring:AOP注解方式使用通知(前置通知,后置通知,环绕通知,异常通知,最终通知)" />
+    <MESSAGE value="Spring:AOP切入点的注解方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring:AOP切入点的注解方式" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -561,13 +584,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2256">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log/test.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
@@ -584,7 +600,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#78#79#0" expanded="true" />
             <element signature="e#114#115#0" expanded="true" />
@@ -594,10 +610,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="95" column="17" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="27" column="81" lean-forward="true" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
+        <state relative-caret-position="648">
+          <caret line="27" column="81" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#121#122#0" expanded="true" />
@@ -612,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="288">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

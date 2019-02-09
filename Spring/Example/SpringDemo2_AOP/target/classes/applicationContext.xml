@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:annotation-config/>
+
+    <!-- 配置目标对象: 被增强的对象 -->
+    <bean id="ProductDao" class="com.zzw.demo1.impl.ProductDaoImpl"></bean>
+
+    <!--将切面交给Spring管理-->
+    <bean id="MyAspect" class="com.zzw.demo1.MyAspectXML"></bean>
+
+    <!-- 通过AOP的配置完成对目标类产生代理 -->
+    <aop:config>
+
+        <!--AOP表达式写法-->
+        <!--
+            [访问修饰符] 方法返回值 包名.类名.方法名(参数)
+            public void com.zzw.spring.ProductImpl.save(..)
+            * com.zzw.spring.ProductImpl.save(..) : public 可以省略,* 表示任意类型 (..) 表示任意参数
+            * *.*.*.*Impl.save(..) : 同上,找任意名称的以Impl结尾的save方法
+            * com.zzw.spring.ProductImpl+.save(..): 表示当前类和子类都可以被增强
+            * com.zzw.spring..*.*(..): 表示当前包下的所有类的所有方法
+
+        -->
+
+        <!-- 配置切入点 表达式用于配置哪些类的哪些方法需要进行增强 -->
+        <!--id名任意起 expression:表达式 *表示任意类型 ..表示任意参数 -->
+        <aop:pointcut id="savePointcut"
+                      expression="execution(* com.zzw.demo1.impl.ProductDaoImpl.save(..))"/>
+        <aop:pointcut id="deletePointcut"
+                      expression="execution(* com.zzw.demo1.impl.ProductDaoImpl.delete())"/>
+        <aop:pointcut id="findPointcut"
+                      expression="execution(* com.zzw.demo1.impl.ProductDaoImpl.find())"/>
+        <aop:pointcut id="updatePointcut"
+                      expression="execution(* com.zzw.demo1.impl.ProductDaoImpl.update())"/>
+
+        <!-- 配置切面 ref:表示对那个类进行增强-->
+        <aop:aspect ref="MyAspect">
+            <!--before表示前置通知,在方法执行之前执行 method:执行那个方法 pointcut-ref:在哪个方法前进行执行-->
+            <aop:before method="checkPri" pointcut-ref="savePointcut"/>
+
+            <!--后置通知-->
+            <aop:after-returning method="whiteLog" pointcut-ref="deletePointcut" returning="log"/>
+
+            <!-- 环绕通知 -->
+            <aop:around method="around" pointcut-ref="updatePointcut" />
+
+            <!--异常通知-->
+            <aop:after-throwing method="afterThrowing" pointcut-ref="findPointcut"
+                                throwing="throwable"/>
+
+            <!--after表示最终通知,无论程序有没有异常都会执行 method:执行那个方法 pointcut-ref:在哪个方法后进行执行-->
+            <aop:after method="after" pointcut-ref="findPointcut"/>
+        </aop:aspect>
+
+    </aop:config>
+</beans>

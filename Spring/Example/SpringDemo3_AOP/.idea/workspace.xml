@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2249812-b547-4c45-be01-55d9c7965051" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringDemo3_AOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log/test.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,13 +39,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="320" />
+          <entry key="java" value="867" />
+          <entry key="txt" value="19" />
           <entry key="xml" value="190" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="320" />
+          <entry key="JAVA" value="866" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Pointcut Expression" value="1" />
           <entry key="XML" value="190" />
         </counts>
       </usages-collector>
@@ -71,20 +65,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="480">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#78#79#0" expanded="true" />
                 <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,22 +83,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="545">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="401">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +125,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java" />
       </list>
     </option>
   </component>
@@ -287,7 +280,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549712958563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549718204566" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -423,8 +416,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549711568063</updated>
-      <workItem from="1549711571388" duration="1379000" />
+      <workItem from="1549711571388" duration="3427000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring:AOP注解入门">
+      <created>1549713039170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549713039170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -434,9 +435,30 @@
     <history-entry file="demo1_test1 - 2019.02.09 at 19h 49m 05s.xml">
       <configuration name="demo1.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="demo1_test1 - 2019.02.09 at 21h 08m 26s.xml">
+      <configuration name="demo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo1_test1 - 2019.02.09 at 21h 10m 41s.xml">
+      <configuration name="demo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo1_test1 - 2019.02.09 at 21h 11m 07s.xml">
+      <configuration name="demo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo1_test1 - 2019.02.09 at 21h 13m 09s.xml">
+      <configuration name="demo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo1_test1 - 2019.02.09 at 21h 14m 24s.xml">
+      <configuration name="demo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo1_test1 - 2019.02.09 at 21h 16m 11s.xml">
+      <configuration name="demo1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="demo1_test1 - 2019.02.09 at 21h 16m 18s.xml">
+      <configuration name="demo1.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1379000" />
+    <option name="totallyTimeSpent" value="3427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -516,6 +538,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring:AOP注解入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring:AOP注解入门" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,23 +556,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#78#79#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
@@ -556,22 +565,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/MyAspectAnno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="545">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zzw/spring/demo1/demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="401">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/spring/demo1/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
           </folding>
         </state>
       </provider>

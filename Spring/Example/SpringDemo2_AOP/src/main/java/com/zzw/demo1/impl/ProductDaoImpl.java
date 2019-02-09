@@ -9,8 +9,9 @@ public class ProductDaoImpl implements ProductDao {
     }
 
     @Override
-    public void delete() {
+    public String delete() {
         System.out.println("ProductDaoImpl的delete方法执行了...");
+        return "这是delete里面的日志";
     }
 
     @Override
@@ -21,5 +22,6 @@ public class ProductDaoImpl implements ProductDao {
     @Override
     public void find() {
         System.out.println("ProductDaoImpl的find方法执行了...");
+//        int i = 10 /0;
     }
 }

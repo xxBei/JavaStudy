@@ -22,7 +22,7 @@ public class JdbcDemo2 {
 
     @Test
     public void test01(){
-        jdbcTemplate.update("insert into account value(null,?,?)" , "李四",1000d);
+        jdbcTemplate.update("insert into account value(null,?,?)" , "花花",1000d);
     }
 
 }

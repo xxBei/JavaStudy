@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dbab4d-1f5e-4108-8f75-b08919c760dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/jdbc/demo1/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demo1/JdbcDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo1/JdbcDemo2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +27,14 @@
         <counts>
           <entry key="java" value="1744" />
           <entry key="properties" value="185" />
-          <entry key="txt" value="61" />
+          <entry key="txt" value="72" />
           <entry key="xml" value="730" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1744" />
-          <entry key="PLAIN_TEXT" value="61" />
+          <entry key="PLAIN_TEXT" value="72" />
           <entry key="Properties" value="185" />
           <entry key="XML" value="730" />
         </counts>
@@ -61,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="377">
+              <caret line="36" column="74" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -79,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo1/JdbcDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+            <state relative-caret-position="-7">
+              <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#937#938#0" expanded="true" />
@@ -266,7 +264,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549888893830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549892185280" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -479,7 +477,7 @@
       <updated>1549723731461</updated>
       <workItem from="1549723734467" duration="2587000" />
       <workItem from="1549782632959" duration="1953000" />
-      <workItem from="1549887342762" duration="1548000" />
+      <workItem from="1549887342762" duration="2473000" />
     </task>
     <task id="LOCAL-00001" summary="Spring:JDBC模板的入门使用">
       <created>1549726267732</created>
@@ -502,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549784012897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Spring:jdbc模板,实现CRUD操作">
+      <created>1549888935003</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549888935003</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -538,7 +543,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6088000" />
+    <option name="totallyTimeSpent" value="7013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -622,7 +627,8 @@
     <MESSAGE value="Spring:JDBC模板的入门使用" />
     <MESSAGE value="Spring" />
     <MESSAGE value="Spring:jdbc模板,引用c3p0连接池,通过属性文件获取驱动,地址,用户名和密码" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring:jdbc模板,引用c3p0连接池,通过属性文件获取驱动,地址,用户名和密码" />
+    <MESSAGE value="Spring:jdbc模板,实现CRUD操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring:jdbc模板,实现CRUD操作" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/log/test.log">
@@ -683,22 +689,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/demo1/JdbcDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        <state relative-caret-position="-7">
+          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
             <element signature="e#1010#1011#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="36" column="74" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="74" />
         </state>
       </provider>
     </entry>

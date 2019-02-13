@@ -57,6 +57,11 @@
                     如果已经存在一个事务中，加入到这个事务中。这是最常见的选择。
             -->
             <tx:method name="*" propagation="REQUIRED"/>
+            <!--
+                read-only=true： 表示只读,不能修改,用于查询
+                timeout=-1: 表示过期的时间,-1表示不会过期
+            -->
+            <!--<tx:method name="*" propagation="REQUIRED" read-only="true" timeout="-1"/>-->
         </tx:attributes>
     </tx:advice>
 

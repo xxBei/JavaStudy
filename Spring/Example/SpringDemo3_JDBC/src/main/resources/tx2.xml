@@ -20,7 +20,7 @@
     </bean>
 
     <!-- 配置Service -->
-    <bean class="com.zzw.tx.demo2.AccountServiceImpl" id="accountService">
+    <bean class="com.zzw.tx.demo2.AccountServiceImpl" id="accountService1">
         <!--注入Dao-->
         <property name="accountDao" ref="accountDao2"/>
     </bean>
@@ -34,4 +34,35 @@
         <property name="user" value="${jdbc.username}"/>
         <property name="password" value="${jdbc.password}"/>
     </bean>
+
+
+    <!--
+        Spring 事物管理 声明式事务管理(通过配置实现)
+    -->
+
+    <!-- 配置事物管理==================== -->
+    <bean id="transactionManager1"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSources"/>
+    </bean>
+
+    <!--配置事物增强===================== -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager1">
+        <!--事物管理的规则-->
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--aop的配置-->
+    <aop:config>
+        <!-- 添加切入点,对那个包下的哪个方法进行增强 -->
+        <aop:pointcut id="pointcut1"
+                      expression="execution(* com.zzw.tx.demo2.AccountServiceImpl.*(..))"/>
+        <!-- 添加切面 对pointcut1的切入点添加增强方法 -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut1"/>
+    </aop:config>
+    <!--解决spring aop代理混用的问题-->
+    <aop:aspectj-autoproxy  proxy-target-class="true"/>
+
 </beans>

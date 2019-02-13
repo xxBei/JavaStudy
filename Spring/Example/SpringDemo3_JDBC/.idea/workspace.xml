@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dbab4d-1f5e-4108-8f75-b08919c760dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tx2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/txDemo/txDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tx.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tx.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tx2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tx2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,51 +20,52 @@
     <session id="1077485691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3319" />
+          <entry key="java" value="3341" />
           <entry key="properties" value="185" />
-          <entry key="txt" value="72" />
-          <entry key="xml" value="1375" />
+          <entry key="txt" value="113" />
+          <entry key="xml" value="2007" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3319" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="JAVA" value="3341" />
+          <entry key="PLAIN_TEXT" value="113" />
           <entry key="Properties" value="185" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="1374" />
+          <entry key="XML" value="2006" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="38" />
+          <entry key="class" value="5" />
+          <entry key="java" value="41" />
           <entry key="log" value="2" />
-          <entry key="properties" value="2" />
+          <entry key="properties" value="3" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="19" />
+          <entry key="xml" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="38" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="41" />
           <entry key="Log" value="2" />
-          <entry key="Properties" value="2" />
+          <entry key="Properties" value="3" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -83,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#230#231#0" expanded="true" />
@@ -93,25 +85,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/tx2.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+            <state relative-caret-position="353">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/tx2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="267">
+              <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -142,14 +134,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/tx.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/txDemo/txDemo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/tx.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/tx2.xml" />
       </list>
     </option>
@@ -223,7 +215,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,15 +247,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zzw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringDemo3_JDBC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringDemo3_JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringDemo3_JDBC" type="b2602c69:ProjectViewProjectNode" />
@@ -336,13 +318,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549981911190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550040242835" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -559,7 +542,8 @@
       <workItem from="1549782632959" duration="1953000" />
       <workItem from="1549887342762" duration="2546000" />
       <workItem from="1549959035135" duration="7461000" />
-      <workItem from="1549980951034" duration="1564000" />
+      <workItem from="1549980951034" duration="1985000" />
+      <workItem from="1550028295934" duration="5057000" />
     </task>
     <task id="LOCAL-00001" summary="Spring:JDBC模板的入门使用">
       <created>1549726267732</created>
@@ -596,49 +580,56 @@
       <option name="project" value="LOCAL" />
       <updated>1549892196924</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring:事物的使用">
+      <created>1549982588531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549982588531</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="txDemo1_test01 - 2019.02.12 at 21h 38m 10s.xml">
-      <configuration name="txDemo1.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="txDemo1_test01 - 2019.02.12 at 21h 38m 31s.xml">
-      <configuration name="txDemo1.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 04m 32s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 15m 26s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 05m 00s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 21m 10s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 06m 03s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 22m 21s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 07m 27s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 22m 59s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 09m 11s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 24m 38s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 10m 50s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 25m 21s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 30m 40s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 27m 19s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="txDemo2_test02 - 2019.02.12 at 22h 31m 04s.xml">
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 33m 49s.xml">
+      <configuration name="txDemo2.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 36m 00s.xml">
+      <configuration name="txDemo2.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 36m 28s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16111000" />
+    <option name="totallyTimeSpent" value="21589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20978552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20978552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -682,7 +673,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.61958045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.61958045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -717,7 +708,9 @@
     <MESSAGE value="Spring" />
     <MESSAGE value="Spring:jdbc模板,引用c3p0连接池,通过属性文件获取驱动,地址,用户名和密码" />
     <MESSAGE value="Spring:jdbc模板,实现CRUD操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring:jdbc模板,实现CRUD操作" />
+    <MESSAGE value="Spring:事物的使用" />
+    <MESSAGE value="Spring:事物管理方法一---声明式事物,xml方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring:事物管理方法一---声明式事物,xml方式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/log/test.log">
@@ -771,32 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/demo1/JdbcDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-319">
           <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/tx.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/develop/Maven/repository/org/springframework/spring-jdbc/5.1.4.RELEASE/spring-jdbc-5.1.4.RELEASE.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -849,10 +813,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://E:/develop/Maven/repository/org/springframework/spring-jdbc/5.1.4.RELEASE/spring-jdbc-5.1.4.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/tx/demo2/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="360">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
@@ -860,29 +853,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/txDemo/txDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/tx/demo1/AccountDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="24">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tx.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/tx2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        <state relative-caret-position="267">
+          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
         </state>
       </provider>
     </entry>

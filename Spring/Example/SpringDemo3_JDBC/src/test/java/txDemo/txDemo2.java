@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 @ContextConfiguration("classpath:tx2.xml")
 public class txDemo2 {
 
-    @Resource(name = "accountService")
+    @Resource(name = "accountService1")
     private AccountServiceImpl accountService;
 
     @Test

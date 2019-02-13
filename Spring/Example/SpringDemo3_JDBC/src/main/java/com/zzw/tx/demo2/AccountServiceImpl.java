@@ -11,6 +11,7 @@ public class AccountServiceImpl implements AccountService{
     @Override
     public void transfer(String from, String to, Double money) {
         accountDao2.outMoney(from,money);
+       // int i = 10/0;
         accountDao2.inMoney(to,money);
     }
 }

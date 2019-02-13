@@ -51,6 +51,11 @@
     <tx:advice id="txAdvice" transaction-manager="transactionManager1">
         <!--事物管理的规则-->
         <tx:attributes>
+            <!-- 表示所有的方法都使用默认的REQUIRED传播行为 -->
+            <!--
+                REQUIRED表示：如果当前没有事务，就新建一个事务，
+                    如果已经存在一个事务中，加入到这个事务中。这是最常见的选择。
+            -->
             <tx:method name="*" propagation="REQUIRED"/>
         </tx:attributes>
     </tx:advice>

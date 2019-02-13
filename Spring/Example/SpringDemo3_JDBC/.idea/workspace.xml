@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6dbab4d-1f5e-4108-8f75-b08919c760dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo3/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo3/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo3/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/tx/demo3/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/tx3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/txDemo/txDemo3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +12,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1077485691">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -36,14 +44,14 @@
         <counts>
           <entry key="java" value="3891" />
           <entry key="properties" value="185" />
-          <entry key="txt" value="113" />
+          <entry key="txt" value="120" />
           <entry key="xml" value="2600" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3891" />
-          <entry key="PLAIN_TEXT" value="113" />
+          <entry key="PLAIN_TEXT" value="120" />
           <entry key="Properties" value="185" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="2599" />
@@ -113,9 +121,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/txDemo/txDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="384">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
+                <element signature="e#556#557#0" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
               </folding>
             </state>
@@ -345,7 +354,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/develop/Android/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550042263425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550048659379" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -563,7 +572,7 @@
       <workItem from="1549887342762" duration="2546000" />
       <workItem from="1549959035135" duration="7461000" />
       <workItem from="1549980951034" duration="1985000" />
-      <workItem from="1550028295934" duration="7014000" />
+      <workItem from="1550028295934" duration="9850000" />
     </task>
     <task id="LOCAL-00001" summary="Spring:JDBC模板的入门使用">
       <created>1549726267732</created>
@@ -635,13 +644,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550040553529</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Spring:事物管理方法二---声明式事物,注解方发生">
+      <created>1550042288263</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550042288263</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 27m 19s.xml">
-      <configuration name="txDemo2.test02" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="txDemo2_test02 - 2019.02.13 at 14h 33m 49s.xml">
       <configuration name="txDemo2.test02" configurationId="JUnit" />
     </history-entry>
@@ -669,13 +682,15 @@
     <history-entry file="txDemo3_test01 - 2019.02.13 at 15h 15m 50s.xml">
       <configuration name="txDemo3.test01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="txDemo3_test01 - 2019.02.13 at 16h 38m 24s.xml">
+      <configuration name="txDemo3.test01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23546000" />
+    <option name="totallyTimeSpent" value="26382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20978552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -706,7 +721,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -758,7 +773,8 @@
     <MESSAGE value="Spring:jdbc模板,实现CRUD操作" />
     <MESSAGE value="Spring:事物的使用" />
     <MESSAGE value="Spring:事物管理方法一---声明式事物,xml方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring:事物管理方法一---声明式事物,xml方式" />
+    <MESSAGE value="Spring:事物管理方法二---声明式事物,注解方发生" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring:事物管理方法二---声明式事物,注解方发生" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/log/test.log">
@@ -983,9 +999,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/txDemo/txDemo3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="384">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
+            <element signature="e#556#557#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
           </folding>
         </state>

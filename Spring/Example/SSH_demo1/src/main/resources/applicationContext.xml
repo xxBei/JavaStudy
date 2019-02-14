@@ -15,11 +15,12 @@
 
     <context:annotation-config />
 
-    <bean id="CustomerDao" class="com.zzw.ssh.dao.impl.CustomerDaoImpl">
+    <bean id="customerDao" class="com.zzw.ssh.dao.impl.CustomerDaoImpl">
 
     </bean>
 
-    <bean id="CustomerService" class="com.zzw.ssh.service.impl.CustomerServiceImpl">
+    <bean id="customerService" class="com.zzw.ssh.service.impl.CustomerServiceImpl">
 
     </bean>
+
 </beans>

@@ -5,7 +5,7 @@
     <session-factory>
         <property name="hibernate.connection.driver_class" >com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql//127.0.0
-            .1:3306/springdemo3_jdbc?useSSL=false&amp;serverTimezone=UTC</property>
+            .1:3306/struts_crm?useSSL=false&amp;serverTimezone=UTC</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
 

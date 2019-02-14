@@ -3,6 +3,12 @@ package com.zzw.ssh.web.action;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.ssh.domain.Customer;
+import com.zzw.ssh.service.CustomerService;
+import org.apache.struts2.ServletActionContext;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
+
+import javax.annotation.Resource;
 
 /**
  * 客户管理的Action类
@@ -14,5 +20,38 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
     @Override
     public Customer getModel() {
         return customer;
+    }
+
+    /**
+     * 导入struts2-spring-plugin.jar 会自动开启注入,所以只需要如下配置即可
+     * 方法一:
+     *      使用注解则不需要set方法
+     * 方法二:
+     *      写set不需要注解
+     * */
+    //注入CustomerService
+    //@Resource(name = "customerService")
+    private CustomerService customerService;
+
+    public void setCustomerService(CustomerService customerService) {
+        this.customerService = customerService;
+    }
+
+    public String comeUI(){
+        //如果web层没有使用Struts2,获取业务层必须如写进行编写(传统模式)
+        /*WebApplicationContext applicationContext =
+                WebApplicationContextUtils.getWebApplicationContext(ServletActionContext.getServletContext());
+
+        CustomerService customerService = (CustomerService) applicationContext.getBean("CustomerService");
+        customerService.save();*/
+
+        /**
+         * 进行Spring和Struts2整合
+         * 引入 struts-spring-plugin.jar
+         * */
+
+        System.out.println("CustomerAction已启动...");
+        customerService.save(customer);
+        return "saveSuccess";
     }
 }

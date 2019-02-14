@@ -14,4 +14,12 @@
 	http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <context:annotation-config />
+
+    <bean id="CustomerDao" class="com.zzw.ssh.dao.impl.CustomerDaoImpl">
+
+    </bean>
+
+    <bean id="CustomerService" class="com.zzw.ssh.service.impl.CustomerServiceImpl">
+
+    </bean>
 </beans>

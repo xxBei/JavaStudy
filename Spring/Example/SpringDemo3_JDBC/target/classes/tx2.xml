@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <!-- 配置Dao -->
+    <bean class="com.zzw.tx.demo2.AccountDaoImpl" id="accountDao2">
+        <property name="dataSource" ref="dataSources"/>
+    </bean>
+
+    <!-- 配置Service -->
+    <bean class="com.zzw.tx.demo2.AccountServiceImpl" id="accountService1">
+        <!--注入Dao-->
+        <property name="accountDao" ref="accountDao2"/>
+    </bean>
+
+
+
+    <context:property-placeholder location="jdbc.properties"/>
+    <bean id="dataSources" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driverClass}"/>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+
+    <!--
+        Spring 事物管理 声明式事务管理(通过配置实现)
+        只要使用事物,必须配置事物管理
+    -->
+
+    <!-- 配置事物管理==================== -->
+    <bean id="transactionManager1"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSources"/>
+    </bean>
+
+    <!--配置事物增强===================== -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager1">
+        <!--事物管理的规则-->
+        <tx:attributes>
+            <!-- 表示所有的方法都使用默认的REQUIRED传播行为 -->
+            <!--
+                REQUIRED表示：如果当前没有事务，就新建一个事务，
+                    如果已经存在一个事务中，加入到这个事务中。这是最常见的选择。
+            -->
+            <tx:method name="*" propagation="REQUIRED"/>
+            <!--
+                read-only=true： 表示只读,不能修改,用于查询
+                timeout=-1: 表示过期的时间,-1表示不会过期
+            -->
+            <!--<tx:method name="*" propagation="REQUIRED" read-only="true" timeout="-1"/>-->
+        </tx:attributes>
+    </tx:advice>
+
+    <!--aop的配置-->
+    <aop:config>
+        <!-- 添加切入点,对那个包下的哪个方法进行增强 -->
+        <aop:pointcut id="pointcut1"
+                      expression="execution(* com.zzw.tx.demo2.AccountServiceImpl.*(..))"/>
+        <!-- 添加切面 对pointcut1的切入点添加增强方法 -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut1"/>
+    </aop:config>
+    <!--解决spring aop代理混用的问题-->
+    <aop:aspectj-autoproxy  proxy-target-class="true"/>
+
+</beans>

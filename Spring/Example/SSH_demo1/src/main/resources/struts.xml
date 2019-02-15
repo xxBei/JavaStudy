@@ -5,8 +5,10 @@
 <struts>
     <constant name="struts.action.extension" value="action"/>
     <package name="ssh_demo" extends="struts-default" namespace="/">
-        <action name="customer_*" class="com.zzw.ssh.web.action.CustomerAction" method="{1}">
-            <result name="saveSuccess">Customer/cst_add.jsp</result>
+        <!-- class里面的值是Spring配置action的id名 -->
+        <action name="customer_*" class="customerAction" method="{1}">
+            <result name="comeSuccess">Customer/cst_add.jsp</result>
+            <result name="saveUISuccess">index.jsp</result>
             <allowed-methods>regex:.*</allowed-methods>
         </action>
 

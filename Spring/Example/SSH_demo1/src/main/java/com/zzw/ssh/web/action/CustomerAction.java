@@ -38,6 +38,11 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
     }
 
     public String comeUI(){
+        //跳转到添加页面
+        return "comeSuccess";
+    }
+
+    public String saveUI(){
         //如果web层没有使用Struts2,获取业务层必须如写进行编写(传统模式)
         /*WebApplicationContext applicationContext =
                 WebApplicationContextUtils.getWebApplicationContext(ServletActionContext.getServletContext());
@@ -52,6 +57,6 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 
         System.out.println("CustomerAction已启动...");
         customerService.save(customer);
-        return "saveSuccess";
+        return "saveUISuccess";
     }
 }

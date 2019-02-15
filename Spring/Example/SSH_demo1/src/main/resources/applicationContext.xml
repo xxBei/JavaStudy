@@ -16,13 +16,13 @@
     <context:annotation-config />
 
     <!-- 整合hibernate -->
-    <!-- 引入hibernate配置信息 -->
+    <!-- 引入hibernate配置信息(相当于连接池) -->
     <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <!--引入hibernate配置文件-->
         <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
     </bean>
 
-    <!-- 配置Action -->
+    <!-- 配置Service -->
     <bean id="customerService" class="com.zzw.ssh.service.impl.CustomerServiceImpl">
         <property name="customerDao" ref="customerDao"/>
     </bean>

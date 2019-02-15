@@ -9,6 +9,7 @@
         <action name="customer_*" class="customerAction" method="{1}">
             <result name="comeSuccess">Customer/cst_add.jsp</result>
             <result name="saveUISuccess">index.jsp</result>
+            <result name="findSuccess">Customer/cst_list.jsp</result>
             <allowed-methods>regex:.*</allowed-methods>
         </action>
 

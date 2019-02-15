@@ -1,14 +1,17 @@
 package com.zzw.ssh.web.action;
 
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.ssh.domain.Customer;
 import com.zzw.ssh.service.CustomerService;
 import org.apache.struts2.ServletActionContext;
+import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * 客户管理的Action类
@@ -58,5 +61,13 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
         System.out.println("CustomerAction已启动...");
         customerService.save(customer);
         return "saveUISuccess";
+    }
+
+    public String find(){
+        System.out.println("查询客户信息已启动....");
+        List<Customer> list = customerService.findAll();
+        ActionContext.getContext().put("list",list);//向页面传递一个list
+        System.out.println(list);
+        return "findSuccess";
     }
 }

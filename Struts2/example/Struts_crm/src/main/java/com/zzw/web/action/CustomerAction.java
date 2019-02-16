@@ -29,7 +29,7 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
      * */
     public String find(){
         System.out.println("查询客户成功");
-        //调用的业务层
+        //调用的业务层9
         CustomerService service = new CustomerServiceImpl();
         List<Customer> list = service.find();
         //获取request,通过request存储list'

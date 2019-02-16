@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <constant name="struts.action.extension" value="action"/>
+    <package name="ssh_demo" extends="struts-default" namespace="/">
+        <!-- class里面的值是Spring配置action的id名 -->
+        <action name="customer_*" class="customerAction" method="{1}">
+            <result name="comeSuccess">Customer/cst_add.jsp</result>
+            <result name="saveUISuccess">index.jsp</result>
+            <result name="findSuccess">Customer/cst_list.jsp</result>
+            <allowed-methods>regex:.*</allowed-methods>
+        </action>
+
+    </package>
+</struts>

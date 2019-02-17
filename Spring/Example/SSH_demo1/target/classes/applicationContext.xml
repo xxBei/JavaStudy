@@ -19,7 +19,7 @@
     <!-- 引入hibernate配置信息(相当于连接池) -->
     <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <!--引入hibernate配置文件-->
-        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+        <property name="configLocation" value="classpath:applicationContext.xml"/>
     </bean>
 
     <!-- 配置Service -->

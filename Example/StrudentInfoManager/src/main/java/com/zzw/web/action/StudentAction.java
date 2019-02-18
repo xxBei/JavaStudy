@@ -2,14 +2,14 @@ package com.zzw.web.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
-import com.zzw.domain.Student;
+import com.zzw.domain.StudentInfo;
 
-public class StudentAction extends ActionSupport implements ModelDriven<Student> {
+public class StudentAction extends ActionSupport implements ModelDriven<StudentInfo> {
 
-    private Student student = new Student();
+    private StudentInfo student = new StudentInfo();
 
     @Override
-    public Student getModel() {
+    public StudentInfo getModel() {
         return student;
     }
 

@@ -21,7 +21,7 @@
 
     <!--配置Dao-->
     <bean id="teacherDao" class="com.zzw.dao.impl.TeacherDaoImpl">
-
+        <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
     <bean id="studentDao" class="com.zzw.dao.impl.StudentDaoImpl">

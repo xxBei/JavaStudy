@@ -31,4 +31,9 @@ public class TeacherDaoImpl extends HibernateDaoSupport implements TeacherDao {
         }
         return null;
     }
+
+    @Override
+    public void registeredTeacher(TeacherInfo teacherInfo) {
+        this.getHibernateTemplate().save(teacherInfo);
+    }
 }

@@ -4,7 +4,7 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
-    <constant name="struts.action.extension" value="action"/>
+    <!--<constant name="struts.action.extension" value="action"/>-->
 
     <include file="struts_resource/student_struts.xml"/>
     <include file="struts_resource/teacher_struts.xml"/>

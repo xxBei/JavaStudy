@@ -2,7 +2,6 @@ package com.zzw.domain;
 
 public class TeacherInfo {
     private long th_id;
-    private long th_num;
     private String th_name;
     private String th_gender;
     private String th_username;
@@ -15,14 +14,6 @@ public class TeacherInfo {
 
     public void setTh_id(long th_id) {
         this.th_id = th_id;
-    }
-
-    public long getTh_num() {
-        return th_num;
-    }
-
-    public void setTh_num(long th_num) {
-        this.th_num = th_num;
     }
 
     public String getTh_name() {
@@ -69,7 +60,6 @@ public class TeacherInfo {
     public String toString() {
         return "TeacherInfo{" +
                 "th_id=" + th_id +
-                ", th_num=" + th_num +
                 ", th_name='" + th_name + '\'' +
                 ", th_gender='" + th_gender + '\'' +
                 ", th_username='" + th_username + '\'' +

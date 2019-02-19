@@ -25,4 +25,9 @@ public class TeacherServiceImpl implements TeacherService {
         List<TeacherInfo> list = teacherDao.findByUsername(th_username,th_password);
         return list;
     }
+
+    @Override
+    public void registeredTeacher(TeacherInfo teacherInfo) {
+        teacherDao.registeredTeacher(teacherInfo);
+    }
 }

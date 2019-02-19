@@ -6,7 +6,6 @@
 
     <class name="com.zzw.domain.TeacherInfo" table="teacher_info" schema="studentinfomanager">
         <id name="th_id" column="th_id"/>
-        <property name="th_num" />
         <property name="th_name" />
         <property name="th_gender" />
         <property name="th_username" />

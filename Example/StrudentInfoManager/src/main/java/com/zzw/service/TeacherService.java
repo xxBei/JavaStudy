@@ -9,4 +9,6 @@ public interface TeacherService {
     void findAll();
 
     List<TeacherInfo> findByUsername(String th_username,String th_password);
+
+    void registeredTeacher(TeacherInfo teacherInfo);
 }

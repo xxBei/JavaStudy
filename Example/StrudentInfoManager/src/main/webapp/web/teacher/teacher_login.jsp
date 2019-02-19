@@ -13,10 +13,11 @@
 </head>
 <body>
     <h2>教师登录</h2>
-    <form action="teacher_loginT.action" method="get">
+    <form action="teacher_login" method="get">
         用户名: <input type="text" name="th_username"><br><br>
         密　码: <input type="password" name="th_password"><br><br>
         <input type="submit" value="登录">
+        <button><a href="teacher_comeRegisteredUI">注册</a></button>
     </form>
 </body>
 </html>

@@ -7,9 +7,11 @@
 <struts>
     <package name="teacherManager" namespace="/" extends="struts-default">
         <action name="teacher_*" class="teacherAction" method="{1}">
-            <result name="findAllStuSuccess">web/teacher/student_info.jsp</result>
-            <result name="teacherComeUI">web/teacher/teacher_login.jsp</result>
+            <result name="findAllStuSuccess">/web/teacher/student_info.jsp</result>
+            <result name="teacherComeUI">/web/teacher/teacher_login.jsp</result>
             <result name="teacherLogin">/index.jsp</result>
+            <result name="registeredUI">/web/teacher/teacher_registered.jsp</result>
+            <result name="registeredSuccess">/web/teacher/teacher_login.jsp</result>
             <allowed-methods>regex:.*</allowed-methods>
         </action>
     </package>

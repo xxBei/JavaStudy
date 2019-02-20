@@ -7,42 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5c5f0c-22e7-42f0-9a87-49235b94234b" name="Default Changelist" comment="Struts2和Hibernate:客户关系管理系统界面设置">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_tomcat_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zzw/web/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/web/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/web/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/Utils/HibernateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/java/com/zzw/web/TestServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/hibernateMapping/Customer.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/log/test.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/resources/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Struts_crm/src/main/webapp/web/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MVC模式/Example/stuManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MVC模式/Example/stuManager/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MVC模式/Example/stuManager/out/artifacts/stuManager_war_exploded/stuList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MVC模式/Example/stuManager/out/artifacts/stuManager_war_exploded/stuList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../MVC模式/Example/stuManager/src/com/zzw/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MVC模式/Example/stuManager/src/com/zzw/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts2Demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2Demo2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts2Demo2/Struts2Demo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2Demo2/Struts2Demo2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts2Demo2/target/Struts2Demo2/WEB-INF/classes/customizeStruts/UserStruts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2Demo2/target/Struts2Demo2/WEB-INF/classes/customizeStruts/UserStruts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/webapp/web/teacher/teacher_registered.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/java/com/zzw/web/action/TeacherAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/java/com/zzw/web/action/TeacherAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/resources/struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/resources/struts_resource/teacher_struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/resources/struts_resource/teacher_struts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/webapp/web/teacher/teacher_login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Example/StrudentInfoManager/src/main/webapp/web/teacher/teacher_login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/Example/SSH_demo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/Example/SSH_demo1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Struts2_crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Struts2_crm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/Utils/HibernateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/Utils/HibernateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/web/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/web/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,14 +27,15 @@
     <session id="163274694">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -94,7 +66,7 @@
           <entry key="dtd" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
           <entry key="js" value="7" />
           <entry key="jsp" value="11" />
           <entry key="log" value="1" />
@@ -109,7 +81,7 @@
           <entry key="DTD" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
           <entry key="JSP" value="11" />
           <entry key="JavaScript" value="7" />
           <entry key="Log" value="1" />
@@ -121,7 +93,20 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/TestServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -199,12 +184,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,6 +224,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Struts2_crm" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Struts2_crm" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,6 +440,7 @@
       <workItem from="1547603938687" duration="19144000" />
       <workItem from="1547641935846" duration="586000" />
       <workItem from="1547642642962" duration="1467000" />
+      <workItem from="1550580573507" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="Struts2和Hibernate:客户关系管理系统前期配置">
       <created>1547545319998</created>
@@ -491,13 +488,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39407000" />
+    <option name="totallyTimeSpent" value="39548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21849866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -656,23 +653,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/TestServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,13 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -722,6 +700,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/TestServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

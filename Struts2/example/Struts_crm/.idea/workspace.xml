@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1412129-083d-4caf-8f42-1b562d4e3428" name="Default Changelist" comment="客户对象关系:新增登录功能">
-      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Maven_JavaDemo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Maven_JavaDemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Maven_JavaDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Maven_JavaDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Maven_JavaDemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Maven_JavaDemo/Maven_JavaDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Spring/Example/Maven_JavaDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Spring/Example/SSH_demo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/Example/SSH_demo1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OGNLDemo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OGNLDemo1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Struts2Demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2Demo2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts2_crm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_crm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Struts2_crm/Struts2_crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Struts2_crm/Struts2_crm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,16 +24,16 @@
     <session id="-718095225">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="8" />
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.36" value="3" />
+          <entry key="project.open.time.36" value="4" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,7 +43,7 @@
           <entry key="css" value="5" />
           <entry key="java" value="136" />
           <entry key="js" value="21" />
-          <entry key="jsp" value="53" />
+          <entry key="jsp" value="54" />
           <entry key="log" value="2" />
           <entry key="xml" value="61" />
         </counts>
@@ -61,7 +53,7 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="5" />
           <entry key="JAVA" value="136" />
-          <entry key="JSP" value="53" />
+          <entry key="JSP" value="54" />
           <entry key="JavaScript" value="21" />
           <entry key="Log" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -93,29 +85,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="576">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/Customer/cst_list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="617">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -226,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,53 +249,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zzw" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,21 +260,6 @@
               <item name="zzw" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Struts_crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Struts_Customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Struts_crm" type="b2602c69:ProjectViewProjectNode" />
@@ -362,6 +282,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,6 +450,9 @@
       <workItem from="1548921714226" duration="6583000" />
       <workItem from="1550216441683" duration="2895000" />
       <workItem from="1550274507064" duration="1671000" />
+      <workItem from="1550580656878" duration="142000" />
+      <workItem from="1550583404467" duration="797000" />
+      <workItem from="1550638944802" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="点击按钮通过jQuery中的Ajax实现异步加载功能">
       <created>1547647034213</created>
@@ -727,13 +651,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81194000" />
+    <option name="totallyTimeSpent" value="82155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1930295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -990,13 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/dao/Impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1047,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Struts_Customer/struts_customer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1065,6 +975,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zzw/web/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
         </state>
       </provider>
     </entry>

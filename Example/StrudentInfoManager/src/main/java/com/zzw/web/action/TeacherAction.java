@@ -34,11 +34,6 @@ public class TeacherAction extends ActionSupport implements ModelDriven<TeacherI
         return "findAllStuSuccess";
     }
 
-    //跳转到教师登录页面
-    public String comeUI(){
-        return "teacherComeUI";
-    }
-
     //跳转的教师注册页面
     public String comeRegisteredUI(){
         return "registeredUI";

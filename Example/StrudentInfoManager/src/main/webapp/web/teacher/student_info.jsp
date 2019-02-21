@@ -28,7 +28,7 @@
             <form action="" style="display: inline">
                 <select name="th_class">
 
-                    <s:iterator value="className" var="classNames">
+                    <s:iterator value="notClass" var="classNames">
                         <option>
                             <s:property value="#classNames"/>
                         </option>
@@ -50,7 +50,7 @@
             <li class="studentListBox_li">班级</li>
             <li class="studentListBox_li">专业课老师</li>
         </ul>
-        <s:if test="notClass==0">
+        <s:if test="notClass==''">
             你还有任何班级
         </s:if>
         <s:else>

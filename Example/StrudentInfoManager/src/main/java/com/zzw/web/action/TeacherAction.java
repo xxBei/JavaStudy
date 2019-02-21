@@ -56,17 +56,17 @@ public class TeacherAction extends ActionSupport implements ModelDriven<TeacherI
             for(TeacherInfo teacherInfo : teacherList){
                 th_class = teacherInfo.getTh_class();
                 if(th_class.equals("")){
-                    ActionContext.getContext().getValueStack().set("notClass",0);
+                    ActionContext.getContext().getValueStack().set("notClass","");
                 }else{
                     String[] className = th_class.split(",");
                     ActionContext.getContext().getValueStack().set("notClass",className);
                 }
             }
-
+            return "teacherLogin";
         }else{
             System.out.println("登录失败");
+            return "teacherLoginError";
         }
-        return "teacherLogin";
     }
 
     //教师注册功能实现

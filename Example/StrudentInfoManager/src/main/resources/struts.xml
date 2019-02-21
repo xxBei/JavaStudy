@@ -5,6 +5,7 @@
 
 <struts>
     <!--<constant name="struts.action.extension" value="action"/>-->
+    <constant name="struts.devMode" value="true" />
 
     <include file="struts_resource/student_struts.xml"/>
     <include file="struts_resource/teacher_struts.xml"/>

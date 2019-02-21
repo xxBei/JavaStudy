@@ -1,5 +1,6 @@
 package com.zzw.web.action;
 
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.domain.TeacherInfo;
@@ -43,12 +44,25 @@ public class TeacherAction extends ActionSupport implements ModelDriven<TeacherI
 
     //教师登录功能实现
     public String login(){
-        String th_username =  request.getParameter("th_username");
-        String th_password = request.getParameter("th_password");
+        /*String th_username =  request.getParameter("th_username");
+        String th_password = request.getParameter("th_password");*/
+        String th_class;
 
-        List<TeacherInfo> teacherList = teacherService.findByUsername(th_username,th_password);
+        List<TeacherInfo> teacherList =
+                teacherService.findByUsername(teacherInfo.getTh_username(),teacherInfo.getTh_password());
         if(teacherList!=null){
             System.out.println("登录成功"+teacherList);
+            ActionContext.getContext().getValueStack().set("teacherList",teacherList);
+            for(TeacherInfo teacherInfo : teacherList){
+                th_class = teacherInfo.getTh_class();
+                if(th_class.equals("")){
+                    ActionContext.getContext().getValueStack().set("notClass",0);
+                }else{
+                    String[] className = th_class.split(",");
+                    ActionContext.getContext().getValueStack().set("notClass",className);
+                }
+            }
+
         }else{
             System.out.println("登录失败");
         }

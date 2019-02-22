@@ -5,7 +5,10 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
-    <package name="stuInfoManager" extends="struts-default" namespace="/">
-
+    <package name="stuInfoManager" namespace="/" extends="struts-default">
+        <action name="student_*" class="studentAction" method="{1}">
+            <result name="studentFindAll">/web/teacher/student_info.jsp</result>
+            <allowed-methods>regex:.*</allowed-methods>
+        </action>
     </package>
 </struts>

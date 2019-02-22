@@ -1164,7 +1164,7 @@
     <column id="290" parent="282" name="stu_class">
       <Position>7</Position>
       <Comment>所在班级</Comment>
-      <DataType>int(30)|0s</DataType>
+      <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>

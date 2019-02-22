@@ -25,7 +25,7 @@
     </bean>
 
     <bean id="studentDao" class="com.zzw.dao.impl.StudentDaoImpl">
-
+        <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
     <!--配置Service-->
@@ -34,7 +34,7 @@
     </bean>
 
     <bean id="studentService" class="com.zzw.service.impl.StudentServiceImpl">
-
+        <property name="studentDao" ref="studentDao"/>
     </bean>
 
     <!--配合Action-->
@@ -43,7 +43,7 @@
     </bean>
 
     <bean id="studentAction" class="com.zzw.web.action.StudentAction" scope="prototype">
-
+        <property name="studentService" ref="studentService"/>
     </bean>
 
 

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="web/css/student_info.css">
 </head>
 <body>
-    <%--<s:debug></s:debug>--%>
+    <s:debug></s:debug>
 
 
     <h2 class="studentList_title">学生信息列表</h2>
@@ -24,10 +24,10 @@
                 <s:iterator value="teacherList">
                     <s:property value="th_name"/>
                 </s:iterator>
-            </span>
-            <form action="" style="display: inline">
-                <select name="th_class">
 
+            </span>
+            <form action="student_findAll" style="display: inline" method="post">
+                <select name="stu_class">
                     <s:iterator value="notClass" var="classNames">
                         <option>
                             <s:property value="#classNames"/>
@@ -51,21 +51,28 @@
             <li class="studentListBox_li">专业课老师</li>
         </ul>
         <s:if test="notClass==''">
-            你还有任何班级
+            没有班级
         </s:if>
         <s:else>
+
+            <s:set var="i" value="0" scope="request"/>
+            <s:iterator var="stuList" value="StudentList">
             <ul class="studentListBox_ul">
                 <li class="studentListBox_li"></li>
-                <li class="studentListBox_li"></li>
-                <li class="studentListBox_li"></li>
-                <li class="studentListBox_li"></li>
-                <li class="studentListBox_li"></li>
-                <li class="studentListBox_li"></li>
-                <li class="studentListBox_li"></li>
-                <li class="studentListBox_li"></li>
-
+                <li class="studentListBox_li">${stuList.stu_num}</li>
+                <li class="studentListBox_li">${stuList.stu_name}</li>
+                <li class="studentListBox_li">${stuList.stu_gender}</li>
+                <li class="studentListBox_li">${stuList.stu_age}</li>
+                <li class="studentListBox_li">${stuList.stu_chengji}</li>
+                <li class="studentListBox_li">${stuList.stu_class}</li>
+                <li class="studentListBox_li">${stuList.stu_teacher}</li>
             </ul>
+            </s:iterator>
         </s:else>
     </div>
+${StudentList.size()}
+
+
+
 </body>
 </html>

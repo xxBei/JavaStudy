@@ -11,7 +11,7 @@ public class StudentInfo {
     private String stu_gender;
     private Integer stu_age;
     private Integer stu_chengji;
-    private int stu_class;
+    private String stu_class;
     private String stu_teacher;
 
     @Override
@@ -76,11 +76,11 @@ public class StudentInfo {
         this.stu_chengji = stu_chengji;
     }
 
-    public int getStu_class() {
+    public String getStu_class() {
         return stu_class;
     }
 
-    public void setStu_class(int stu_class) {
+    public void setStu_class(String stu_class) {
         this.stu_class = stu_class;
     }
 

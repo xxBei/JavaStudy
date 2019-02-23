@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
     <title>学生信息管理系统</title>
@@ -34,7 +35,9 @@
                 </form>
             </div>
         </div>
+        <p><s:property value="LoginError"/></p>
     </div>
+
     <script src="web/js/index.js"></script>
 </body>
 </html>

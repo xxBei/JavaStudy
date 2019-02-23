@@ -6,6 +6,7 @@ import com.opensymphony.xwork2.ModelDriven;
 import com.zzw.domain.TeacherInfo;
 import com.zzw.service.TeacherService;
 import org.apache.struts2.ServletActionContext;
+import org.springframework.context.ApplicationContext;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
@@ -64,7 +65,7 @@ public class TeacherAction extends ActionSupport implements ModelDriven<TeacherI
             }
             return "teacherLogin";
         }else{
-            System.out.println("登录失败");
+            ActionContext.getContext().getValueStack().set("LoginError","用户名或密码错误");
             return "teacherLoginError";
         }
     }

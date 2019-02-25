@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="teacherManager" namespace="/" extends="struts-default">
+        <action name="teacher_*" class="teacherAction" method="{1}">
+            <result name="findAllStuSuccess">/web/teacher/student_info.jsp</result>
+            <result name="teacherLogin">/web/teacher/student_info.jsp</result>
+            <result name="teacherLoginError">/index.jsp</result>
+            <result name="registeredUI">/web/teacher/teacher_registered.jsp</result>
+            <result name="registeredSuccess">/web/teacher/teacher_login.jsp</result>
+            <allowed-methods>regex:.*</allowed-methods>
+        </action>
+    </package>
+
+</struts>

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    background: #3a3d48;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.directory{
+    width: 18%;
+    background: #5d5d5d;
+    min-height: 656px;
+    float: left;
+}
+.directory article h4{
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    border-bottom: solid 1px #ccc;
+}
+.directory ul{
+    padding: 10px 0 0 18px
+}
+.directory ul li{
+    color: #FFF;
+    cursor: pointer;
+    list-style: none;
+    text-align: left;
+    font-weight: bold;
+}
+.mainContext{
+    float: left;
+    width: 82%;
+    min-height: 656px;
+    background: #fcfcfc;
+}
+.lineBox{
+    margin: 20px auto;
+    width: 90%;
+    height: 40px;
+}
+.lineBox .lineBoxLeft{
+    float: left;
+}
+.lineBox .lineBoxLeft h3{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    background: #3a3d48;
+    display: inline-block;
+    cursor: pointer;
+}
+.lineBox .lineBoxLeft h3:last-child{
+    color: #3a3d48;
+    background: #fff;
+    margin-left: 5px;
+    border: solid 1px #3a3d48;
+}
+.lineBox .lineBoxRight{
+    float: right;
+    line-height: 40px;
+    margin-right: 100px;
+}
+.lineBox .lineBoxRight select{
+    width: 130px;
+    height: 25px;
+}
+.lineBox .lineBoxRight button{
+    width: 80px;
+    height: 25px;
+    border-radius:3px;
+}
+.tableBox{
+    width: 90%;
+    margin: 10px auto;
+}
+.tableBox .tableTitle{
+    width: 100%;
+    height: 45px;
+    background: #5d5d5d;
+}
+.tableBox .tableTitle .tableTitle_li{
+    list-style: none;
+    float: left;
+    width: 123px;
+    height: 45px;
+    line-height: 45px;
+    border-left: solid 1px #b8b8b8;
+    text-align: center;
+    color: #fff;
+}
+.tableContext{
+    width: 100%;
+    height: 45px;
+    border-bottom: solid 1px #b8b8b8;
+}
+
+.tableContext_li{
+    width: 123px;
+    height: 45px;
+    list-style: none;
+    line-height: 45px;
+    float: left;
+    border-left: solid 1px #b8b8b8;
+    text-align: center;
+}
+.tableContext_li:last-child{
+    border-right: solid 1px #b8b8b8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teacherWelcome{
+    padding: 10px 0 0 10px;
+}
+.studentList_title{
+    text-align: center;
+    padding: 20px 0;
+}
+.studentListTopBox{
+    width: 930px;
+    height: 40px;
+    margin: 10px auto 0;
+    line-height: 40px;
+    border: solid 1px #ccc;
+    border-bottom: 0;
+}
+
+.studentListBox{
+    width: 930px;
+    height: 50px;
+    background: #ddd;
+    margin: auto;
+}
+
+.studentListBox_li{
+    list-style: none;
+    float: left;
+    width: 115px;
+    height: 50px;
+    line-height: 50px;
+    border-left: solid 1px #b8b8b8;
+    text-align: center;
+}
+.studentListBox_li:first-child{
+    border-left: 0;
+}

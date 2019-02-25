@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--整合Hibernate-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <!--引入配置文件-->
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+    </bean>
+
+    <!--配置Dao-->
+    <bean id="teacherDao" class="com.zzw.dao.impl.TeacherDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="studentDao" class="com.zzw.dao.impl.StudentDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!--配置Service-->
+    <bean id="teacherService" class="com.zzw.service.impl.TeacherServiceImpl">
+        <property name="teacherDao" ref="teacherDao"/>
+    </bean>
+
+    <bean id="studentService" class="com.zzw.service.impl.StudentServiceImpl">
+        <property name="studentDao" ref="studentDao"/>
+    </bean>
+
+    <!--配合Action-->
+    <bean id="teacherAction" class="com.zzw.web.action.TeacherAction" scope="prototype">
+        <property name="teacherService" ref="teacherService"/>
+    </bean>
+
+    <bean id="studentAction" class="com.zzw.web.action.StudentAction" scope="prototype">
+        <property name="studentService" ref="studentService"/>
+    </bean>
+
+
+
+    <!--配置事物管理器-->
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <!--开启事物注解-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+</beans>

@@ -84,7 +84,7 @@ header h1{
     margin: 10px auto;
 }
 .tableBox .tableTitle{
-    width: 100%;
+    width: 1115px;
     height: 45px;
     background: #5d5d5d;
 }
@@ -99,11 +99,10 @@ header h1{
     color: #fff;
 }
 .tableContext{
-    width: 100%;
+    width: 1115px;
     height: 45px;
     border-bottom: solid 1px #b8b8b8;
 }
-
 .tableContext_li{
     width: 123px;
     height: 45px;

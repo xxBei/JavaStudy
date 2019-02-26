@@ -7,7 +7,7 @@
 <struts>
     <package name="stuInfoManager" namespace="/" extends="struts-default">
         <action name="student_*" class="studentAction" method="{1}">
-            <result name="studentFindAll">/web/teacher/student_info.jsp</result>
+            <result name="studentFindAll">/web/teacher/stu_info_list.jsp</result>
             <allowed-methods>regex:.*</allowed-methods>
         </action>
     </package>

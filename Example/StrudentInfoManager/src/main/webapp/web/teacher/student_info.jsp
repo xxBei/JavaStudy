@@ -21,7 +21,9 @@
     <!--左列表-->
     <section class="directory">
         <article>
-            <h4>欢迎您,zbei</h4>
+            <s:iterator value="teacherList">
+            <h4>欢迎您,<s:property value="th_name"/></h4>
+            </s:iterator>
         </article>
         <ul>
             <li>学生信息</li>
@@ -36,8 +38,13 @@
             </div>
             <div class="lineBoxRight">
                 选择班级：
-                <select name="stu_class">
-                    <option value="">请选择班级</option>
+                <select name="stu_class" id="stu_class">
+                    <option value="0">请选择班级</option>
+                    <s:iterator value="notClass" var="classNames">
+                        <option>
+                            <s:property value="classNames"/>
+                        </option>
+                    </s:iterator>
                 </select>
                 <button id="findAllStuMan">查询</button>
             </div>
@@ -54,55 +61,14 @@
                 <li class="tableTitle_li">专业课老师</li>
                 <li class="tableTitle_li">操作</li>
             </ul>
-            <ul class="tableContext">
-                <li class="tableContext_li">序号</li>
-                <li class="tableContext_li">学号</li>
-                <li class="tableContext_li">姓名</li>
-                <li class="tableContext_li">性别</li>
-                <li class="tableContext_li">年龄</li>
-                <li class="tableContext_li">成绩</li>
-                <li class="tableContext_li">班级</li>
-                <li class="tableContext_li">专业课老师</li>
-                <li class="tableContext_li">修改 | 删除</li>
-            </ul>
+            <div class="mainResult">
+                <!--学生信息页面-->
+            </div>
         </div>
     </section>
 
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"/>
-    <script src="../js/student_info.js" type="text/javascript"/>
-    <%--<s:include value="../header.jsp"/>
-    <div class="studentListBox">
-        <ul class="studentListBox_ul">
-            <li class="studentListBox_li">序号</li>
-            <li class="studentListBox_li">学号</li>
-            <li class="studentListBox_li">姓名</li>
-            <li class="studentListBox_li">性别</li>
-            <li class="studentListBox_li">年龄</li>
-            <li class="studentListBox_li">成绩</li>
-            <li class="studentListBox_li">班级</li>
-            <li class="studentListBox_li">专业课老师</li>
-        </ul>
-        <s:if test="notClass==''">
-            没有班级
-        </s:if>
-        <s:else>
-            <s:set var="i" value="0" scope="request"/>
-            <s:iterator var="stuList" value="StudentList">
-
-            <ul class="studentListBox_ul">
-                <li class="studentListBox_li">${stuList.stu_id}</li>
-                <li class="studentListBox_li">${stuList.stu_num}</li>
-                <li class="studentListBox_li">${stuList.stu_name}</li>
-                <li class="studentListBox_li">${stuList.stu_gender}</li>
-                <li class="studentListBox_li">${stuList.stu_age}</li>
-                <li class="studentListBox_li">${stuList.stu_chengji}</li>
-                <li class="studentListBox_li">${stuList.stu_class}</li>
-                <li class="studentListBox_li">${stuList.stu_teacher}</li>
-            </ul>
-            </s:iterator>
-        </s:else>
-    </div>
-    <div style="clear: both;"></div>--%>
+    <script type="text/javascript" src="web/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="web/js/student_info.js"></script>
 <%--${StudentList.size()}--%>
 
 </body>

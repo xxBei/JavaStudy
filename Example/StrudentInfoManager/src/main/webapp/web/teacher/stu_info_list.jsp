@@ -12,6 +12,7 @@
     <title>Title</title>
 </head>
 <body>
+<s:if test="StudentList.size()!=0">
 <s:iterator value="StudentList">
     <ul class="tableContext">
         <li class="tableContext_li">${stu_id}</li>
@@ -24,6 +25,11 @@
         <li class="tableContext_li">${stu_teacher}</li>
         <li class="tableContext_li">修改 | 删除</li>
     </ul>
+
 </s:iterator>
+</s:if>
+<s:else>
+    你还没有班级
+</s:else>
 </body>
 </html>

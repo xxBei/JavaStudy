@@ -17,7 +17,6 @@ public class StudentDaoImpl extends HibernateDaoSupport implements StudentDao {
         DetachedCriteria criteria = DetachedCriteria.forClass(StudentInfo.class);
         criteria.add(Restrictions.eq("stu_class",studentInfo.getStu_class()));
         List<StudentInfo> list = (List<StudentInfo>) this.getHibernateTemplate().findByCriteria(criteria);
-        System.out.println("Dao中 findAll方法:"+list);
         return list;
     }
 }

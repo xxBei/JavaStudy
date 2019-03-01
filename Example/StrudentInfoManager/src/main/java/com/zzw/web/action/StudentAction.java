@@ -35,10 +35,7 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
     public String findAll(){
         //String stu_class = request.getParameter("stu_class");
         List<StudentInfo> list = studentService.findAll(studentInfo);
-
-        System.out.println(studentInfo.getStu_class());
         ActionContext.getContext().getValueStack().set("StudentList",list);
-        System.out.println("action:"+list);
         return "studentFindAll";
     }
 }

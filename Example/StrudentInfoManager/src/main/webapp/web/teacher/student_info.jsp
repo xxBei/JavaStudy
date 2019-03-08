@@ -50,20 +50,10 @@
         </div>
     </div>
     <div class="tableBox">
-        <ul class="tableTitle">
-            <li class="tableTitle_li">序号</li>
-            <li class="tableTitle_li">学号</li>
-            <li class="tableTitle_li">姓名</li>
-            <li class="tableTitle_li">性别</li>
-            <li class="tableTitle_li">年龄</li>
-            <li class="tableTitle_li">成绩</li>
-            <li class="tableTitle_li">班级</li>
-            <li class="tableTitle_li">专业课老师</li>
-            <li class="tableTitle_li">操作</li>
-        </ul>
+
         <div class="mainResult">
             <!--学生信息页面-->
-
+            <h2>欢迎来到学生信息管理系统</h2>
         </div>
     </div>
 </section>

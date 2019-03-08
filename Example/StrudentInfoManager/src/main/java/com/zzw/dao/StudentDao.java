@@ -7,4 +7,6 @@ import java.util.List;
 public interface StudentDao {
 
     List<StudentInfo> findAll(StudentInfo studentInfo);
+
+    void addStudent(StudentInfo studentInfo);
 }

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.mainResult form table{
+    margin: 45px auto 0;
+}
+.titleLine{
+    width: 150px;
+    height: 40px;
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+.contextLine{
+    width: 350px;
+    height: 40px;
+}
+.inp{
+    width: 300px;
+    height: 30px;
+    margin: 0 0 0 10px;
+    padding: 0 5px;
+    border: solid 1px #ccc;
+}
+.inp_rad{
+    margin-left: 16px;
+}
+.btn{
+    width: 80px;
+    height: 35px;
+    display: block;
+    float: right;
+    margin-right: 40px;
+    border: solid 1px #202020;
+}

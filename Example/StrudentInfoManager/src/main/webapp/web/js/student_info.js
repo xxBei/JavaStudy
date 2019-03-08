@@ -15,9 +15,11 @@ $("#findAllStuMan").click(function () {
 });
 
 $("#addStudent").click(function () {
+    /*$(this).css("background","#3a3d48");
+    $(this).css("color","#fff");*/
     $.ajax({
         type:"post",
-        url:"",//教师添加学生信息
+        url:"student_addUI",//教师添加学生信息
         success:function (result) {
             $(".mainResult").html(result);
         },

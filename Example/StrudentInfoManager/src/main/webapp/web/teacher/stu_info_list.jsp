@@ -9,10 +9,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
 </head>
 <body>
 <s:if test="StudentList.size()!=0">
+    <ul class="tableTitle">
+        <li class="tableTitle_li">序号</li>
+        <li class="tableTitle_li">学号</li>
+        <li class="tableTitle_li">姓名</li>
+        <li class="tableTitle_li">性别</li>
+        <li class="tableTitle_li">年龄</li>
+        <li class="tableTitle_li">成绩</li>
+        <li class="tableTitle_li">班级</li>
+        <li class="tableTitle_li">专业课老师</li>
+        <li class="tableTitle_li">操作</li>
+    </ul>
 <s:iterator value="StudentList">
     <ul class="tableContext">
         <li class="tableContext_li">${stu_id}</li>

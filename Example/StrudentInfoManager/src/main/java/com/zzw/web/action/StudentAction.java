@@ -32,10 +32,43 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
         return "findNameStu";
     }
 
+    /**
+     * 查询所有学生
+     * */
     public String findAll(){
         //String stu_class = request.getParameter("stu_class");
         List<StudentInfo> list = studentService.findAll(studentInfo);
         ActionContext.getContext().getValueStack().set("StudentList",list);
         return "studentFindAll";
     }
+
+    /**
+     * 跳转到添加学生
+     * */
+    public String addUI(){
+        return "stuAddUI";
+    }
+
+    /**
+     * 添加学生
+     * */
+    public String addStu(){
+        long stu_num = Integer.parseInt(request.getParameter("stu_num"));
+        String stu_name = request.getParameter("stu_name");
+        String stu_gender = request.getParameter("stu_gender");
+        int stu_age = Integer.parseInt(request.getParameter("stu_age"));
+        String stu_class = request.getParameter("stu_class");
+        String stu_teacher = request.getParameter("stu_teacher");
+
+        studentInfo.setStu_num(stu_num);
+        studentInfo.setStu_name(stu_name);
+        studentInfo.setStu_gender(stu_gender);
+        studentInfo.setStu_age(stu_age);
+        studentInfo.setStu_class(stu_class);
+        studentInfo.setStu_teacher(stu_teacher);
+
+        studentService.addStudent(studentInfo);
+        return NONE;
+    }
+
 }

@@ -28,3 +28,4 @@ $("#addStudent").click(function () {
         }
     })
 });
+

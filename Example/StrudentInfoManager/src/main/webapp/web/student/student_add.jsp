@@ -54,7 +54,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" class="contextLine">
-                        <input type="submit" value="添加" class="btn">
+                        <input type="button" value="添加" class="btn" id="stu_add_sub">
                     </td>
                 </tr>
             </table>
@@ -69,7 +69,24 @@
             <input type="submit" value="添加">--%>
 
         </form>
-    </div>
 
+    </div>
+    <script type="text/javascript" src="web/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $("#stu_add_sub").click(function () {
+            console.log($("form").serialize());
+            $.ajax({
+                type:"get",
+                url:"student_addStu",
+                data:$("form").serialize(),
+                success:function (data) {
+                    alert("成功");
+                },
+                error:function () {
+                    alert("失败");
+                }
+            })
+        });
+    </script>
 </body>
 </html>

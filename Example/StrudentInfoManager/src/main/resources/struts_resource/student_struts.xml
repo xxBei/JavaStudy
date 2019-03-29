@@ -9,6 +9,7 @@
         <action name="student_*" class="studentAction" method="{1}">
             <result name="studentFindAll">/web/teacher/stu_info_list.jsp</result>
             <result name="stuAddUI">/web/student/student_add.jsp</result>
+            <result name="addStu">/web/teacher/stu_info_list.jsp</result>
             <allowed-methods>regex:.*</allowed-methods>
         </action>
     </package>

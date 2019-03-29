@@ -23,7 +23,7 @@
         <li class="tableTitle_li">专业课老师</li>
         <li class="tableTitle_li">操作</li>
     </ul>
-<s:iterator value="StudentList">
+    <s:iterator value="StudentList">
     <ul class="tableContext">
         <li class="tableContext_li">${stu_id}</li>
         <li class="tableContext_li">${stu_num}</li>
@@ -36,7 +36,7 @@
         <li class="tableContext_li">修改 | 删除</li>
     </ul>
 
-</s:iterator>
+    </s:iterator>
 </s:if>
 <s:else>
     你还没有班级

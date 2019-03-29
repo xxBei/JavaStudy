@@ -67,8 +67,10 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
         studentInfo.setStu_class(stu_class);
         studentInfo.setStu_teacher(stu_teacher);
 
+        System.out.println(studentInfo);
+        //将数据进行保存
         studentService.addStudent(studentInfo);
-        return NONE;
+        return "addStu";
     }
 
 }

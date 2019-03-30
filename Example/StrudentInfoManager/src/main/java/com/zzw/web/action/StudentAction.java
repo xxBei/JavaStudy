@@ -50,7 +50,7 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
     }
 
     /**
-     * 添加学生
+     * 教师添加学生信息
      * */
     public String addStu(){
         long stu_num = Integer.parseInt(request.getParameter("stu_num"));
@@ -73,4 +73,24 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
         return "addStu";
     }
 
+    /**
+     * 跳转教师修改学生信息(并根据学生id查询学生信息)
+     * */
+    public String updateTUI(){
+        //String stu_id = request.getParameter("stu_id");
+        //System.out.println("学生学号为:"+stu_id);
+        System.out.println(studentInfo.getStu_id());
+        List<StudentInfo> list = studentService.findStuByStuId(studentInfo);
+        ActionContext.getContext().getValueStack().set("StudentListById",list);
+        return "updateTUI";
+    }
+
+    /**
+     * 教师修改学生信息
+     * */
+    public String updateT(){
+        System.out.println("修改成功");
+        
+        return "updateT";
+    }
 }

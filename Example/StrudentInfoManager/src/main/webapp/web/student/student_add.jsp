@@ -74,18 +74,24 @@
     <script type="text/javascript" src="web/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript">
         $("#stu_add_sub").click(function () {
+            // $(this).style.background = 'red';
             console.log($("form").serialize());
-            $.ajax({
-                type:"get",
-                url:"student_addStu",
-                data:$("form").serialize(),
-                success:function (data) {
-                    alert("成功");
-                },
-                error:function () {
-                    alert("失败");
-                }
-            })
+            if($("input").val().length){
+                $.ajax({
+                    type:"get",
+                    url:"student_addStu",
+                    data:$("form").serializeArray(),
+                    success:function (data) {
+                        alert("成功");
+                    },
+                    error:function () {
+                        alert("失败");
+                    }
+                })
+            }else{
+                alert('请填写信息');
+            }
+
         });
     </script>
 </body>

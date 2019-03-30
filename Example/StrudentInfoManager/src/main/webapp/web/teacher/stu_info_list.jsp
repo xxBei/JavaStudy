@@ -11,7 +11,7 @@
 <head>
 </head>
 <body>
-<s:if test="StudentList.size()!=0">
+<s:if test="StudentList != null && StudentList.size() > 0">
     <ul class="tableTitle">
         <li class="tableTitle_li">序号</li>
         <li class="tableTitle_li">学号</li>
@@ -33,7 +33,11 @@
         <li class="tableContext_li">${stu_chengji}</li>
         <li class="tableContext_li">${stu_class}</li>
         <li class="tableContext_li">${stu_teacher}</li>
-        <li class="tableContext_li">修改 | 删除</li>
+        <li class="tableContext_li">
+            <button class="upStuBtn" alt="<s:property value="stu_id"/>">修改</button>
+            |
+            <button class="delStuBtn" alt="<s:property value="stu_id"/>">删除</button>
+        </li>
     </ul>
 
     </s:iterator>
@@ -41,5 +45,7 @@
 <s:else>
     你还没有班级
 </s:else>
+    <script type="text/javascript" src="web/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="web/js/student_info.js"></script>
 </body>
 </html>

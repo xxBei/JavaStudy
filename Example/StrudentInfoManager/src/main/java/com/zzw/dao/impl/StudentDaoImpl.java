@@ -33,4 +33,14 @@ public class StudentDaoImpl extends HibernateDaoSupport implements StudentDao {
         List<StudentInfo> list = (List<StudentInfo>) this.getHibernateTemplate().findByCriteria(criteria);
         return list;
     }
+
+    @Override
+    public void updateStudentT(StudentInfo studentInfo) {
+        System.out.println("StudentDaoImpl中update:"+studentInfo);
+        StudentInfo studentInfos = this.getHibernateTemplate().get(StudentInfo.class,
+                studentInfo.getStu_id());
+        System.out.println("StudentInfos:"+studentInfos+"---");
+        studentInfo.setStu_id(studentInfo.getStu_id());
+        this.getHibernateTemplate().update(studentInfos);
+    }
 }

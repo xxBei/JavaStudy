@@ -53,6 +53,7 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
      * 教师添加学生信息
      * */
     public String addStu(){
+        long stu_id = Integer.parseInt(request.getParameter("stu_id"));
         long stu_num = Integer.parseInt(request.getParameter("stu_num"));
         String stu_name = request.getParameter("stu_name");
         String stu_gender = request.getParameter("stu_gender");
@@ -60,6 +61,7 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
         String stu_class = request.getParameter("stu_class");
         String stu_teacher = request.getParameter("stu_teacher");
 
+        studentInfo.setStu_num(stu_id);
         studentInfo.setStu_num(stu_num);
         studentInfo.setStu_name(stu_name);
         studentInfo.setStu_gender(stu_gender);
@@ -67,7 +69,7 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
         studentInfo.setStu_class(stu_class);
         studentInfo.setStu_teacher(stu_teacher);
 
-        System.out.println(studentInfo);
+        System.out.println("教师添加学生信息:"+studentInfo);
         //将数据进行保存
         studentService.addStudent(studentInfo);
         return "addStu";
@@ -89,7 +91,24 @@ public class StudentAction extends ActionSupport implements ModelDriven<StudentI
      * 教师修改学生信息
      * */
     public String updateT(){
-        System.out.println("修改成功");
+
+        long stu_num = Integer.parseInt(request.getParameter("stu_num"));
+        String stu_name = request.getParameter("stu_name");
+        String stu_gender = request.getParameter("stu_gender");
+        int stu_age = Integer.parseInt(request.getParameter("stu_age"));
+//        int stu_chengji = Integer.parseInt(request.getParameter("stu_chengji"));
+        String stu_class = request.getParameter("stu_class");
+        String stu_teacher = request.getParameter("stu_teacher");
+
+        studentInfo.setStu_num(stu_num);
+        studentInfo.setStu_name(stu_name);
+        studentInfo.setStu_gender(stu_gender);
+        studentInfo.setStu_age(stu_age);
+//        studentInfo.setStu_chengji(stu_chengji);
+        studentInfo.setStu_class(stu_class);
+        studentInfo.setStu_teacher(stu_teacher);
+        System.out.println("教师修改学生信息:"+studentInfo);
+        studentService.updateStudentT(studentInfo);
         
         return "updateT";
     }

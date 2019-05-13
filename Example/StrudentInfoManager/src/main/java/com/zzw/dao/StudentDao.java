@@ -11,4 +11,6 @@ public interface StudentDao {
     void addStudent(StudentInfo studentInfo);
 
     List<StudentInfo> findStuByStuId(StudentInfo studentInfo);
+
+    void updateStudentT(StudentInfo studentInfo);
 }

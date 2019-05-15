@@ -15,4 +15,14 @@ public interface UserDao {
      * 插入信息
      * */
     void insertInfo(User user);
+
+    /**
+     * 更新信息
+     * */
+    void updateInfo(User user);
+
+    /**
+     * 更新信息
+     * */
+    void deleteInfoById(Integer id);
 }

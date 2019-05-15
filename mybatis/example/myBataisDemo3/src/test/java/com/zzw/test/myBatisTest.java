@@ -71,4 +71,25 @@ public class myBatisTest {
 
     }
 
+    /**
+     * 更新信息
+     * */
+    @Test
+    public void updateTest(){
+        User user = new User();
+        user.setId(3);//根据id修改数据
+        user.setUser_name("雷蛇");
+        user.setUser_password("abcdef");
+        System.out.println(user);
+        userDao.updateInfo(user);
+    }
+
+    /**
+     * 根据id删除信息
+     * */
+    @Test
+    public void deleteByIdTest(){
+        //将id=3传入,删除id=3的数据
+        userDao.deleteInfoById(3);
+    }
 }

@@ -9,4 +9,13 @@
     <insert id="insertInfo" parameterType="com.zzw.domain.User">
         insert into user(user_name,user_password) value (#{user_name},#{user_password})
     </insert>
+
+    <update id="updateInfo" parameterType="com.zzw.domain.User">
+        update user set user_name=#{user_name},user_password=#{user_password} where id=#{id}
+    </update>
+
+    <!--下面的id可以是任意名-->
+    <delete id="deleteInfoById" parameterType="Integer">
+        delete from user where id=#{uid}
+    </delete>
 </mapper>

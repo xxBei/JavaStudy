@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f88bbc2-a26d-4013-9754-124f83eb0ea1" name="Default Changelist" comment="myBatis框架之XML入门案例">
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/myBatisDemo3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/src/main/java/com/zzw/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/src/main/java/com/zzw/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/src/main/resources/com/zzw/dao/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myBataisDemo3/src/test/java/com/zzw/test/myBatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myBatisDemo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myBatisDemo2/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4f88bbc2-a26d-4013-9754-124f83eb0ea1" name="Default Changelist" comment="myBatis框架之XML入门案例" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +14,7 @@
     <session id="1544758624">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.3" value="1" />
@@ -403,7 +388,7 @@
       <workItem from="1557119321310" duration="3725000" />
       <workItem from="1557754323800" duration="4277000" />
       <workItem from="1557901045659" duration="185000" />
-      <workItem from="1557923176784" duration="632000" />
+      <workItem from="1557923176784" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1557755258652</created>
@@ -455,7 +440,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17096000" />
+    <option name="totallyTimeSpent" value="17439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />

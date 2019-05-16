@@ -27,4 +27,23 @@
     <select id="findInfoByName" parameterType="String" resultType="com.zzw.domain.User">
         select * from user where user_name like #{username}
     </select>
+
+    <!--查询用户表的总个数-->
+    <select id="findCountUser" resultType="Integer">
+        select count(*) from user
+    </select>
+
+    <!-- 查询插入的id名 -->
+    <insert id="findAllGetID" parameterType="com.zzw.domain.User">
+        <!--
+                keyProperty="id" 表示实体类的id       keyColumn="id"  表示表的id
+                resultType="int"                    结果集为:int类型
+                   order="AFTER"  表示在之后执行
+        -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            <!-- 表示查询插入后的id名 -->
+            select last_insert_id()
+        </selectKey>
+        insert into user(user_name,user_password) value (#{user_name},#{user_password})
+    </insert>
 </mapper>

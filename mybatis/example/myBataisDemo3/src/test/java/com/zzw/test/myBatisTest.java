@@ -110,4 +110,29 @@ public class myBatisTest {
         List<User> users = userDao.findInfoByName("%李%");
         System.out.println(users);
     }
+
+    /**
+     * 查询用户总数
+     * */
+    @Test
+    public void findCountUser(){
+        Integer total = userDao.findCountUser();
+        System.out.println("用户个数:"+total);
+    }
+
+
+    /**
+     * 查询插入的id名
+     * */
+    @Test
+    public void findAllGetID(){
+        User user = new User();
+        user.setUser_name("章毅");
+        user.setUser_password("111222");
+        System.out.println("保存前:"+user);
+        userDao.findAllGetID(user);
+        System.out.println("保存后:"+user);
+
+    }
+
 }

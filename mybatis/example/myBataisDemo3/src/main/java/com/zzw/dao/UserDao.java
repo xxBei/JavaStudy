@@ -35,4 +35,14 @@ public interface UserDao {
      * 根据姓名模糊查询
      * */
     List<User> findInfoByName(String username);
+
+    /**
+     * 查询总个数
+     * */
+    Integer findCountUser();
+
+    /**
+     * 插入新信息并获取插入的id名
+     * */
+     void findAllGetID(User user);
 }

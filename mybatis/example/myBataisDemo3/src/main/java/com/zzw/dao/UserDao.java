@@ -22,7 +22,17 @@ public interface UserDao {
     void updateInfo(User user);
 
     /**
-     * 更新信息
+     * 根据id删除信息
      * */
     void deleteInfoById(Integer id);
+
+    /**
+     * 根据id查询信息(查询单个数据)
+     * */
+    User findInfoById(Integer id);
+
+    /**
+     * 根据姓名模糊查询
+     * */
+    List<User> findInfoByName(String username);
 }

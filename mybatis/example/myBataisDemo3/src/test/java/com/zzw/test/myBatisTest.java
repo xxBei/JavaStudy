@@ -63,7 +63,7 @@ public class myBatisTest {
     @Test
     public void saveTest(){
         User user = new User();
-        user.setUser_name("罗技");
+        user.setUser_name("李时珍");
         user.setUser_password("zzz123");
 
         //调用UserDao中的插入方法
@@ -91,5 +91,23 @@ public class myBatisTest {
     public void deleteByIdTest(){
         //将id=3传入,删除id=3的数据
         userDao.deleteInfoById(3);
+    }
+
+    /**
+     * 根据id查询信息
+     * */
+    @Test
+    public void findOneById(){
+        User user = userDao.findInfoById(2);
+        System.out.println(user);
+    }
+
+    /**
+     * 根据姓名模糊查询
+     * */
+    @Test
+    public void findInfoByName(){
+        List<User> users = userDao.findInfoByName("%李%");
+        System.out.println(users);
     }
 }

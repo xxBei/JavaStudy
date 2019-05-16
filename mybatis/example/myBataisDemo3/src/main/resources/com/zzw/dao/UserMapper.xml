@@ -14,8 +14,17 @@
         update user set user_name=#{user_name},user_password=#{user_password} where id=#{id}
     </update>
 
-    <!--下面的id可以是任意名-->
+    <!--下面的uid可以是任意名-->
     <delete id="deleteInfoById" parameterType="Integer">
         delete from user where id=#{uid}
     </delete>
+
+    <select id="findInfoById" parameterType="Integer" resultType="com.zzw.domain.User">
+        select * from user where id = #{uid}
+    </select>
+
+    <!--根据姓名模糊查询-->
+    <select id="findInfoByName" parameterType="String" resultType="com.zzw.domain.User">
+        select * from user where user_name like #{username}
+    </select>
 </mapper>

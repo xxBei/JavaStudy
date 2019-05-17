@@ -1,6 +1,7 @@
 package com.zzw.test;
 
 import com.zzw.dao.UserDao;
+import com.zzw.domain.QueryVo;
 import com.zzw.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -135,4 +136,20 @@ public class myBatisTest {
 
     }
 
+    /**
+     * 根据 QueryVo对象中封装的User 进行模糊查询
+     * */
+    @Test
+    public void findNameByQueryVo(){
+        QueryVo queryVo = new QueryVo();
+        User user = new User();
+        user.setUser_name("%李%");
+        queryVo.setUser(user);
+
+        List<User> users = userDao.findUserByQueryVo(queryVo);
+        for (User userList :users ) {
+            System.out.println(userList);
+        }
+
+    }
 }

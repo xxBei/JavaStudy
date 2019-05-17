@@ -46,4 +46,10 @@
         </selectKey>
         insert into user(user_name,user_password) value (#{user_name},#{user_password})
     </insert>
+
+    <select id="findUserByQueryVo" parameterType="com.zzw.domain.QueryVo"
+            resultType="com.zzw.domain.User">
+      <!-- 通过QueryVo中的 User对象调用User对象中的 user_name -->
+        select * from user where user_name like #{user.user_name}
+    </select>
 </mapper>

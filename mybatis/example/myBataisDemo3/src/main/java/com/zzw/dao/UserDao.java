@@ -1,5 +1,6 @@
 package com.zzw.dao;
 
+import com.zzw.domain.QueryVo;
 import com.zzw.domain.User;
 
 import java.util.List;
@@ -45,4 +46,9 @@ public interface UserDao {
      * 插入新信息并获取插入的id名
      * */
      void findAllGetID(User user);
+
+     /**
+      * 通过QueryVo对象 模糊查询 User
+      * */
+     List<User> findUserByQueryVo(QueryVo queryVo);
 }

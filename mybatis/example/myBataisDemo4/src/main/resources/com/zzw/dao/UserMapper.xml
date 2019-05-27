@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzw.dao.UserDao">
+    <select id="findAll" resultType="com.zzw.domain.User">
+        select * from user;
+    </select>
+
+    <select id="findAllByName" resultType="com.zzw.domain.User" parameterType="String">
+        select * from user where user_name like #{user_name}
+    </select>
+
+    <select id="findInfoByName" parameterType="com.zzw.domain.User" resultType="com.zzw.domain.User">
+        <!--select * from user
+        <where>
+            <if test="user_name != null">
+                user_name = #{user_name}
+            </if>
+        </where>-->
+        select * from user where 1=1
+        <if test="user_name != null">
+            and user_name = #{user_name}
+        </if>
+    </select>
+
+    <select id="findOtherInfoById" parameterType="com.zzw.domain.QueryVo" resultType="com.zzw.domain.User">
+        select * from user
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="and id in (" close=")" separator="," item="id">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>
